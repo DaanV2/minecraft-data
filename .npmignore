@@ -1,0 +1,3 @@
+dist\bedrock-samples
+dist\gen
+**\*.test.js

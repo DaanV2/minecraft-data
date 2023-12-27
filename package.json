@@ -1,0 +1,43 @@
+{
+  "name": "@daanv2/minecraft-types",
+  "version": "0.0.1",
+  "description": "This is a collection of types for Minecraft data structures in typescript. Based on the metadata in the [bedrock-samples](https://github.com/Mojang/bedrock-samples/tree/main)",
+  "main": "dist/src/main.js",
+  "types": "dist/src/main.d.ts",
+  "files": [
+    "dist/src/**/*.js",
+    "dist/src/**/*.js.map",
+    "dist/src/**/*.d.ts",
+    "!dist/src/**/*.tests.js",
+    "!dist/src/**/*.tests.js.map",
+    "!dist/src/**/*.tests.d.ts"
+  ],
+  "scripts": {
+    "compile": "tsc -b",
+    "test": "node --test",
+    "generate": "ts-node ./gen/generate.ts",
+    "postversion": "git push && git push --tags",
+    "version": "git add -A src",
+    "watch": "tsc -w -p ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaanV2/minecraft-types.git"
+  },
+  "author": "DaanV2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaanV2/minecraft-types/issues"
+  },
+  "homepage": "https://github.com/DaanV2/minecraft-types#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+  },
+  "publishConfig": {
+    
+  }
+}
