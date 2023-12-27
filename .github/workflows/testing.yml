@@ -23,5 +23,8 @@ jobs:
       - name: 🏗️ Setup project
         run: npm ci
 
+      - name: 🛠️ Compile check
+        run: npm run compile
+
       - name: 📋 Run tests
         run: npm run test
