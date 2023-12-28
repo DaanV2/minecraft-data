@@ -3,7 +3,7 @@ export interface Enum {
   /** Name of the enum */
   name: string;
   /** Description of the enum */
-  description?: string;
+  documentation?: string;
   /** Values of the enum */
   values: EnumValue[];
 }
@@ -13,7 +13,7 @@ export interface EnumValue {
   /** Name of the enum value */
   value: string;
   /** Description of the enum value */
-  description?: string;
+  documentation?: string;
 }
 
 /** A class that acts and handles as a enum */
@@ -35,13 +35,13 @@ export class EnumHandler implements Enum {
   }
 
   /** @inheritdoc */
-  get description(): string | undefined {
-    return this._data.description;
+  get documentation(): string | undefined {
+    return this._data.documentation;
   }
 
   /** @inheritdoc */
-  set description(value: string | undefined) {
-    this._data.description = value;
+  set documentation(value: string | undefined) {
+    this._data.documentation = value;
   }
 
   /** @inheritdoc */

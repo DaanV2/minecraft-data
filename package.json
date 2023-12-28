@@ -16,8 +16,9 @@
     "compile": "tsc -b",
     "test": "node --test",
     "generate": "ts-node ./gen/generate.ts",
-    "postversion": "git push && git push --tags",
+    "postgenerate": "npm run compile",
     "version": "git add -A src",
+    "postversion": "git push && git push --tags",
     "watch": "tsc -w -p ./src"
   },
   "repository": {
