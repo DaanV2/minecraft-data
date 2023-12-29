@@ -52,8 +52,17 @@ export interface ParameterOptions {
 }
 
 export type ParameterType =
-  | "string"
+  | "boolean"
+  | "command"
+  | "integer"
   | "keyword"
+  | "mcfunction"
+  | "player"
+  | "rawtext"
+  | "rotation"
+  | "scoreboard:objective"
   | "selector"
+  | "string"
   | "unknown"
+  | "value"
   | `enum:${string}`;

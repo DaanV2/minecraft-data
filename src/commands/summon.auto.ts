@@ -1,0 +1,161 @@
+// auto-generated
+
+import { Command } from "./interface";
+
+export const summonCommand: Command = {
+  "name": "summon",
+  "documentation": "Summons an entity.",
+  "permissionLevel": 1,
+  "requiresCheatsEnabled": true,
+  "syntaxes": [
+    {
+      "name": "summon",
+      "documentation": "Summons an entity.",
+      "parameters": [
+        {
+          "text": "summon",
+          "type": "keyword",
+          "required": true
+        },
+        {
+          "text": "entityType",
+          "type": "enum:EntityType",
+          "required": true
+        },
+        {
+          "text": "spawnPos",
+          "type": "unknown",
+          "required": false
+        },
+        {
+          "text": "yRot",
+          "type": "rotation",
+          "required": false
+        },
+        {
+          "text": "xRot",
+          "type": "rotation",
+          "required": false
+        },
+        {
+          "text": "spawnEvent",
+          "type": "enum:EntityEvents",
+          "required": false
+        },
+        {
+          "text": "nameTag",
+          "type": "player",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "summon",
+      "documentation": "Summons an entity.",
+      "parameters": [
+        {
+          "text": "summon",
+          "type": "keyword",
+          "required": true
+        },
+        {
+          "text": "entityType",
+          "type": "enum:EntityType",
+          "required": true
+        },
+        {
+          "text": "nameTag",
+          "type": "player",
+          "required": true
+        },
+        {
+          "text": "spawnPos",
+          "type": "unknown",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "summon",
+      "documentation": "Summons an entity.",
+      "parameters": [
+        {
+          "text": "summon",
+          "type": "keyword",
+          "required": true
+        },
+        {
+          "text": "entityType",
+          "type": "enum:EntityType",
+          "required": true
+        },
+        {
+          "text": "spawnPos",
+          "type": "unknown",
+          "required": false
+        },
+        {
+          "text": "facing",
+          "type": "keyword",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition",
+          "type": "unknown",
+          "required": true
+        },
+        {
+          "text": "spawnEvent",
+          "type": "enum:EntityEvents",
+          "required": false
+        },
+        {
+          "text": "nameTag",
+          "type": "player",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "summon",
+      "documentation": "Summons an entity.",
+      "parameters": [
+        {
+          "text": "summon",
+          "type": "keyword",
+          "required": true
+        },
+        {
+          "text": "entityType",
+          "type": "enum:EntityType",
+          "required": true
+        },
+        {
+          "text": "spawnPos",
+          "type": "unknown",
+          "required": false
+        },
+        {
+          "text": "facing",
+          "type": "keyword",
+          "required": true
+        },
+        {
+          "text": "lookAtEntity",
+          "type": "selector",
+          "required": true
+        },
+        {
+          "text": "spawnEvent",
+          "type": "enum:EntityEvents",
+          "required": false
+        },
+        {
+          "text": "nameTag",
+          "type": "player",
+          "required": false
+        }
+      ]
+    }
+  ]
+};
