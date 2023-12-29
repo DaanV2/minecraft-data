@@ -76,7 +76,7 @@ export const executeCommand: Command = {
         },
         {
           "text": "dimension",
-          "type": "enum:Dimension",
+          "type": "enum:dimension",
           "required": true
         },
         {
@@ -101,8 +101,18 @@ export const executeCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -220,8 +230,18 @@ export const executeCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -257,7 +277,7 @@ export const executeCommand: Command = {
         },
         {
           "text": "anchor",
-          "type": "enum:ActorLocation",
+          "type": "enum:actorlocation",
           "required": true
         },
         {
@@ -309,7 +329,7 @@ export const executeCommand: Command = {
         },
         {
           "text": "anchored",
-          "type": "enum:ActorLocation",
+          "type": "enum:actorlocation",
           "required": true
         },
         {
@@ -330,7 +350,7 @@ export const executeCommand: Command = {
         },
         {
           "text": "subcommand",
-          "type": "enum:Option_If_Unless",
+          "type": "enum:option_if_unless",
           "required": true
         },
         {
@@ -339,13 +359,23 @@ export const executeCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "block",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": true
         },
         {
@@ -366,7 +396,7 @@ export const executeCommand: Command = {
         },
         {
           "text": "subcommand",
-          "type": "enum:Option_If_Unless",
+          "type": "enum:option_if_unless",
           "required": true
         },
         {
@@ -375,18 +405,28 @@ export const executeCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "block",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": true
         },
         {
           "text": "blockStates",
-          "type": "unknown",
+          "type": "block_states",
           "required": true
         },
         {
@@ -407,7 +447,7 @@ export const executeCommand: Command = {
         },
         {
           "text": "subcommand",
-          "type": "enum:Option_If_Unless",
+          "type": "enum:option_if_unless",
           "required": true
         },
         {
@@ -416,23 +456,53 @@ export const executeCommand: Command = {
           "required": true
         },
         {
-          "text": "begin",
-          "type": "unknown",
+          "text": "begin x",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "end",
-          "type": "unknown",
+          "text": "begin y",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "begin z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "scan mode",
-          "type": "enum:BlocksScanMode",
+          "type": "enum:blocksscanmode",
           "required": true
         },
         {
@@ -453,7 +523,7 @@ export const executeCommand: Command = {
         },
         {
           "text": "subcommand",
-          "type": "enum:Option_If_Unless",
+          "type": "enum:option_if_unless",
           "required": true
         },
         {
@@ -484,7 +554,7 @@ export const executeCommand: Command = {
         },
         {
           "text": "subcommand",
-          "type": "enum:Option_If_Unless",
+          "type": "enum:option_if_unless",
           "required": true
         },
         {
@@ -504,7 +574,7 @@ export const executeCommand: Command = {
         },
         {
           "text": "operation",
-          "type": "unknown",
+          "type": "operator:comparison",
           "required": true
         },
         {
@@ -535,7 +605,7 @@ export const executeCommand: Command = {
         },
         {
           "text": "subcommand",
-          "type": "enum:Option_If_Unless",
+          "type": "enum:option_if_unless",
           "required": true
         },
         {
@@ -560,7 +630,7 @@ export const executeCommand: Command = {
         },
         {
           "text": "range",
-          "type": "unknown",
+          "type": "range:integer",
           "required": true
         },
         {

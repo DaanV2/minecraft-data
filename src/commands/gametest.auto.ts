@@ -40,7 +40,7 @@ export const gametestCommand: Command = {
         },
         {
           "text": "testName",
-          "type": "unknown",
+          "type": "gametest:name",
           "required": true
         },
         {
@@ -66,7 +66,7 @@ export const gametestCommand: Command = {
         },
         {
           "text": "testName",
-          "type": "unknown",
+          "type": "gametest:name",
           "required": true
         },
         {
@@ -102,7 +102,7 @@ export const gametestCommand: Command = {
         },
         {
           "text": "tag",
-          "type": "unknown",
+          "type": "gametest:tag",
           "required": false
         },
         {
@@ -128,7 +128,7 @@ export const gametestCommand: Command = {
         },
         {
           "text": "tag",
-          "type": "unknown",
+          "type": "gametest:tag",
           "required": false
         },
         {

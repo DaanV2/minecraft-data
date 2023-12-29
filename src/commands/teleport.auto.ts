@@ -18,8 +18,18 @@ export const teleportCommand: Command = {
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "destination x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -39,8 +49,18 @@ export const teleportCommand: Command = {
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "destination x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -70,8 +90,18 @@ export const teleportCommand: Command = {
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "destination x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -80,8 +110,18 @@ export const teleportCommand: Command = {
           "required": true
         },
         {
-          "text": "lookAtPosition",
-          "type": "unknown",
+          "text": "lookAtPosition x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -101,8 +141,18 @@ export const teleportCommand: Command = {
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "destination x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -137,8 +187,18 @@ export const teleportCommand: Command = {
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "destination x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -173,8 +233,18 @@ export const teleportCommand: Command = {
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "destination x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -199,8 +269,18 @@ export const teleportCommand: Command = {
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "destination x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -209,8 +289,18 @@ export const teleportCommand: Command = {
           "required": true
         },
         {
-          "text": "lookAtPosition",
-          "type": "unknown",
+          "text": "lookAtPosition x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -235,8 +325,18 @@ export const teleportCommand: Command = {
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "destination x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:float",
           "required": true
         },
         {

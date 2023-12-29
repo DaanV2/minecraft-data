@@ -39,7 +39,7 @@ export const camerashakeCommand: Command = {
         },
         {
           "text": "shakeType",
-          "type": "enum:CameraShakeType",
+          "type": "enum:camerashaketype",
           "required": false
         }
       ]

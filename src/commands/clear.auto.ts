@@ -24,7 +24,7 @@ export const clearCommand: Command = {
         },
         {
           "text": "itemName",
-          "type": "enum:Item",
+          "type": "enum:item",
           "required": false
         },
         {

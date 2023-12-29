@@ -66,12 +66,12 @@ export const titlerawCommand: Command = {
         },
         {
           "text": "titleLocation",
-          "type": "enum:TitleRawSet",
+          "type": "enum:titlerawset",
           "required": true
         },
         {
           "text": "raw json titleText",
-          "type": "unknown",
+          "type": "json",
           "required": true
         }
       ]

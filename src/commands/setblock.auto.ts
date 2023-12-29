@@ -18,23 +18,33 @@ export const setblockCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "tileName",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": true
         },
         {
           "text": "blockStates",
-          "type": "unknown",
+          "type": "block_states",
           "required": true
         },
         {
           "text": "oldBlockHandling",
-          "type": "enum:SetBlockMode",
+          "type": "enum:setblockmode",
           "required": false
         }
       ]
@@ -49,18 +59,28 @@ export const setblockCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "tileName",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": true
         },
         {
           "text": "oldBlockHandling",
-          "type": "enum:SetBlockMode",
+          "type": "enum:setblockmode",
           "required": false
         }
       ]

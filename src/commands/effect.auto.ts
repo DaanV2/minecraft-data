@@ -45,7 +45,7 @@ export const effectCommand: Command = {
         },
         {
           "text": "effect",
-          "type": "enum:Effect",
+          "type": "enum:effect",
           "required": true
         },
         {

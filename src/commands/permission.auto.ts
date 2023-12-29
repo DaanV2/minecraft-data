@@ -19,7 +19,7 @@ export const permissionCommand: Command = {
         },
         {
           "text": "action",
-          "type": "enum:PermissionsAction",
+          "type": "enum:permissionsaction",
           "required": true
         }
       ]

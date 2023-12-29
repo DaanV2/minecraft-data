@@ -24,7 +24,7 @@ export const enchantCommand: Command = {
         },
         {
           "text": "enchantmentName",
-          "type": "enum:Enchant",
+          "type": "enum:enchant",
           "required": true
         },
         {

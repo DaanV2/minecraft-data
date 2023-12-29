@@ -18,18 +18,28 @@ export const testforblockCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "tileName",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": true
         },
         {
           "text": "blockStates",
-          "type": "unknown",
+          "type": "block_states",
           "required": false
         }
       ]

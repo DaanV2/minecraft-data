@@ -19,7 +19,7 @@ export const helpCommand: Command = {
         },
         {
           "text": "command",
-          "type": "enum:CommandName",
+          "type": "enum:commandname",
           "required": false
         }
       ]

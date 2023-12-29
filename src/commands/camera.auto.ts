@@ -29,7 +29,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -44,7 +44,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "easeType",
-          "type": "enum:Easing",
+          "type": "enum:easing",
           "required": true
         },
         {
@@ -53,8 +53,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -95,7 +105,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -110,7 +120,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "easeType",
-          "type": "enum:Easing",
+          "type": "enum:easing",
           "required": true
         },
         {
@@ -119,8 +129,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -156,7 +176,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -171,7 +191,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "easeType",
-          "type": "enum:Easing",
+          "type": "enum:easing",
           "required": true
         },
         {
@@ -180,8 +200,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -190,8 +220,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "lookAtPosition",
-          "type": "unknown",
+          "text": "lookAtPosition x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition z",
+          "type": "coordinate:float",
           "required": true
         }
       ]
@@ -217,7 +257,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -232,7 +272,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "easeType",
-          "type": "enum:Easing",
+          "type": "enum:easing",
           "required": true
         },
         {
@@ -241,8 +281,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         }
       ]
@@ -268,7 +318,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -283,7 +333,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "easeType",
-          "type": "enum:Easing",
+          "type": "enum:easing",
           "required": true
         },
         {
@@ -324,7 +374,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -339,7 +389,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "easeType",
-          "type": "enum:Easing",
+          "type": "enum:easing",
           "required": true
         },
         {
@@ -375,7 +425,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -390,7 +440,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "easeType",
-          "type": "enum:Easing",
+          "type": "enum:easing",
           "required": true
         },
         {
@@ -399,8 +449,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "lookAtPosition",
-          "type": "unknown",
+          "text": "lookAtPosition x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition z",
+          "type": "coordinate:float",
           "required": true
         }
       ]
@@ -426,7 +486,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -441,7 +501,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "easeType",
-          "type": "enum:Easing",
+          "type": "enum:easing",
           "required": true
         },
         {
@@ -472,7 +532,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -481,8 +541,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -523,7 +593,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -532,8 +602,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -569,7 +649,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -578,8 +658,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -588,8 +678,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "lookAtPosition",
-          "type": "unknown",
+          "text": "lookAtPosition x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition z",
+          "type": "coordinate:float",
           "required": true
         }
       ]
@@ -615,7 +715,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -624,8 +724,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         }
       ]
@@ -651,7 +761,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -692,7 +802,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -728,7 +838,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {
@@ -737,8 +847,18 @@ export const cameraCommand: Command = {
           "required": true
         },
         {
-          "text": "lookAtPosition",
-          "type": "unknown",
+          "text": "lookAtPosition x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition z",
+          "type": "coordinate:float",
           "required": true
         }
       ]
@@ -764,7 +884,7 @@ export const cameraCommand: Command = {
         },
         {
           "text": "preset",
-          "type": "enum:CameraPresets",
+          "type": "enum:camerapresets",
           "required": true
         },
         {

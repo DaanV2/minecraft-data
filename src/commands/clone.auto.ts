@@ -18,28 +18,58 @@ export const cloneCommand: Command = {
           "required": true
         },
         {
-          "text": "begin",
-          "type": "unknown",
+          "text": "begin x",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "end",
-          "type": "unknown",
+          "text": "begin y",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "begin z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "maskMode",
-          "type": "enum:MaskMode",
+          "type": "enum:maskmode",
           "required": false
         },
         {
           "text": "cloneMode",
-          "type": "enum:CloneMode",
+          "type": "enum:clonemode",
           "required": false
         }
       ]
@@ -54,18 +84,48 @@ export const cloneCommand: Command = {
           "required": true
         },
         {
-          "text": "begin",
-          "type": "unknown",
+          "text": "begin x",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "end",
-          "type": "unknown",
+          "text": "begin y",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "begin z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
@@ -75,17 +135,17 @@ export const cloneCommand: Command = {
         },
         {
           "text": "cloneMode",
-          "type": "enum:CloneMode",
+          "type": "enum:clonemode",
           "required": true
         },
         {
           "text": "tileName",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": true
         },
         {
           "text": "blockStates",
-          "type": "unknown",
+          "type": "block_states",
           "required": false
         }
       ]

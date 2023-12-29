@@ -19,7 +19,7 @@ export const mobeventCommand: Command = {
         },
         {
           "text": "event",
-          "type": "enum:MobEvent",
+          "type": "enum:mobevent",
           "required": true
         },
         {

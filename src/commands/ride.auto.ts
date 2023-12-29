@@ -34,12 +34,12 @@ export const rideCommand: Command = {
         },
         {
           "text": "teleportRules",
-          "type": "enum:TeleportRules",
+          "type": "enum:teleportrules",
           "required": false
         },
         {
           "text": "howToFill",
-          "type": "enum:FillType",
+          "type": "enum:filltype",
           "required": false
         }
       ]
@@ -107,7 +107,7 @@ export const rideCommand: Command = {
         },
         {
           "text": "entityType",
-          "type": "enum:EntityType",
+          "type": "enum:entitytype",
           "required": true
         },
         {
@@ -143,12 +143,12 @@ export const rideCommand: Command = {
         },
         {
           "text": "entityType",
-          "type": "enum:EntityType",
+          "type": "enum:entitytype",
           "required": true
         },
         {
           "text": "rideRules",
-          "type": "enum:RideRules",
+          "type": "enum:riderules",
           "required": false
         },
         {

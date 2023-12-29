@@ -53,6 +53,37 @@ function generateCommand(builder: Builder, command: (typeof data.commands)[0]) {
         param.name = param.name.slice(1, -1);
       }
 
+      // Convert from position to x y z parameters
+      if (
+        param.type.name === "POSITION_FLOAT" ||
+        param.type.name === "POSITION"
+      ) {
+        const type =
+          param.type.name === "POSITION_FLOAT"
+            ? "coordinate:float"
+            : "coordinate:integer";
+
+        syntax.parameters.push(
+          {
+            text: param.name + " x",
+            type: type,
+            required: param.is_optional === false,
+          },
+          {
+            text: param.name + " y",
+            type: type,
+            required: param.is_optional === false,
+          },
+          {
+            text: param.name + " z",
+            type: type,
+            required: param.is_optional === false,
+          }
+        );
+
+        return;
+      }
+
       const t = discoverType(param.type.name, builder);
       if (t === "keyword") {
         const data = builder.enums[param.type.name.toLowerCase()];
@@ -122,9 +153,17 @@ function generateEnum(
 }
 
 function discoverType(type: string, builder: Builder): ParameterType {
+  if (type.startsWith("WILDCARD")) {
+    type = type.slice("WILDCARD".length);
+  }
+
   switch (type) {
     case "BOOLEAN":
       return "boolean";
+    case "INT":
+      return "integer";
+    case "FULLINTEGERRANGE":
+      return "range:integer";
   }
 
   const e = builder.enums[type.toLowerCase()];
@@ -133,25 +172,35 @@ function discoverType(type: string, builder: Builder): ParameterType {
     if (e.values.length == 1) {
       return "keyword";
     } else if (e.values.length > 1) {
-      return `enum:${e.name}`;
+      return `enum:${e.name.toLowerCase()}`;
     }
   }
 
-  if (type.startsWith("WILDCARD")) {
-    type = type.slice("WILDCARD".length);
-  }
-
   switch (type) {
-    case "ID":
-      return "player";
+    case "BLOCK_STATE_ARRAY":
+      return "block_states";
+    case "COMPAREOPERATOR":
+      return "operator:comparison";
     case "EXECUTECHAINEDOPTION_0":
       return "command";
-    case "INT":
-      return "integer";
+    case "GAMETESTNAME":
+      return "gametest:name";
+    case "GAMETESTTAG":
+      return "gametest:tag";
+    case "ID":
+      return "player";
+    case "JSON_OBJECT":
+      return "json";
+    case "MESSAGE_ROOT":
+      return "message";
+    case "OPERATOR":
+      return "operator";
     case "PATHCOMMAND":
       return "mcfunction";
+    case "postfix_l":
+      return "level";
     case "RAWTEXT":
-      return "rawtext";
+      return "json:rawtext";
     case "RVAL":
       return "rotation";
     case "SCOREBOARDOBJECTIVES":
@@ -162,6 +211,8 @@ function discoverType(type: string, builder: Builder): ParameterType {
       return "command";
     case "VAL":
       return "value";
+    case "TAGVALUES":
+      return "tag";
     default:
       console.log(`Unknown type: ${type}`);
       return "unknown";

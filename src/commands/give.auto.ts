@@ -24,7 +24,7 @@ export const giveCommand: Command = {
         },
         {
           "text": "itemName",
-          "type": "enum:Item",
+          "type": "enum:item",
           "required": true
         },
         {
@@ -39,7 +39,7 @@ export const giveCommand: Command = {
         },
         {
           "text": "components",
-          "type": "unknown",
+          "type": "json",
           "required": false
         }
       ]

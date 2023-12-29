@@ -29,7 +29,7 @@ export const damageCommand: Command = {
         },
         {
           "text": "cause",
-          "type": "enum:DamageCause",
+          "type": "enum:damagecause",
           "required": false
         }
       ]
@@ -55,7 +55,7 @@ export const damageCommand: Command = {
         },
         {
           "text": "cause",
-          "type": "enum:DamageCause",
+          "type": "enum:damagecause",
           "required": true
         },
         {

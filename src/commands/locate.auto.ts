@@ -24,7 +24,7 @@ export const locateCommand: Command = {
         },
         {
           "text": "structure",
-          "type": "enum:Structure",
+          "type": "enum:structure",
           "required": true
         },
         {
@@ -50,7 +50,7 @@ export const locateCommand: Command = {
         },
         {
           "text": "biome",
-          "type": "enum:Biome",
+          "type": "enum:biome",
           "required": true
         }
       ]

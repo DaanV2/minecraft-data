@@ -66,12 +66,12 @@ export const titleCommand: Command = {
         },
         {
           "text": "titleLocation",
-          "type": "enum:TitleSet",
+          "type": "enum:titleset",
           "required": true
         },
         {
           "text": "titleText",
-          "type": "unknown",
+          "type": "message",
           "required": true
         }
       ]

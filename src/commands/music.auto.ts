@@ -39,7 +39,7 @@ export const musicCommand: Command = {
         },
         {
           "text": "repeatMode",
-          "type": "enum:MusicRepeatMode",
+          "type": "enum:musicrepeatmode",
           "required": false
         }
       ]
@@ -75,7 +75,7 @@ export const musicCommand: Command = {
         },
         {
           "text": "repeatMode",
-          "type": "enum:MusicRepeatMode",
+          "type": "enum:musicrepeatmode",
           "required": false
         }
       ]

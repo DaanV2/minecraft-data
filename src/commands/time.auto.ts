@@ -66,7 +66,7 @@ export const timeCommand: Command = {
         },
         {
           "text": "time",
-          "type": "enum:TimeSpec",
+          "type": "enum:timespec",
           "required": true
         }
       ]
@@ -87,7 +87,7 @@ export const timeCommand: Command = {
         },
         {
           "text": "time",
-          "type": "enum:TimeQuery",
+          "type": "enum:timequery",
           "required": true
         }
       ]

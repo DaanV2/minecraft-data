@@ -18,23 +18,53 @@ export const testforblocksCommand: Command = {
           "required": true
         },
         {
-          "text": "begin",
-          "type": "unknown",
+          "text": "begin x",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "end",
-          "type": "unknown",
+          "text": "begin y",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "destination",
-          "type": "unknown",
+          "text": "begin z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "end z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "destination z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "mode",
-          "type": "enum:TestForBlocksMode",
+          "type": "enum:testforblocksmode",
           "required": false
         }
       ]

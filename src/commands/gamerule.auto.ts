@@ -30,7 +30,7 @@ export const gameruleCommand: Command = {
         },
         {
           "text": "rule",
-          "type": "enum:BoolGameRule",
+          "type": "enum:boolgamerule",
           "required": true
         },
         {
@@ -51,7 +51,7 @@ export const gameruleCommand: Command = {
         },
         {
           "text": "rule",
-          "type": "enum:IntGameRule",
+          "type": "enum:intgamerule",
           "required": true
         },
         {

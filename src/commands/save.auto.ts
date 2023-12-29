@@ -19,7 +19,7 @@ export const saveCommand: Command = {
         },
         {
           "text": "mode",
-          "type": "enum:SaveMode",
+          "type": "enum:savemode",
           "required": true
         }
       ]

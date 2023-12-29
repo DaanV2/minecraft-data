@@ -23,8 +23,18 @@ export const lootCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -39,7 +49,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -59,8 +69,18 @@ export const lootCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -75,7 +95,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -111,7 +131,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -147,7 +167,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -167,8 +187,18 @@ export const lootCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -183,7 +213,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -203,8 +233,18 @@ export const lootCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -219,7 +259,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -250,7 +290,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "slotType",
-          "type": "enum:EntityEquipmentSlot",
+          "type": "enum:entityequipmentslot",
           "required": true
         },
         {
@@ -275,7 +315,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -306,7 +346,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "slotType",
-          "type": "enum:EntityEquipmentSlot",
+          "type": "enum:entityequipmentslot",
           "required": true
         },
         {
@@ -326,7 +366,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -357,7 +397,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "slotType",
-          "type": "enum:EntityEquipmentSlot",
+          "type": "enum:entityequipmentslot",
           "required": true
         },
         {
@@ -382,7 +422,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -413,7 +453,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "slotType",
-          "type": "enum:EntityEquipmentSlot",
+          "type": "enum:entityequipmentslot",
           "required": true
         },
         {
@@ -433,7 +473,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -458,8 +498,18 @@ export const lootCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -489,7 +539,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -514,8 +564,18 @@ export const lootCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -540,7 +600,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -565,8 +625,18 @@ export const lootCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -596,7 +666,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]
@@ -621,8 +691,18 @@ export const lootCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": true
         },
         {
@@ -647,7 +727,7 @@ export const lootCommand: Command = {
         },
         {
           "text": "tool",
-          "type": "enum:Tool",
+          "type": "enum:tool",
           "required": false
         }
       ]

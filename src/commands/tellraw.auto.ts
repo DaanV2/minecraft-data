@@ -24,7 +24,7 @@ export const tellrawCommand: Command = {
         },
         {
           "text": "raw json message",
-          "type": "unknown",
+          "type": "json",
           "required": true
         }
       ]

@@ -24,7 +24,7 @@ export const kickCommand: Command = {
         },
         {
           "text": "reason",
-          "type": "unknown",
+          "type": "message",
           "required": true
         }
       ]

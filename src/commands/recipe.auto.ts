@@ -29,7 +29,7 @@ export const recipeCommand: Command = {
         },
         {
           "text": "recipe",
-          "type": "enum:UnlockableRecipeValues",
+          "type": "enum:unlockablerecipevalues",
           "required": true
         }
       ]
@@ -55,7 +55,7 @@ export const recipeCommand: Command = {
         },
         {
           "text": "recipe",
-          "type": "enum:UnlockableRecipeValues",
+          "type": "enum:unlockablerecipevalues",
           "required": true
         }
       ]

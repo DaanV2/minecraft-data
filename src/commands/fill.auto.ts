@@ -18,28 +18,48 @@ export const fillCommand: Command = {
           "required": true
         },
         {
-          "text": "from",
-          "type": "unknown",
+          "text": "from x",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "to",
-          "type": "unknown",
+          "text": "from y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "from z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "tileName",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": true
         },
         {
           "text": "blockStates",
-          "type": "unknown",
+          "type": "block_states",
           "required": true
         },
         {
           "text": "oldBlockHandling",
-          "type": "enum:FillMode",
+          "type": "enum:fillmode",
           "required": false
         }
       ]
@@ -54,23 +74,43 @@ export const fillCommand: Command = {
           "required": true
         },
         {
-          "text": "from",
-          "type": "unknown",
+          "text": "from x",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "to",
-          "type": "unknown",
+          "text": "from y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "from z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "tileName",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": true
         },
         {
           "text": "oldBlockHandling",
-          "type": "enum:FillMode",
+          "type": "enum:fillmode",
           "required": false
         }
       ]
@@ -85,23 +125,43 @@ export const fillCommand: Command = {
           "required": true
         },
         {
-          "text": "from",
-          "type": "unknown",
+          "text": "from x",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "to",
-          "type": "unknown",
+          "text": "from y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "from z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "tileName",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": true
         },
         {
           "text": "blockStates",
-          "type": "unknown",
+          "type": "block_states",
           "required": true
         },
         {
@@ -111,12 +171,12 @@ export const fillCommand: Command = {
         },
         {
           "text": "replaceTileName",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": false
         },
         {
           "text": "replaceBlockStates",
-          "type": "unknown",
+          "type": "block_states",
           "required": false
         }
       ]
@@ -131,18 +191,38 @@ export const fillCommand: Command = {
           "required": true
         },
         {
-          "text": "from",
-          "type": "unknown",
+          "text": "from x",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "to",
-          "type": "unknown",
+          "text": "from y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "from z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
           "text": "tileName",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": true
         },
         {
@@ -152,12 +232,12 @@ export const fillCommand: Command = {
         },
         {
           "text": "replaceTileName",
-          "type": "enum:Block",
+          "type": "enum:block",
           "required": false
         },
         {
           "text": "replaceBlockStates",
-          "type": "unknown",
+          "type": "block_states",
           "required": false
         }
       ]

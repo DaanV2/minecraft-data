@@ -19,12 +19,22 @@ export const summonCommand: Command = {
         },
         {
           "text": "entityType",
-          "type": "enum:EntityType",
+          "type": "enum:entitytype",
           "required": true
         },
         {
-          "text": "spawnPos",
-          "type": "unknown",
+          "text": "spawnPos x",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPos y",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPos z",
+          "type": "coordinate:float",
           "required": false
         },
         {
@@ -39,7 +49,7 @@ export const summonCommand: Command = {
         },
         {
           "text": "spawnEvent",
-          "type": "enum:EntityEvents",
+          "type": "enum:entityevents",
           "required": false
         },
         {
@@ -60,7 +70,7 @@ export const summonCommand: Command = {
         },
         {
           "text": "entityType",
-          "type": "enum:EntityType",
+          "type": "enum:entitytype",
           "required": true
         },
         {
@@ -69,8 +79,18 @@ export const summonCommand: Command = {
           "required": true
         },
         {
-          "text": "spawnPos",
-          "type": "unknown",
+          "text": "spawnPos x",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPos y",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPos z",
+          "type": "coordinate:float",
           "required": false
         }
       ]
@@ -86,12 +106,22 @@ export const summonCommand: Command = {
         },
         {
           "text": "entityType",
-          "type": "enum:EntityType",
+          "type": "enum:entitytype",
           "required": true
         },
         {
-          "text": "spawnPos",
-          "type": "unknown",
+          "text": "spawnPos x",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPos y",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPos z",
+          "type": "coordinate:float",
           "required": false
         },
         {
@@ -100,13 +130,23 @@ export const summonCommand: Command = {
           "required": true
         },
         {
-          "text": "lookAtPosition",
-          "type": "unknown",
+          "text": "lookAtPosition x",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition y",
+          "type": "coordinate:float",
+          "required": true
+        },
+        {
+          "text": "lookAtPosition z",
+          "type": "coordinate:float",
           "required": true
         },
         {
           "text": "spawnEvent",
-          "type": "enum:EntityEvents",
+          "type": "enum:entityevents",
           "required": false
         },
         {
@@ -127,12 +167,22 @@ export const summonCommand: Command = {
         },
         {
           "text": "entityType",
-          "type": "enum:EntityType",
+          "type": "enum:entitytype",
           "required": true
         },
         {
-          "text": "spawnPos",
-          "type": "unknown",
+          "text": "spawnPos x",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPos y",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPos z",
+          "type": "coordinate:float",
           "required": false
         },
         {
@@ -147,7 +197,7 @@ export const summonCommand: Command = {
         },
         {
           "text": "spawnEvent",
-          "type": "enum:EntityEvents",
+          "type": "enum:entityevents",
           "required": false
         },
         {

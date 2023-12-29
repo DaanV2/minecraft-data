@@ -45,7 +45,7 @@ export const changesettingCommand: Command = {
         },
         {
           "text": "value",
-          "type": "enum:Difficulty",
+          "type": "enum:difficulty",
           "required": true
         }
       ]

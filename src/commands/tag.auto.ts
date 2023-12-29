@@ -27,12 +27,12 @@ export const tagCommand: Command = {
         },
         {
           "text": "action",
-          "type": "enum:TagChangeAction",
+          "type": "enum:tagchangeaction",
           "required": true
         },
         {
           "text": "name",
-          "type": "unknown",
+          "type": "tag",
           "required": true
         }
       ]

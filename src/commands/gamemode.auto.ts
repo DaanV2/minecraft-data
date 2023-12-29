@@ -19,7 +19,7 @@ export const gamemodeCommand: Command = {
         },
         {
           "text": "gameMode",
-          "type": "enum:GameMode",
+          "type": "enum:gamemode",
           "required": true
         },
         {

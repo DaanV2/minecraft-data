@@ -19,7 +19,7 @@ export const simulationtypeCommand: Command = {
         },
         {
           "text": "state",
-          "type": "enum:SimulationTypeEnum",
+          "type": "enum:simulationtypeenum",
           "required": true
         }
       ]

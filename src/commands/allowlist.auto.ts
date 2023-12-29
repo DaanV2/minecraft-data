@@ -19,7 +19,7 @@ export const allowlistCommand: Command = {
         },
         {
           "text": "action",
-          "type": "enum:AllowListAction",
+          "type": "enum:allowlistaction",
           "required": true
         },
         {

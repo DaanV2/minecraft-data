@@ -19,7 +19,7 @@ export const meCommand: Command = {
         },
         {
           "text": "message",
-          "type": "unknown",
+          "type": "message",
           "required": true
         }
       ]

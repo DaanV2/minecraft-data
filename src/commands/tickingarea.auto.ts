@@ -23,13 +23,33 @@ export const tickingareaCommand: Command = {
           "required": true
         },
         {
-          "text": "from",
-          "type": "unknown",
+          "text": "from x",
+          "type": "coordinate:integer",
           "required": true
         },
         {
-          "text": "to",
-          "type": "unknown",
+          "text": "from y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "from z",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "to z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
@@ -64,8 +84,18 @@ export const tickingareaCommand: Command = {
           "required": true
         },
         {
-          "text": "center",
-          "type": "unknown",
+          "text": "center x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "center y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "center z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
@@ -100,8 +130,18 @@ export const tickingareaCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:integer",
           "required": true
         }
       ]
@@ -179,8 +219,18 @@ export const tickingareaCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:integer",
           "required": true
         },
         {

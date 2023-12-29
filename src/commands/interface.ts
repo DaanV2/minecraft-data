@@ -52,17 +52,29 @@ export interface ParameterOptions {
 }
 
 export type ParameterType =
+  | "block_states"
   | "boolean"
   | "command"
+  | "coordinate:float"
+  | "coordinate:integer"
+  | "gametest:name"
+  | "gametest:tag"
   | "integer"
+  | "json:rawtext"
+  | "json"
   | "keyword"
+  | "level"
   | "mcfunction"
+  | "message"
+  | "operator:comparison"
+  | "operator"
   | "player"
-  | "rawtext"
+  | "range:integer"
   | "rotation"
   | "scoreboard:objective"
   | "selector"
   | "string"
+  | "tag"
   | "unknown"
-  | "value"
-  | `enum:${string}`;
+  | `enum:${string}`
+  | "value";

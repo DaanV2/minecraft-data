@@ -23,8 +23,18 @@ export const spawnpointCommand: Command = {
           "required": false
         },
         {
-          "text": "spawnPos",
-          "type": "unknown",
+          "text": "spawnPos x",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPos y",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPos z",
+          "type": "coordinate:float",
           "required": false
         }
       ]

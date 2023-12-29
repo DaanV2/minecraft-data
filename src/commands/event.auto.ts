@@ -29,7 +29,7 @@ export const eventCommand: Command = {
         },
         {
           "text": "eventName",
-          "type": "enum:EntityEvents",
+          "type": "enum:entityevents",
           "required": true
         }
       ]

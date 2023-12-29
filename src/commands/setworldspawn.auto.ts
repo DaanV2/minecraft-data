@@ -18,8 +18,18 @@ export const setworldspawnCommand: Command = {
           "required": true
         },
         {
-          "text": "spawnPoint",
-          "type": "unknown",
+          "text": "spawnPoint x",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPoint y",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "spawnPoint z",
+          "type": "coordinate:float",
           "required": false
         }
       ]

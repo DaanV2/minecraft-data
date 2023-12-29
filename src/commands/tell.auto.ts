@@ -24,7 +24,7 @@ export const tellCommand: Command = {
         },
         {
           "text": "message",
-          "type": "unknown",
+          "type": "message",
           "required": true
         }
       ]

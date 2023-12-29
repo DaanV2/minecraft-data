@@ -23,8 +23,18 @@ export const replaceitemCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
@@ -39,7 +49,7 @@ export const replaceitemCommand: Command = {
         },
         {
           "text": "itemName",
-          "type": "enum:Item",
+          "type": "enum:item",
           "required": true
         },
         {
@@ -54,7 +64,7 @@ export const replaceitemCommand: Command = {
         },
         {
           "text": "components",
-          "type": "unknown",
+          "type": "json",
           "required": false
         }
       ]
@@ -80,7 +90,7 @@ export const replaceitemCommand: Command = {
         },
         {
           "text": "slotType",
-          "type": "enum:EntityEquipmentSlot",
+          "type": "enum:entityequipmentslot",
           "required": true
         },
         {
@@ -90,7 +100,7 @@ export const replaceitemCommand: Command = {
         },
         {
           "text": "itemName",
-          "type": "enum:Item",
+          "type": "enum:item",
           "required": true
         },
         {
@@ -105,7 +115,7 @@ export const replaceitemCommand: Command = {
         },
         {
           "text": "components",
-          "type": "unknown",
+          "type": "json",
           "required": false
         }
       ]
@@ -125,8 +135,18 @@ export const replaceitemCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:integer",
+          "required": true
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:integer",
           "required": true
         },
         {
@@ -141,12 +161,12 @@ export const replaceitemCommand: Command = {
         },
         {
           "text": "oldItemHandling",
-          "type": "enum:ReplaceMode",
+          "type": "enum:replacemode",
           "required": true
         },
         {
           "text": "itemName",
-          "type": "enum:Item",
+          "type": "enum:item",
           "required": true
         },
         {
@@ -161,7 +181,7 @@ export const replaceitemCommand: Command = {
         },
         {
           "text": "components",
-          "type": "unknown",
+          "type": "json",
           "required": false
         }
       ]
@@ -187,7 +207,7 @@ export const replaceitemCommand: Command = {
         },
         {
           "text": "slotType",
-          "type": "enum:EntityEquipmentSlot",
+          "type": "enum:entityequipmentslot",
           "required": true
         },
         {
@@ -197,12 +217,12 @@ export const replaceitemCommand: Command = {
         },
         {
           "text": "oldItemHandling",
-          "type": "enum:ReplaceMode",
+          "type": "enum:replacemode",
           "required": true
         },
         {
           "text": "itemName",
-          "type": "enum:Item",
+          "type": "enum:item",
           "required": true
         },
         {
@@ -217,7 +237,7 @@ export const replaceitemCommand: Command = {
         },
         {
           "text": "components",
-          "type": "unknown",
+          "type": "json",
           "required": false
         }
       ]

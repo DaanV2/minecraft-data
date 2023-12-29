@@ -19,7 +19,7 @@ export const difficultyCommand: Command = {
         },
         {
           "text": "difficulty",
-          "type": "enum:Difficulty",
+          "type": "enum:difficulty",
           "required": true
         }
       ]

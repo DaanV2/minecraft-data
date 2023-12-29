@@ -19,7 +19,7 @@ export const weatherCommand: Command = {
         },
         {
           "text": "type",
-          "type": "enum:WeatherType",
+          "type": "enum:weathertype",
           "required": true
         },
         {

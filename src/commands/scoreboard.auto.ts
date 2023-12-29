@@ -112,7 +112,7 @@ export const scoreboardCommand: Command = {
         },
         {
           "text": "displaySlot",
-          "type": "enum:ScoreboardDisplaySlotSortable",
+          "type": "enum:scoreboarddisplayslotsortable",
           "required": true
         },
         {
@@ -122,7 +122,7 @@ export const scoreboardCommand: Command = {
         },
         {
           "text": "sortOrder",
-          "type": "enum:ScoreboardSortOrder",
+          "type": "enum:scoreboardsortorder",
           "required": false
         }
       ]
@@ -331,7 +331,7 @@ export const scoreboardCommand: Command = {
         },
         {
           "text": "action",
-          "type": "enum:ScoreboardPlayersNumAction",
+          "type": "enum:scoreboardplayersnumaction",
           "required": true
         },
         {
@@ -388,7 +388,7 @@ export const scoreboardCommand: Command = {
         },
         {
           "text": "operation",
-          "type": "unknown",
+          "type": "operator",
           "required": true
         },
         {

@@ -40,7 +40,7 @@ export const xpCommand: Command = {
         },
         {
           "text": "amount",
-          "type": "unknown",
+          "type": "level",
           "required": true
         },
         {

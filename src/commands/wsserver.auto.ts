@@ -19,7 +19,7 @@ export const wsserverCommand: Command = {
         },
         {
           "text": "serverUri",
-          "type": "rawtext",
+          "type": "json:rawtext",
           "required": true
         }
       ]

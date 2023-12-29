@@ -24,7 +24,7 @@ export const projectCommand: Command = {
         },
         {
           "text": "exportType",
-          "type": "enum:ExportTypes",
+          "type": "enum:exporttypes",
           "required": true
         }
       ]

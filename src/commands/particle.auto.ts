@@ -23,8 +23,18 @@ export const particleCommand: Command = {
           "required": true
         },
         {
-          "text": "position",
-          "type": "unknown",
+          "text": "position x",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "position y",
+          "type": "coordinate:float",
+          "required": false
+        },
+        {
+          "text": "position z",
+          "type": "coordinate:float",
           "required": false
         }
       ]
