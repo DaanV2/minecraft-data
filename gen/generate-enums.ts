@@ -13,6 +13,8 @@ export function saveEnums(builder: Builder) {
 
     saveEnum(builder, data);
   }
+
+  makeModules(builder);
 }
 
 function saveEnum(builder: Builder, item: Enum) {
@@ -22,10 +24,15 @@ function saveEnum(builder: Builder, item: Enum) {
 
   const f = new FileBuilder(`src/enums/${filename}`);
 
-  const strData = JSON.stringify(enumData, null, 2);
-  f.appendLine(`import { EnumHandler } from "./interface";`)
+  const write = {
+    ...enumData,
+    name: enumData.name.toLowerCase(),
+  };
+
+  const strData = JSON.stringify(write, null, 2);
+  f.appendLine(`import { EnumHandler, Enum } from "./interface";`)
     .appendLineBreak()
-    .appendLine(`const data = ${strData};`)
+    .appendLine(`const data: Enum = ${strData};`)
     .appendLineBreak()
     .appendLine(`export const ${name}Enum = new EnumHandler(data);`)
     .save();
@@ -35,4 +42,58 @@ function saveEnum(builder: Builder, item: Enum) {
     "src/enums/index.ts",
     filename.replace(".ts", "")
   );
+}
+
+function makeModules(builder: Builder) {
+  const f = new FileBuilder("src/enums/enums.ts");
+
+  const enums = Object.entries(builder.enums).filter(
+    (entry) => entry[1].values.length > 1
+  );
+
+  //Start imports
+  f.appendLine(`import { EnumHandler } from "./interface";`).appendLine(
+    `import { NonFunctionPropertyNames } from "../util/types";`
+  );
+
+  enums.forEach(([key, entry]) => {
+    const name = toCamelCase(entry.name);
+    f.appendLine(
+      `import { ${name}Enum } from "./${toKebabCase(entry.name)}.auto";`
+    );
+  });
+
+  f.appendLineBreak()
+    .appendLine(`/** The types of enum available */`)
+    .appendLine(
+      "export type EnumType = NonFunctionPropertyNames<typeof Enums>;"
+    )
+    .appendLineBreak();
+
+  //Start namespace
+  f.appendLine(`/** The enum handlers */`).appendLine(
+    `export namespace Enums {`
+  );
+
+  enums.forEach(([key, entry]) => {
+    const name = toCamelCase(entry.name);
+    f.appendLine(`  export const ${name.toLowerCase()} = ${name}Enum;`);
+  });
+
+  f.appendLineBreak()
+    .appendLine(`  /**`)
+    .appendLine(`   * Get an enum handler by type`)
+    .appendLine(`   * @param type The type of enum to get`)
+    .appendLine(`   * @returns The enum handler`)
+    .appendLine(`   */`)
+    .appendLine(
+      `  export function get(type: EnumType): EnumHandler | undefined {`
+    )
+    .appendLine(`    return Enums[type];`)
+    .appendLine(`  }`);
+
+  f.appendLine(`}`);
+  f.save();
+
+  Builder.appendToIndex(builder, "src/enums/index.ts", "enums");
 }

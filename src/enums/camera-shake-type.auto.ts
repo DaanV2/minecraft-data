@@ -1,9 +1,9 @@
 // auto-generated
 
-import { EnumHandler } from "./interface";
+import { EnumHandler, Enum } from "./interface";
 
-const data = {
-  "name": "CameraShakeType",
+const data: Enum = {
+  "name": "camerashaketype",
   "documentation": "Command enum: CameraShakeType",
   "values": [
     {

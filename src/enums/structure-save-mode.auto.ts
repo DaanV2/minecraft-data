@@ -1,9 +1,9 @@
 // auto-generated
 
-import { EnumHandler } from "./interface";
+import { EnumHandler, Enum } from "./interface";
 
-const data = {
-  "name": "StructureSaveMode",
+const data: Enum = {
+  "name": "structuresavemode",
   "documentation": "Command enum: StructureSaveMode",
   "values": [
     {

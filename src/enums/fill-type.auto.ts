@@ -1,9 +1,9 @@
 // auto-generated
 
-import { EnumHandler } from "./interface";
+import { EnumHandler, Enum } from "./interface";
 
-const data = {
-  "name": "FillType",
+const data: Enum = {
+  "name": "filltype",
   "documentation": "Command enum: FillType",
   "values": [
     {

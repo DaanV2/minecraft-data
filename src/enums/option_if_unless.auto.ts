@@ -1,9 +1,9 @@
 // auto-generated
 
-import { EnumHandler } from "./interface";
+import { EnumHandler, Enum } from "./interface";
 
-const data = {
-  "name": "Option_If_Unless",
+const data: Enum = {
+  "name": "option_if_unless",
   "documentation": "Command enum: Option_If_Unless",
   "values": [
     {

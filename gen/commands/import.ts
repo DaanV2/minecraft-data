@@ -138,18 +138,25 @@ function generateEnum(
   builder: Builder,
   commandEnum: (typeof data.command_enums)[0]
 ) {
-  const enumName = commandEnum.name;
+  let enumName = commandEnum.name;
   const enumValues = commandEnum.values.map((value) => {
     return {
       value: value.value,
     };
   });
 
-  builder.enums[enumName.toLowerCase()] = {
+  const p = {
     name: enumName,
     documentation: "Command enum: " + enumName,
     values: enumValues,
-  };
+  }
+  
+  if (enumName === "delete") {
+    enumName = "deleteOperation";
+    p.name = enumName;
+  }
+
+  builder.enums[enumName.toLowerCase()] = p;
 }
 
 function discoverType(type: string, builder: Builder): ParameterType {

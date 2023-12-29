@@ -55,7 +55,7 @@ export const fogCommand: Command = {
         },
         {
           "text": "mode",
-          "type": "enum:delete",
+          "type": "unknown",
           "required": true
         },
         {

@@ -1,9 +1,9 @@
 // auto-generated
 
-import { EnumHandler } from "./interface";
+import { EnumHandler, Enum } from "./interface";
 
-const data = {
-  "name": "EntityEquipmentSlot",
+const data: Enum = {
+  "name": "entityequipmentslot",
   "documentation": "Command enum: EntityEquipmentSlot",
   "values": [
     {

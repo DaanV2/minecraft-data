@@ -1,9 +1,9 @@
 // auto-generated
 
-import { EnumHandler } from "./interface";
+import { EnumHandler, Enum } from "./interface";
 
-const data = {
-  "name": "Mirror",
+const data: Enum = {
+  "name": "mirror",
   "documentation": "Command enum: Mirror",
   "values": [
     {

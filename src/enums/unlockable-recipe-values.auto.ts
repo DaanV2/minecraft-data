@@ -1,9 +1,9 @@
 // auto-generated
 
-import { EnumHandler } from "./interface";
+import { EnumHandler, Enum } from "./interface";
 
-const data = {
-  "name": "UnlockableRecipeValues",
+const data: Enum = {
+  "name": "unlockablerecipevalues",
   "documentation": "Command enum: UnlockableRecipeValues",
   "values": [
     {
