@@ -20,9 +20,9 @@ function generateCommand(builder: Builder, command: (typeof data.commands)[0]) {
   const data = builder.commands[commandName] ?? {
     name: commandName,
     documentation: command.description,
-    syntaxes: [],
     permissionLevel: command.permission_level,
     requiresCheatsEnabled: command.requires_cheats,
+    syntaxes: [],
   };
 
   //Check overloads
@@ -43,7 +43,23 @@ function generateCommand(builder: Builder, command: (typeof data.commands)[0]) {
 
     //Check parameters
     overload.params.forEach((param) => {
+      // Enum like?
+      if (param.name.includes("|")) {
+        const [name] = param.name.split("|");
+
+        param.name = name;
+      }
+      if (param.name.startsWith("<") && param.name.endsWith(">")) {
+        param.name = param.name.slice(1, -1);
+      }
+
       const t = discoverType(param.type.name, builder);
+      if (t === "keyword") {
+        const data = builder.enums[param.type.name.toLowerCase()];
+        if (data) {
+          param.name = data.values[0].value;
+        }
+      }
 
       const p: ParameterSyntax = {
         text: param.name,
@@ -51,11 +67,19 @@ function generateCommand(builder: Builder, command: (typeof data.commands)[0]) {
         required: param.is_optional === false,
       };
 
+      if (param.type.name.includes("WILDCARD")) {
+        p.options = {
+          wildcard: true,
+        };
+      }
+
       syntax.parameters.push(p);
     });
   });
 
   //Update aliases
+  builder.commands[commandName] = data;
+
   command.aliases.forEach((alias) => {
     builder.commands[alias.name] = forAlias(data, alias.name);
   });
@@ -90,7 +114,7 @@ function generateEnum(
     };
   });
 
-  builder.enums[enumName] = {
+  builder.enums[enumName.toLowerCase()] = {
     name: enumName,
     documentation: "Command enum: " + enumName,
     values: enumValues,
@@ -98,15 +122,48 @@ function generateEnum(
 }
 
 function discoverType(type: string, builder: Builder): ParameterType {
-  const e = builder.enums[type];
-  if (e.values.length == 1) {
-    return "keyword";
-  } else if (e.values.length > 1) {
-    return `enum:${e.name}`;
+  switch (type) {
+    case "BOOLEAN":
+      return "boolean";
+  }
+
+  const e = builder.enums[type.toLowerCase()];
+
+  if (e) {
+    if (e.values.length == 1) {
+      return "keyword";
+    } else if (e.values.length > 1) {
+      return `enum:${e.name}`;
+    }
+  }
+
+  if (type.startsWith("WILDCARD")) {
+    type = type.slice("WILDCARD".length);
   }
 
   switch (type) {
+    case "ID":
+      return "player";
+    case "EXECUTECHAINEDOPTION_0":
+      return "command";
+    case "INT":
+      return "integer";
+    case "PATHCOMMAND":
+      return "mcfunction";
+    case "RAWTEXT":
+      return "rawtext";
+    case "RVAL":
+      return "rotation";
+    case "SCOREBOARDOBJECTIVES":
+      return "scoreboard:objective";
+    case "SELECTION":
+      return "selector";
+    case "SLASHCOMMAND":
+      return "command";
+    case "VAL":
+      return "value";
     default:
+      console.log(`Unknown type: ${type}`);
       return "unknown";
   }
 }

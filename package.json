@@ -2,8 +2,8 @@
   "name": "@daanv2/minecraft-types",
   "version": "0.0.1",
   "description": "This is a collection of types for Minecraft data structures in typescript. Based on the metadata in the [bedrock-samples](https://github.com/Mojang/bedrock-samples/tree/main)",
-  "main": "dist/src/main.js",
-  "types": "dist/src/main.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "files": [
     "dist/src/**/*.js",
     "dist/src/**/*.js.map",
