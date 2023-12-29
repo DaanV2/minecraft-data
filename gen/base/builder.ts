@@ -1,3 +1,5 @@
+import { BlockProperty } from "../../src/block-properties/interface";
+import { Block } from "../../src/blocks/interface";
 import { Command } from "../../src/commands/interface";
 import { Enum } from "../../src/enums/interface";
 
@@ -10,6 +12,10 @@ export interface Builder {
   entities: Record<string, any>;
   /** [path]: content */
   files: Record<string, string>;
+  /** [id]: data */
+  blocks: Record<string, Block>;
+  /** [id]: data */
+  block_properties: Record<string, BlockProperty>;
 }
 
 

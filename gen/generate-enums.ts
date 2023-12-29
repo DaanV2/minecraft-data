@@ -87,7 +87,7 @@ function makeModules(builder: Builder) {
     .appendLine(`   * @returns The enum handler`)
     .appendLine(`   */`)
     .appendLine(
-      `  export function get(type: EnumType): EnumHandler | undefined {`
+      `  export function get(type: EnumType): EnumHandler {`
     )
     .appendLine(`    return Enums[type];`)
     .appendLine(`  }`);

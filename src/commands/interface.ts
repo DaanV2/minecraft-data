@@ -1,3 +1,4 @@
+/** The interface for a command */
 export interface Command {
   /** The name of the command */
   name: string;
@@ -11,6 +12,7 @@ export interface Command {
   requiresCheatsEnabled: boolean;
 }
 
+/** The interface for a syntax of a command */
 export interface CommandSyntax {
   /** The name of the command */
   name: string;
@@ -20,6 +22,7 @@ export interface CommandSyntax {
   parameters: ParameterSyntax[];
 }
 
+/** The interface for a parameter of a command */
 export interface ParameterSyntax {
   /**The text/keyword of the parameter.*/
   text: string;
@@ -51,6 +54,7 @@ export interface ParameterOptions {
   wildcard?: boolean;
 }
 
+/** The type a parameter can have */
 export type ParameterType =
   | "block_states"
   | "boolean"

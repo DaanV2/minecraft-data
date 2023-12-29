@@ -128,7 +128,7 @@ export namespace Enums {
    * @param type The type of enum to get
    * @returns The enum handler
    */
-  export function get(type: EnumType): EnumHandler | undefined {
+  export function get(type: EnumType): EnumHandler {
     return Enums[type];
   }
 }
