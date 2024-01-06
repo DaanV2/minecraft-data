@@ -24,7 +24,6 @@ function saveAllBlocks(builder: Builder) {
   blocksFile.appendLine(`};`);
 
   //Namespace
-
   blocksFile.save();
 }
 

@@ -1,9 +1,11 @@
 import * as data from "../../bedrock-samples/metadata/vanilladata_modules/mojang-blocks.json";
 import { BlockProperty } from "../../src/block-properties/interface";
+import { Block } from "../../src/blocks/interface";
 import { Builder } from "../base/builder";
 
 export function generateFromBlocks(builder: Builder) {
   blockProperties(builder);
+  blocks(builder);
 }
 
 function blockProperties(builder: Builder) {
@@ -12,6 +14,17 @@ function blockProperties(builder: Builder) {
 
     builder.block_properties[blockProperty.name] = p;
   });
+}
+
+function blocks(builder: Builder) {
+  data.data_items.forEach((block) => {
+    const item: Block = {
+      name: block.name,
+      properties: block.properties.map((p) => p.name)
+    };
+
+    builder.blocks[block.name] = item;
+  })
 }
 
 function convertBlockProperty(
