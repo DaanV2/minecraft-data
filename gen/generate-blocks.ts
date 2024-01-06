@@ -11,7 +11,7 @@ function saveAllBlocks(builder: Builder) {
   blocksFile
     .appendLine(`import { Block } from "./interface";`)
     .appendLineBreak()
-    .appendLine(`export const Blocks: Record<string, Block> = {`);
+    .appendLine(`const blockData: Record<string, Block> = {`);
 
   for (const blockName in builder.blocks) {
     const data = builder.blocks[blockName];
@@ -21,7 +21,10 @@ function saveAllBlocks(builder: Builder) {
     );
   }
 
-  blocksFile.appendLine(`};`);
+  blocksFile.appendLine(`};`).appendLineBreak().appendLine(`
+export namespace Blocks {
+  
+  `);
 
   //Namespace
   blocksFile.save();

@@ -1,4 +1,5 @@
 import * as data from "../../bedrock-samples/metadata/vanilladata_modules/mojang-blocks.json";
+import { BlockPropertyNames } from "../../src/block-properties/block-properties.auto";
 import { BlockProperty } from "../../src/block-properties/interface";
 import { Block } from "../../src/blocks/interface";
 import { Builder } from "../base/builder";
@@ -20,7 +21,7 @@ function blocks(builder: Builder) {
   data.data_items.forEach((block) => {
     const item: Block = {
       name: block.name,
-      properties: block.properties.map((p) => p.name)
+      properties: block.properties.map((p) => p.name as BlockPropertyNames)
     };
 
     builder.blocks[block.name] = item;

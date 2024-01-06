@@ -2,7 +2,7 @@
 
 import { Block } from "./interface";
 
-export const BlockData: Record<string, Block> = {
+export const blockData: Record<string, Block> = {
   "minecraft:acacia_button": {
   "name": "minecraft:acacia_button",
   "properties": [
