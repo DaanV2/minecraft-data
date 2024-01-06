@@ -1,7 +1,7 @@
 import assert from "node:assert";
 import { Blocks } from "./interface";
 import test, { describe } from "node:test";
-import { BlockProperties } from "../block-properties/block-properties.auto";
+import { BlockProperties } from "../block-properties";
 
 describe("Blocks", () => {
 

@@ -11,7 +11,7 @@ function saveAllBlocks(builder: Builder) {
   blocksFile
     .appendLine(`import { Block } from "./interface";`)
     .appendLineBreak()
-    .appendLine(`const blockData: Record<string, Block> = {`);
+    .appendLine(`export const blockData: Record<string, Block> = {`);
 
   for (const blockName in builder.blocks) {
     const data = builder.blocks[blockName];
@@ -21,10 +21,7 @@ function saveAllBlocks(builder: Builder) {
     );
   }
 
-  blocksFile.appendLine(`};`).appendLineBreak().appendLine(`
-export namespace Blocks {
-  
-  `);
+  blocksFile.appendLine(`};`);
 
   //Namespace
   blocksFile.save();
@@ -35,40 +32,7 @@ function saveAllBlocksProperties(builder: Builder) {
     "src/block-properties/block-properties.auto.ts"
   );
   propertiesFile
-      .appendLine(`import { BlockProperty } from "./interface";
-
-export type BlockPropertyNames = keyof typeof data;
-
-/** The namespace that access the block properties */
-export namespace BlockProperties {
-  /**
-   * Check if the given property name exists
-   * @param name The name of the property
-   * @returns true if the property exists
-   */
-  export function has(name: BlockPropertyNames): boolean {
-    return name in data;
-  }
-
-  /**
-   * Get the property by name
-   * @param name The name of the property
-   * @returns The property or undefined if not found
-   */
-  export function get(name: BlockPropertyNames): BlockProperty | undefined {
-    return (data as Record<string, BlockProperty>)[name];
-  }
-
-  /**
-   * Get all properties
-   * @returns All properties
-   */
-  export function properties(): Record<BlockPropertyNames, BlockProperty> {
-    return data as Record<BlockPropertyNames, BlockProperty>;
-  }
-}`)
-      .appendLineBreak()
-      .appendLine("const data = {");
+      .appendLine("export const blockPropertyData = {");
 
   for (const propertyName in builder.block_properties) {
     const data = builder.block_properties[propertyName];

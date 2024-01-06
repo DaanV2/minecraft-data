@@ -1,6 +1,6 @@
 import assert from "node:assert";
-import { BlockProperties } from "./block-properties.auto";
 import test, { describe } from "node:test";
+import { BlockProperties } from "./interface";
 
 describe("block-properties", () => {
   const properties = BlockProperties.properties();

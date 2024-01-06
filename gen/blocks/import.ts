@@ -1,6 +1,5 @@
 import * as data from "../../bedrock-samples/metadata/vanilladata_modules/mojang-blocks.json";
-import { BlockPropertyNames } from "../../src/block-properties/block-properties.auto";
-import { BlockProperty } from "../../src/block-properties/interface";
+import { BlockProperty, BlockPropertyNames } from "../../src/block-properties";
 import { Block } from "../../src/blocks/interface";
 import { Builder } from "../base/builder";
 

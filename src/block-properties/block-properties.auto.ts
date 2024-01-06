@@ -1,39 +1,6 @@
 // auto-generated
 
-import { BlockProperty } from "./interface";
-
-export type BlockPropertyNames = keyof typeof data;
-
-/** The namespace that access the block properties */
-export namespace BlockProperties {
-  /**
-   * Check if the given property name exists
-   * @param name The name of the property
-   * @returns true if the property exists
-   */
-  export function has(name: BlockPropertyNames): boolean {
-    return name in data;
-  }
-
-  /**
-   * Get the property by name
-   * @param name The name of the property
-   * @returns The property or undefined if not found
-   */
-  export function get(name: BlockPropertyNames): BlockProperty | undefined {
-    return (data as Record<string, BlockProperty>)[name];
-  }
-
-  /**
-   * Get all properties
-   * @returns All properties
-   */
-  export function properties(): Record<BlockPropertyNames, BlockProperty> {
-    return data as Record<BlockPropertyNames, BlockProperty>;
-  }
-}
-
-const data = {
+export const blockPropertyData = {
   "active": {
   "name": "active",
   "type": "bool",
