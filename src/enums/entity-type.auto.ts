@@ -49,6 +49,12 @@ const data: Enum = {
       "value": "axolotl"
     },
     {
+      "value": "minecraft:breeze"
+    },
+    {
+      "value": "breeze"
+    },
+    {
       "value": "minecraft:pig"
     },
     {
@@ -59,12 +65,6 @@ const data: Enum = {
     },
     {
       "value": "hoglin"
-    },
-    {
-      "value": "minecraft:zoglin"
-    },
-    {
-      "value": "zoglin"
     },
     {
       "value": "minecraft:sniffer"
@@ -91,6 +91,12 @@ const data: Enum = {
       "value": "sheep"
     },
     {
+      "value": "minecraft:armadillo"
+    },
+    {
+      "value": "armadillo"
+    },
+    {
       "value": "minecraft:wolf"
     },
     {
@@ -107,6 +113,12 @@ const data: Enum = {
     },
     {
       "value": "wandering_trader"
+    },
+    {
+      "value": "minecraft:bogged"
+    },
+    {
+      "value": "bogged"
     },
     {
       "value": "minecraft:mooshroom"
@@ -211,6 +223,12 @@ const data: Enum = {
       "value": "fox"
     },
     {
+      "value": "minecraft:goat"
+    },
+    {
+      "value": "goat"
+    },
+    {
       "value": "minecraft:frog"
     },
     {
@@ -229,22 +247,10 @@ const data: Enum = {
       "value": "allay"
     },
     {
-      "value": "minecraft:husk"
-    },
-    {
-      "value": "husk"
-    },
-    {
       "value": "minecraft:tropicalfish"
     },
     {
       "value": "tropicalfish"
-    },
-    {
-      "value": "minecraft:wither_skeleton"
-    },
-    {
-      "value": "wither_skeleton"
     },
     {
       "value": "minecraft:cod"
@@ -305,12 +311,6 @@ const data: Enum = {
     },
     {
       "value": "zombie"
-    },
-    {
-      "value": "minecraft:stray"
-    },
-    {
-      "value": "stray"
     },
     {
       "value": "minecraft:drowned"
@@ -383,6 +383,24 @@ const data: Enum = {
     },
     {
       "value": "warden"
+    },
+    {
+      "value": "minecraft:stray"
+    },
+    {
+      "value": "stray"
+    },
+    {
+      "value": "minecraft:husk"
+    },
+    {
+      "value": "husk"
+    },
+    {
+      "value": "minecraft:wither_skeleton"
+    },
+    {
+      "value": "wither_skeleton"
     },
     {
       "value": "minecraft:guardian"
@@ -475,10 +493,10 @@ const data: Enum = {
       "value": "piglin"
     },
     {
-      "value": "minecraft:goat"
+      "value": "minecraft:zoglin"
     },
     {
-      "value": "goat"
+      "value": "zoglin"
     },
     {
       "value": "minecraft:minecart"
@@ -599,6 +617,9 @@ const data: Enum = {
     },
     {
       "value": "npc"
+    },
+    {
+      "value": "editor:map_marker"
     }
   ]
 };

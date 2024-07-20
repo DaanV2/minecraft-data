@@ -55,6 +55,9 @@ const data: Enum = {
       "value": "trail_ruins"
     },
     {
+      "value": "trial_chambers"
+    },
+    {
       "value": "ancientcity"
     },
     {

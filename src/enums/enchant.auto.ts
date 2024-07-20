@@ -119,6 +119,15 @@ const data: Enum = {
     },
     {
       "value": "swift_sneak"
+    },
+    {
+      "value": "wind_burst"
+    },
+    {
+      "value": "density"
+    },
+    {
+      "value": "breach"
     }
   ]
 };

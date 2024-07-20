@@ -1016,6 +1016,14 @@ export const blockPropertyData = {
     "jungle"
   ]
 },
+  "ominous": {
+  "name": "ominous",
+  "type": "bool",
+  "values": [
+    false,
+    true
+  ]
+},
   "open_bit": {
   "name": "open_bit",
   "type": "bool",
@@ -1418,6 +1426,18 @@ export const blockPropertyData = {
     "top"
   ]
 },
+  "trial_spawner_state": {
+  "name": "trial_spawner_state",
+  "type": "int",
+  "values": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+},
   "triggered_bit": {
   "name": "triggered_bit",
   "type": "bool",
@@ -1490,6 +1510,16 @@ export const blockPropertyData = {
   "values": [
     false,
     true
+  ]
+},
+  "vault_state": {
+  "name": "vault_state",
+  "type": "string",
+  "values": [
+    "inactive",
+    "active",
+    "unlocking",
+    "ejecting"
   ]
 },
   "vine_direction_bits": {

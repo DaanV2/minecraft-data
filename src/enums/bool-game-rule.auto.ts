@@ -58,6 +58,9 @@ const data: Enum = {
       "value": "showcoordinates"
     },
     {
+      "value": "showdaysplayed"
+    },
+    {
       "value": "naturalregeneration"
     },
     {
@@ -95,6 +98,9 @@ const data: Enum = {
     },
     {
       "value": "projectilescanbreakblocks"
+    },
+    {
+      "value": "tntexplosiondropdecay"
     }
   ]
 };

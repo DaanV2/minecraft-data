@@ -17,15 +17,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:third_person_front"
-    },
-    {
-      "value": "example:example_free"
-    },
-    {
-      "value": "example:example_player_effects"
-    },
-    {
-      "value": "example:example_player_listener"
     }
   ]
 };

@@ -25,7 +25,7 @@ const data: Enum = {
       "value": "minecraft:bow"
     },
     {
-      "value": "minecraft:end_bricks"
+      "value": "minecraft:brain_coral_fan"
     },
     {
       "value": "minecraft:music_disc_ward"
@@ -52,6 +52,12 @@ const data: Enum = {
       "value": "minecraft:creeper_banner_pattern"
     },
     {
+      "value": "minecraft:ravager_spawn_egg"
+    },
+    {
+      "value": "minecraft:cooked_porkchop"
+    },
+    {
       "value": "minecraft:element_25"
     },
     {
@@ -64,10 +70,28 @@ const data: Enum = {
       "value": "minecraft:mushroom_stew"
     },
     {
-      "value": "minecraft:ravager_spawn_egg"
+      "value": "minecraft:trial_key"
     },
     {
-      "value": "minecraft:cooked_porkchop"
+      "value": "minecraft:iron_sword"
+    },
+    {
+      "value": "minecraft:lantern"
+    },
+    {
+      "value": "minecraft:torchflower_seeds"
+    },
+    {
+      "value": "minecraft:smooth_stone"
+    },
+    {
+      "value": "minecraft:beetroot"
+    },
+    {
+      "value": "minecraft:element_43"
+    },
+    {
+      "value": "minecraft:music_disc_strad"
     },
     {
       "value": "minecraft:stripped_oak_log"
@@ -82,10 +106,34 @@ const data: Enum = {
       "value": "minecraft:apple"
     },
     {
-      "value": "minecraft:angler_pottery_sherd"
+      "value": "minecraft:raw_gold_block"
     },
     {
-      "value": "minecraft:golden_apple"
+      "value": "minecraft:vex_armor_trim_smithing_template"
+    },
+    {
+      "value": "minecraft:black_carpet"
+    },
+    {
+      "value": "minecraft:carrot"
+    },
+    {
+      "value": "minecraft:strider_spawn_egg"
+    },
+    {
+      "value": "minecraft:command_block"
+    },
+    {
+      "value": "minecraft:potion"
+    },
+    {
+      "value": "minecraft:chicken"
+    },
+    {
+      "value": "minecraft:ominous_trial_key"
+    },
+    {
+      "value": "minecraft:dead_fire_coral_fan"
     },
     {
       "value": "minecraft:bookshelf"
@@ -100,25 +148,61 @@ const data: Enum = {
       "value": "minecraft:potato"
     },
     {
-      "value": "minecraft:magenta_terracotta"
-    },
-    {
       "value": "minecraft:nether_star"
     },
     {
       "value": "minecraft:enchanted_golden_apple"
     },
     {
+      "value": "minecraft:magenta_terracotta"
+    },
+    {
       "value": "minecraft:element_15"
     },
     {
-      "value": "minecraft:blue_carpet"
+      "value": "minecraft:sweet_berries"
+    },
+    {
+      "value": "minecraft:white_candle"
+    },
+    {
+      "value": "minecraft:clay_ball"
+    },
+    {
+      "value": "minecraft:wind_charge"
+    },
+    {
+      "value": "minecraft:element_68"
+    },
+    {
+      "value": "minecraft:hard_blue_stained_glass"
+    },
+    {
+      "value": "minecraft:angler_pottery_sherd"
+    },
+    {
+      "value": "minecraft:golden_apple"
+    },
+    {
+      "value": "minecraft:cherry_chest_boat"
+    },
+    {
+      "value": "minecraft:diamond_block"
+    },
+    {
+      "value": "minecraft:element_7"
+    },
+    {
+      "value": "minecraft:bread"
+    },
+    {
+      "value": "minecraft:stone_brick_stairs"
     },
     {
       "value": "minecraft:yellow_glazed_terracotta"
     },
     {
-      "value": "minecraft:stone_brick_stairs"
+      "value": "minecraft:blue_carpet"
     },
     {
       "value": "minecraft:portal"
@@ -139,9 +223,6 @@ const data: Enum = {
       "value": "minecraft:slime_spawn_egg"
     },
     {
-      "value": "minecraft:scute"
-    },
-    {
       "value": "minecraft:pink_carpet"
     },
     {
@@ -151,28 +232,13 @@ const data: Enum = {
       "value": "minecraft:cookie"
     },
     {
-      "value": "minecraft:polished_blackstone_brick_double_slab"
-    },
-    {
-      "value": "minecraft:cherry_chest_boat"
-    },
-    {
-      "value": "minecraft:element_7"
-    },
-    {
-      "value": "minecraft:diamond_block"
-    },
-    {
-      "value": "minecraft:bread"
-    },
-    {
       "value": "minecraft:music_disc_chirp"
     },
     {
-      "value": "minecraft:cooked_rabbit"
+      "value": "minecraft:prismarine_bricks_stairs"
     },
     {
-      "value": "minecraft:prismarine_bricks_stairs"
+      "value": "minecraft:cooked_rabbit"
     },
     {
       "value": "minecraft:glow_squid_spawn_egg"
@@ -182,6 +248,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:cod"
+    },
+    {
+      "value": "minecraft:hard_brown_stained_glass"
     },
     {
       "value": "minecraft:pillager_spawn_egg"
@@ -194,6 +263,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:element_27"
+    },
+    {
+      "value": "minecraft:spruce_planks"
     },
     {
       "value": "minecraft:beef"
@@ -211,22 +283,16 @@ const data: Enum = {
       "value": "minecraft:salmon"
     },
     {
-      "value": "minecraft:cocoa_beans"
-    },
-    {
-      "value": "minecraft:tropical_fish"
+      "value": "minecraft:wooden_slab"
     },
     {
       "value": "minecraft:silver_glazed_terracotta"
     },
     {
-      "value": "minecraft:wooden_slab"
+      "value": "minecraft:cocoa_beans"
     },
     {
-      "value": "minecraft:stone_axe"
-    },
-    {
-      "value": "minecraft:stained_glass_pane"
+      "value": "minecraft:tropical_fish"
     },
     {
       "value": "minecraft:bucket"
@@ -265,9 +331,6 @@ const data: Enum = {
       "value": "minecraft:wooden_pickaxe"
     },
     {
-      "value": "minecraft:mangrove_double_slab"
-    },
-    {
       "value": "minecraft:magenta_candle_cake"
     },
     {
@@ -277,52 +340,31 @@ const data: Enum = {
       "value": "minecraft:melon_slice"
     },
     {
+      "value": "minecraft:element_1"
+    },
+    {
+      "value": "minecraft:hay_block"
+    },
+    {
       "value": "minecraft:nautilus_shell"
     },
     {
       "value": "minecraft:wooden_shovel"
     },
     {
-      "value": "minecraft:hay_block"
-    },
-    {
-      "value": "minecraft:element_1"
+      "value": "minecraft:music_disc_creator_music_box"
     },
     {
       "value": "minecraft:stonecutter_block"
     },
     {
-      "value": "minecraft:cooked_beef"
-    },
-    {
       "value": "minecraft:exposed_copper"
     },
     {
+      "value": "minecraft:cooked_beef"
+    },
+    {
       "value": "minecraft:comparator"
-    },
-    {
-      "value": "minecraft:vex_armor_trim_smithing_template"
-    },
-    {
-      "value": "minecraft:black_carpet"
-    },
-    {
-      "value": "minecraft:raw_gold_block"
-    },
-    {
-      "value": "minecraft:carrot"
-    },
-    {
-      "value": "minecraft:strider_spawn_egg"
-    },
-    {
-      "value": "minecraft:command_block"
-    },
-    {
-      "value": "minecraft:potion"
-    },
-    {
-      "value": "minecraft:chicken"
     },
     {
       "value": "minecraft:rotten_flesh"
@@ -370,10 +412,16 @@ const data: Enum = {
       "value": "minecraft:baked_potato"
     },
     {
+      "value": "minecraft:pink_tulip"
+    },
+    {
       "value": "minecraft:deepslate_tile_wall"
     },
     {
       "value": "minecraft:golden_carrot"
+    },
+    {
+      "value": "minecraft:spruce_stairs"
     },
     {
       "value": "minecraft:poisonous_potato"
@@ -382,13 +430,13 @@ const data: Enum = {
       "value": "minecraft:element_13"
     },
     {
-      "value": "minecraft:spruce_stairs"
-    },
-    {
       "value": "minecraft:polished_granite"
     },
     {
       "value": "minecraft:chiseled_copper"
+    },
+    {
+      "value": "minecraft:obsidian"
     },
     {
       "value": "minecraft:prize_pottery_sherd"
@@ -397,34 +445,7 @@ const data: Enum = {
       "value": "minecraft:pumpkin_pie"
     },
     {
-      "value": "minecraft:obsidian"
-    },
-    {
-      "value": "minecraft:lantern"
-    },
-    {
-      "value": "minecraft:torchflower_seeds"
-    },
-    {
-      "value": "minecraft:iron_sword"
-    },
-    {
-      "value": "minecraft:smooth_stone"
-    },
-    {
-      "value": "minecraft:beetroot"
-    },
-    {
-      "value": "minecraft:element_43"
-    },
-    {
-      "value": "minecraft:music_disc_strad"
-    },
-    {
-      "value": "minecraft:sweet_berries"
-    },
-    {
-      "value": "minecraft:white_candle"
+      "value": "minecraft:spruce_wood"
     },
     {
       "value": "minecraft:rabbit_stew"
@@ -434,6 +455,12 @@ const data: Enum = {
     },
     {
       "value": "minecraft:wheat_seeds"
+    },
+    {
+      "value": "minecraft:hard_pink_stained_glass"
+    },
+    {
+      "value": "minecraft:white_tulip"
     },
     {
       "value": "minecraft:command_block_minecart"
@@ -449,9 +476,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:melon_seeds"
-    },
-    {
-      "value": "minecraft:spawn_egg"
     },
     {
       "value": "minecraft:raw_iron"
@@ -472,12 +496,6 @@ const data: Enum = {
       "value": "minecraft:beetroot_seeds"
     },
     {
-      "value": "minecraft:lime_carpet"
-    },
-    {
-      "value": "minecraft:powder_snow"
-    },
-    {
       "value": "minecraft:iron_bars"
     },
     {
@@ -490,16 +508,16 @@ const data: Enum = {
       "value": "minecraft:element_80"
     },
     {
+      "value": "minecraft:powder_snow"
+    },
+    {
+      "value": "minecraft:lime_carpet"
+    },
+    {
       "value": "minecraft:iron_shovel"
     },
     {
       "value": "minecraft:element_104"
-    },
-    {
-      "value": "minecraft:mourner_pottery_sherd"
-    },
-    {
-      "value": "minecraft:granite_stairs"
     },
     {
       "value": "minecraft:zoglin_spawn_egg"
@@ -508,16 +526,28 @@ const data: Enum = {
       "value": "minecraft:flint_and_steel"
     },
     {
+      "value": "minecraft:granite_stairs"
+    },
+    {
+      "value": "minecraft:mourner_pottery_sherd"
+    },
+    {
       "value": "minecraft:stone_shovel"
     },
     {
       "value": "minecraft:light_gray_stained_glass_pane"
     },
     {
-      "value": "minecraft:arrow"
+      "value": "minecraft:smooth_stone_slab"
     },
     {
       "value": "minecraft:melon_block"
+    },
+    {
+      "value": "minecraft:arrow"
+    },
+    {
+      "value": "minecraft:oxeye_daisy"
     },
     {
       "value": "minecraft:coal"
@@ -529,13 +559,19 @@ const data: Enum = {
       "value": "minecraft:stray_spawn_egg"
     },
     {
+      "value": "minecraft:carrots"
+    },
+    {
+      "value": "minecraft:hard_gray_stained_glass_pane"
+    },
+    {
       "value": "minecraft:diamond"
     },
     {
-      "value": "minecraft:wooden_sword"
+      "value": "minecraft:oxidized_cut_copper_stairs"
     },
     {
-      "value": "minecraft:oxidized_cut_copper_stairs"
+      "value": "minecraft:wooden_sword"
     },
     {
       "value": "minecraft:netherite_boots"
@@ -568,13 +604,10 @@ const data: Enum = {
       "value": "minecraft:stone_pickaxe"
     },
     {
-      "value": "minecraft:exposed_copper_trapdoor"
+      "value": "minecraft:stone_axe"
     },
     {
-      "value": "minecraft:chainmail_helmet"
-    },
-    {
-      "value": "minecraft:diamond_shovel"
+      "value": "minecraft:stained_glass_pane"
     },
     {
       "value": "minecraft:oxidized_copper_trapdoor"
@@ -586,10 +619,37 @@ const data: Enum = {
       "value": "minecraft:diamond_sword"
     },
     {
+      "value": "minecraft:exposed_copper_trapdoor"
+    },
+    {
+      "value": "minecraft:chainmail_helmet"
+    },
+    {
+      "value": "minecraft:diamond_shovel"
+    },
+    {
       "value": "minecraft:diamond_pickaxe"
     },
     {
       "value": "minecraft:diamond_axe"
+    },
+    {
+      "value": "minecraft:hard_glass"
+    },
+    {
+      "value": "minecraft:spyglass"
+    },
+    {
+      "value": "minecraft:deepslate_brick_slab"
+    },
+    {
+      "value": "minecraft:mace"
+    },
+    {
+      "value": "minecraft:flow_armor_trim_smithing_template"
+    },
+    {
+      "value": "minecraft:mangrove_boat"
     },
     {
       "value": "minecraft:raiser_armor_trim_smithing_template"
@@ -607,22 +667,25 @@ const data: Enum = {
       "value": "minecraft:arms_up_pottery_sherd"
     },
     {
-      "value": "minecraft:warped_wart_block"
+      "value": "minecraft:mangrove_hanging_sign"
     },
     {
-      "value": "minecraft:spruce_fence"
+      "value": "minecraft:azure_bluet"
+    },
+    {
+      "value": "minecraft:warped_wart_block"
     },
     {
       "value": "minecraft:vine"
     },
     {
-      "value": "minecraft:mangrove_hanging_sign"
+      "value": "minecraft:spruce_fence"
+    },
+    {
+      "value": "minecraft:petrified_oak_slab"
     },
     {
       "value": "minecraft:golden_sword"
-    },
-    {
-      "value": "minecraft:honey_block"
     },
     {
       "value": "minecraft:lit_deepslate_redstone_ore"
@@ -661,22 +724,28 @@ const data: Enum = {
       "value": "minecraft:skull_banner_pattern"
     },
     {
+      "value": "minecraft:birch_sapling"
+    },
+    {
       "value": "minecraft:acacia_stairs"
     },
     {
       "value": "minecraft:wooden_hoe"
     },
     {
-      "value": "minecraft:brown_terracotta"
+      "value": "minecraft:snow_golem_spawn_egg"
+    },
+    {
+      "value": "minecraft:stone_hoe"
+    },
+    {
+      "value": "minecraft:blue_orchid"
     },
     {
       "value": "minecraft:panda_spawn_egg"
     },
     {
-      "value": "minecraft:snow_golem_spawn_egg"
-    },
-    {
-      "value": "minecraft:stone_hoe"
+      "value": "minecraft:brown_terracotta"
     },
     {
       "value": "minecraft:iron_hoe"
@@ -721,25 +790,25 @@ const data: Enum = {
       "value": "minecraft:glistering_melon_slice"
     },
     {
-      "value": "minecraft:brown_mushroom"
-    },
-    {
       "value": "minecraft:lodestone"
     },
     {
       "value": "minecraft:leather_boots"
     },
     {
-      "value": "minecraft:chainmail_chestplate"
+      "value": "minecraft:end_gateway"
     },
     {
-      "value": "minecraft:end_gateway"
+      "value": "minecraft:chainmail_chestplate"
     },
     {
       "value": "minecraft:element_101"
     },
     {
       "value": "minecraft:item.beetroot"
+    },
+    {
+      "value": "minecraft:dark_oak_double_slab"
     },
     {
       "value": "minecraft:chainmail_leggings"
@@ -778,13 +847,13 @@ const data: Enum = {
       "value": "minecraft:burn_pottery_sherd"
     },
     {
-      "value": "minecraft:ender_eye"
-    },
-    {
       "value": "minecraft:music_disc_pigstep"
     },
     {
-      "value": "minecraft:iron_trapdoor"
+      "value": "minecraft:hard_cyan_stained_glass_pane"
+    },
+    {
+      "value": "minecraft:ender_eye"
     },
     {
       "value": "minecraft:diamond_helmet"
@@ -794,6 +863,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:diamond_chestplate"
+    },
+    {
+      "value": "minecraft:rose_bush"
     },
     {
       "value": "minecraft:sand"
@@ -829,10 +901,13 @@ const data: Enum = {
       "value": "minecraft:golden_leggings"
     },
     {
+      "value": "minecraft:polished_deepslate_stairs"
+    },
+    {
       "value": "minecraft:golden_boots"
     },
     {
-      "value": "minecraft:polished_deepslate_stairs"
+      "value": "minecraft:hard_cyan_stained_glass"
     },
     {
       "value": "minecraft:shield"
@@ -868,6 +943,9 @@ const data: Enum = {
       "value": "minecraft:wooden_door"
     },
     {
+      "value": "minecraft:flow_banner_pattern"
+    },
+    {
       "value": "minecraft:milk_bucket"
     },
     {
@@ -886,6 +964,9 @@ const data: Enum = {
       "value": "minecraft:water_bucket"
     },
     {
+      "value": "minecraft:tube_coral_block"
+    },
+    {
       "value": "minecraft:element_74"
     },
     {
@@ -895,10 +976,10 @@ const data: Enum = {
       "value": "minecraft:mangrove_fence_gate"
     },
     {
-      "value": "minecraft:lava_bucket"
+      "value": "minecraft:magenta_glazed_terracotta"
     },
     {
-      "value": "minecraft:magenta_glazed_terracotta"
+      "value": "minecraft:lava_bucket"
     },
     {
       "value": "minecraft:vindicator_spawn_egg"
@@ -920,6 +1001,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:pufferfish_bucket"
+    },
+    {
+      "value": "minecraft:dead_brain_coral_block"
     },
     {
       "value": "minecraft:music_disc_11"
@@ -949,9 +1033,6 @@ const data: Enum = {
       "value": "minecraft:cyan_concrete_powder"
     },
     {
-      "value": "minecraft:gray_terracotta"
-    },
-    {
       "value": "minecraft:saddle"
     },
     {
@@ -961,31 +1042,34 @@ const data: Enum = {
       "value": "minecraft:redstone"
     },
     {
+      "value": "minecraft:heavy_core"
+    },
+    {
       "value": "minecraft:elder_guardian_spawn_egg"
+    },
+    {
+      "value": "minecraft:fire_coral_fan"
     },
     {
       "value": "minecraft:crossbow"
     },
     {
-      "value": "minecraft:oak_boat"
+      "value": "minecraft:white_shulker_box"
     },
     {
       "value": "minecraft:activator_rail"
     },
     {
-      "value": "minecraft:white_shulker_box"
-    },
-    {
-      "value": "minecraft:torchflower"
-    },
-    {
-      "value": "minecraft:copper_grate"
+      "value": "minecraft:oak_boat"
     },
     {
       "value": "minecraft:birch_boat"
     },
     {
       "value": "minecraft:element_97"
+    },
+    {
+      "value": "minecraft:hard_magenta_stained_glass_pane"
     },
     {
       "value": "minecraft:polished_granite_stairs"
@@ -997,15 +1081,6 @@ const data: Enum = {
       "value": "minecraft:lime_stained_glass_pane"
     },
     {
-      "value": "minecraft:light_blue_terracotta"
-    },
-    {
-      "value": "minecraft:spruce_boat"
-    },
-    {
-      "value": "minecraft:decorated_pot"
-    },
-    {
       "value": "minecraft:chemistry_table"
     },
     {
@@ -1013,6 +1088,15 @@ const data: Enum = {
     },
     {
       "value": "minecraft:silverfish_spawn_egg"
+    },
+    {
+      "value": "minecraft:spruce_boat"
+    },
+    {
+      "value": "minecraft:light_blue_terracotta"
+    },
+    {
+      "value": "minecraft:decorated_pot"
     },
     {
       "value": "minecraft:acacia_boat"
@@ -1039,16 +1123,16 @@ const data: Enum = {
       "value": "minecraft:kelp"
     },
     {
-      "value": "minecraft:gold_nugget"
-    },
-    {
       "value": "minecraft:globe_banner_pattern"
     },
     {
-      "value": "minecraft:brick"
+      "value": "minecraft:hard_brown_stained_glass_pane"
     },
     {
-      "value": "minecraft:clay_ball"
+      "value": "minecraft:gold_nugget"
+    },
+    {
+      "value": "minecraft:brick"
     },
     {
       "value": "minecraft:netherite_ingot"
@@ -1060,13 +1144,16 @@ const data: Enum = {
       "value": "minecraft:sugar_cane"
     },
     {
+      "value": "minecraft:hard_lime_stained_glass_pane"
+    },
+    {
       "value": "minecraft:lit_pumpkin"
     },
     {
-      "value": "minecraft:yellow_terracotta"
+      "value": "minecraft:heartbreak_pottery_sherd"
     },
     {
-      "value": "minecraft:heartbreak_pottery_sherd"
+      "value": "minecraft:yellow_terracotta"
     },
     {
       "value": "minecraft:element_23"
@@ -1085,6 +1172,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:coral"
+    },
+    {
+      "value": "minecraft:dead_tube_coral_fan"
     },
     {
       "value": "minecraft:book"
@@ -1126,7 +1216,13 @@ const data: Enum = {
       "value": "minecraft:fishing_rod"
     },
     {
+      "value": "minecraft:bogged_spawn_egg"
+    },
+    {
       "value": "minecraft:clock"
+    },
+    {
+      "value": "minecraft:jungle_sapling"
     },
     {
       "value": "minecraft:andesite_stairs"
@@ -1156,13 +1252,13 @@ const data: Enum = {
       "value": "minecraft:deny"
     },
     {
+      "value": "minecraft:deepslate_brick_wall"
+    },
+    {
       "value": "minecraft:bee_spawn_egg"
     },
     {
       "value": "minecraft:cyan_shulker_box"
-    },
-    {
-      "value": "minecraft:deepslate_brick_wall"
     },
     {
       "value": "minecraft:mud_brick_slab"
@@ -1187,9 +1283,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:purple_dye"
-    },
-    {
-      "value": "minecraft:dye"
     },
     {
       "value": "minecraft:music_disc_13"
@@ -1249,6 +1342,9 @@ const data: Enum = {
       "value": "minecraft:mangrove_door"
     },
     {
+      "value": "minecraft:birch_slab"
+    },
+    {
       "value": "minecraft:stained_glass"
     },
     {
@@ -1258,13 +1354,16 @@ const data: Enum = {
       "value": "minecraft:bed"
     },
     {
+      "value": "minecraft:waxed_copper_bulb"
+    },
+    {
       "value": "minecraft:orange_dye"
     },
     {
-      "value": "minecraft:cyan_stained_glass"
+      "value": "minecraft:birch_leaves"
     },
     {
-      "value": "minecraft:waxed_copper_bulb"
+      "value": "minecraft:cyan_stained_glass"
     },
     {
       "value": "minecraft:camel_spawn_egg"
@@ -1279,13 +1378,16 @@ const data: Enum = {
       "value": "minecraft:dune_armor_trim_smithing_template"
     },
     {
-      "value": "minecraft:bone_meal"
+      "value": "minecraft:item.flower_pot"
     },
     {
       "value": "minecraft:waxed_exposed_chiseled_copper"
     },
     {
-      "value": "minecraft:item.flower_pot"
+      "value": "minecraft:bone_meal"
+    },
+    {
+      "value": "minecraft:hard_white_stained_glass_pane"
     },
     {
       "value": "minecraft:turtle_helmet"
@@ -1316,6 +1418,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:sugar"
+    },
+    {
+      "value": "minecraft:oak_slab"
     },
     {
       "value": "minecraft:purple_stained_glass"
@@ -1357,10 +1462,16 @@ const data: Enum = {
       "value": "minecraft:shears"
     },
     {
+      "value": "minecraft:ender_pearl"
+    },
+    {
+      "value": "minecraft:hard_red_stained_glass"
+    },
+    {
       "value": "minecraft:white_carpet"
     },
     {
-      "value": "minecraft:ender_pearl"
+      "value": "minecraft:breeze_rod"
     },
     {
       "value": "minecraft:ghast_tear"
@@ -1381,10 +1492,10 @@ const data: Enum = {
       "value": "minecraft:blaze_powder"
     },
     {
-      "value": "minecraft:light_gray_terracotta"
+      "value": "minecraft:magma_cream"
     },
     {
-      "value": "minecraft:magma_cream"
+      "value": "minecraft:light_gray_terracotta"
     },
     {
       "value": "minecraft:jigsaw"
@@ -1423,10 +1534,10 @@ const data: Enum = {
       "value": "minecraft:rib_armor_trim_smithing_template"
     },
     {
-      "value": "minecraft:skeleton_spawn_egg"
+      "value": "minecraft:fence_gate"
     },
     {
-      "value": "minecraft:fence_gate"
+      "value": "minecraft:skeleton_spawn_egg"
     },
     {
       "value": "minecraft:bleach"
@@ -1444,6 +1555,9 @@ const data: Enum = {
       "value": "minecraft:zombie_spawn_egg"
     },
     {
+      "value": "minecraft:hard_red_stained_glass_pane"
+    },
+    {
       "value": "minecraft:villager_spawn_egg"
     },
     {
@@ -1456,9 +1570,6 @@ const data: Enum = {
       "value": "minecraft:composter"
     },
     {
-      "value": "minecraft:powered_comparator"
-    },
-    {
       "value": "minecraft:bat_spawn_egg"
     },
     {
@@ -1468,12 +1579,6 @@ const data: Enum = {
       "value": "minecraft:ghast_spawn_egg"
     },
     {
-      "value": "minecraft:warped_sign"
-    },
-    {
-      "value": "minecraft:mob_spawner"
-    },
-    {
       "value": "minecraft:chiseled_nether_bricks"
     },
     {
@@ -1481,6 +1586,12 @@ const data: Enum = {
     },
     {
       "value": "minecraft:magma_cube_spawn_egg"
+    },
+    {
+      "value": "minecraft:mob_spawner"
+    },
+    {
+      "value": "minecraft:warped_sign"
     },
     {
       "value": "minecraft:warped_fungus_on_a_stick"
@@ -1534,10 +1645,16 @@ const data: Enum = {
       "value": "minecraft:donkey_spawn_egg"
     },
     {
+      "value": "minecraft:stripped_spruce_wood"
+    },
+    {
       "value": "minecraft:double_plant"
     },
     {
       "value": "minecraft:mule_spawn_egg"
+    },
+    {
+      "value": "minecraft:spruce_slab"
     },
     {
       "value": "minecraft:skeleton_horse_spawn_egg"
@@ -1549,10 +1666,10 @@ const data: Enum = {
       "value": "minecraft:flowering_azalea"
     },
     {
-      "value": "minecraft:pink_terracotta"
+      "value": "minecraft:netherite_pickaxe"
     },
     {
-      "value": "minecraft:netherite_pickaxe"
+      "value": "minecraft:pink_terracotta"
     },
     {
       "value": "minecraft:jukebox"
@@ -1570,6 +1687,9 @@ const data: Enum = {
       "value": "minecraft:npc_spawn_egg"
     },
     {
+      "value": "minecraft:breeze_spawn_egg"
+    },
+    {
       "value": "minecraft:end_stone"
     },
     {
@@ -1580,6 +1700,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:vex_spawn_egg"
+    },
+    {
+      "value": "minecraft:spruce_sapling"
     },
     {
       "value": "minecraft:twisting_vines"
@@ -1600,6 +1723,9 @@ const data: Enum = {
       "value": "minecraft:zombie_villager_spawn_egg"
     },
     {
+      "value": "minecraft:orange_tulip"
+    },
+    {
       "value": "minecraft:weathered_cut_copper_stairs"
     },
     {
@@ -1613,6 +1739,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:cod_spawn_egg"
+    },
+    {
+      "value": "minecraft:red_tulip"
     },
     {
       "value": "minecraft:orange_concrete"
@@ -1666,9 +1795,6 @@ const data: Enum = {
       "value": "minecraft:light_gray_wool"
     },
     {
-      "value": "minecraft:cherry_fence"
-    },
-    {
       "value": "minecraft:quartz"
     },
     {
@@ -1684,13 +1810,13 @@ const data: Enum = {
       "value": "minecraft:carrot_on_a_stick"
     },
     {
+      "value": "minecraft:acacia_wood"
+    },
+    {
       "value": "minecraft:wandering_trader_spawn_egg"
     },
     {
       "value": "minecraft:spruce_hanging_sign"
-    },
-    {
-      "value": "minecraft:trapdoor"
     },
     {
       "value": "minecraft:hoglin_spawn_egg"
@@ -1717,7 +1843,10 @@ const data: Enum = {
       "value": "minecraft:goat_spawn_egg"
     },
     {
-      "value": "minecraft:lime_glazed_terracotta"
+      "value": "minecraft:bolt_armor_trim_smithing_template"
+    },
+    {
+      "value": "minecraft:element_4"
     },
     {
       "value": "minecraft:iron_golem_spawn_egg"
@@ -1742,9 +1871,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:copper_block"
-    },
-    {
-      "value": "minecraft:stripped_jungle_log"
     },
     {
       "value": "minecraft:cut_copper"
@@ -1816,10 +1942,10 @@ const data: Enum = {
       "value": "minecraft:bamboo_fence_gate"
     },
     {
-      "value": "minecraft:emerald"
+      "value": "minecraft:deepslate_brick_double_slab"
     },
     {
-      "value": "minecraft:deepslate_brick_double_slab"
+      "value": "minecraft:emerald"
     },
     {
       "value": "minecraft:flower_pot"
@@ -1859,6 +1985,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:tnt_minecart"
+    },
+    {
+      "value": "minecraft:stripped_acacia_wood"
     },
     {
       "value": "minecraft:hopper_minecart"
@@ -1903,6 +2032,12 @@ const data: Enum = {
       "value": "minecraft:music_disc_mellohi"
     },
     {
+      "value": "minecraft:acacia_sign"
+    },
+    {
+      "value": "minecraft:blue_terracotta"
+    },
+    {
       "value": "minecraft:info_update2"
     },
     {
@@ -1910,12 +2045,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:lead"
-    },
-    {
-      "value": "minecraft:blue_terracotta"
-    },
-    {
-      "value": "minecraft:acacia_sign"
     },
     {
       "value": "minecraft:brush"
@@ -1943,6 +2072,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:element_42"
+    },
+    {
+      "value": "minecraft:turtle_scute"
     },
     {
       "value": "minecraft:netherite_leggings"
@@ -1987,10 +2119,10 @@ const data: Enum = {
       "value": "minecraft:element_118"
     },
     {
-      "value": "minecraft:iron_nugget"
+      "value": "minecraft:mangrove_planks"
     },
     {
-      "value": "minecraft:mangrove_planks"
+      "value": "minecraft:iron_nugget"
     },
     {
       "value": "minecraft:coral_fan_hang2"
@@ -2041,16 +2173,28 @@ const data: Enum = {
       "value": "minecraft:bordure_indented_banner_pattern"
     },
     {
-      "value": "minecraft:piglin_banner_pattern"
+      "value": "minecraft:purple_candle_cake"
+    },
+    {
+      "value": "minecraft:short_grass"
+    },
+    {
+      "value": "minecraft:orange_shulker_box"
     },
     {
       "value": "minecraft:potatoes"
     },
     {
-      "value": "minecraft:purple_candle_cake"
+      "value": "minecraft:piglin_banner_pattern"
     },
     {
-      "value": "minecraft:orange_shulker_box"
+      "value": "minecraft:guster_banner_pattern"
+    },
+    {
+      "value": "minecraft:boat"
+    },
+    {
+      "value": "minecraft:purple_wool"
     },
     {
       "value": "minecraft:element_78"
@@ -2059,22 +2203,43 @@ const data: Enum = {
       "value": "minecraft:honeycomb"
     },
     {
-      "value": "minecraft:moss_carpet"
+      "value": "minecraft:red_nether_brick"
     },
     {
       "value": "minecraft:honey_bottle"
     },
     {
-      "value": "minecraft:red_nether_brick"
+      "value": "minecraft:stripped_warped_hyphae"
+    },
+    {
+      "value": "minecraft:mangrove_sign"
+    },
+    {
+      "value": "minecraft:blue_candle_cake"
+    },
+    {
+      "value": "minecraft:magma"
+    },
+    {
+      "value": "minecraft:element_22"
+    },
+    {
+      "value": "minecraft:ominous_bottle"
     },
     {
       "value": "minecraft:compound"
+    },
+    {
+      "value": "minecraft:stone_brick_slab"
     },
     {
       "value": "minecraft:ice_bomb"
     },
     {
       "value": "minecraft:medicine"
+    },
+    {
+      "value": "minecraft:hard_light_blue_stained_glass_pane"
     },
     {
       "value": "minecraft:glow_stick"
@@ -2092,12 +2257,6 @@ const data: Enum = {
       "value": "minecraft:netherite_shovel"
     },
     {
-      "value": "minecraft:eye_armor_trim_smithing_template"
-    },
-    {
-      "value": "minecraft:polished_deepslate_double_slab"
-    },
-    {
       "value": "minecraft:chain_command_block"
     },
     {
@@ -2110,7 +2269,10 @@ const data: Enum = {
       "value": "minecraft:loom"
     },
     {
-      "value": "minecraft:item.warped_door"
+      "value": "minecraft:polished_deepslate_double_slab"
+    },
+    {
+      "value": "minecraft:eye_armor_trim_smithing_template"
     },
     {
       "value": "minecraft:netherite_axe"
@@ -2134,6 +2296,9 @@ const data: Enum = {
       "value": "minecraft:netherite_scrap"
     },
     {
+      "value": "minecraft:quartz_slab"
+    },
+    {
       "value": "minecraft:crimson_sign"
     },
     {
@@ -2144,6 +2309,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:crimson_door"
+    },
+    {
+      "value": "minecraft:acacia_leaves"
     },
     {
       "value": "minecraft:horn_coral"
@@ -2164,22 +2332,13 @@ const data: Enum = {
       "value": "minecraft:cobbled_deepslate_slab"
     },
     {
+      "value": "minecraft:scrape_pottery_sherd"
+    },
+    {
       "value": "minecraft:polished_deepslate_slab"
     },
     {
       "value": "minecraft:deepslate_tile_slab"
-    },
-    {
-      "value": "minecraft:mangrove_boat"
-    },
-    {
-      "value": "minecraft:hard_glass"
-    },
-    {
-      "value": "minecraft:spyglass"
-    },
-    {
-      "value": "minecraft:deepslate_brick_slab"
     },
     {
       "value": "minecraft:cobbled_deepslate_wall"
@@ -2219,12 +2378,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:allay_spawn_egg"
-    },
-    {
-      "value": "minecraft:stripped_warped_hyphae"
-    },
-    {
-      "value": "minecraft:mangrove_sign"
     },
     {
       "value": "minecraft:mangrove_slab"
@@ -2278,16 +2431,16 @@ const data: Enum = {
       "value": "minecraft:dark_oak_chest_boat"
     },
     {
-      "value": "minecraft:mangrove_chest_boat"
-    },
-    {
       "value": "minecraft:info_update"
     },
     {
-      "value": "minecraft:recovery_compass"
+      "value": "minecraft:mangrove_chest_boat"
     },
     {
       "value": "minecraft:sculk_shrieker"
+    },
+    {
+      "value": "minecraft:recovery_compass"
     },
     {
       "value": "minecraft:tripwire_hook"
@@ -2395,13 +2548,16 @@ const data: Enum = {
       "value": "minecraft:blade_pottery_sherd"
     },
     {
-      "value": "minecraft:gray_candle_cake"
-    },
-    {
       "value": "minecraft:danger_pottery_sherd"
     },
     {
+      "value": "minecraft:flow_pottery_sherd"
+    },
+    {
       "value": "minecraft:friend_pottery_sherd"
+    },
+    {
+      "value": "minecraft:guster_pottery_sherd"
     },
     {
       "value": "minecraft:pink_shulker_box"
@@ -2411,6 +2567,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:sheaf_pottery_sherd"
+    },
+    {
+      "value": "minecraft:fire_coral_block"
     },
     {
       "value": "minecraft:ladder"
@@ -2428,13 +2587,13 @@ const data: Enum = {
       "value": "minecraft:ward_armor_trim_smithing_template"
     },
     {
-      "value": "minecraft:tide_armor_trim_smithing_template"
+      "value": "minecraft:red_stained_glass_pane"
     },
     {
       "value": "minecraft:bamboo_block"
     },
     {
-      "value": "minecraft:red_stained_glass_pane"
+      "value": "minecraft:tide_armor_trim_smithing_template"
     },
     {
       "value": "minecraft:wayfinder_armor_trim_smithing_template"
@@ -2479,6 +2638,9 @@ const data: Enum = {
       "value": "minecraft:lime_terracotta"
     },
     {
+      "value": "minecraft:gray_terracotta"
+    },
+    {
       "value": "minecraft:cyan_terracotta"
     },
     {
@@ -2486,9 +2648,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:green_terracotta"
-    },
-    {
-      "value": "minecraft:waxed_copper_trapdoor"
     },
     {
       "value": "minecraft:red_terracotta"
@@ -2506,6 +2665,15 @@ const data: Enum = {
       "value": "minecraft:stained_hardened_clay"
     },
     {
+      "value": "minecraft:armadillo_scute"
+    },
+    {
+      "value": "minecraft:armadillo_spawn_egg"
+    },
+    {
+      "value": "minecraft:wolf_armor"
+    },
+    {
       "value": "minecraft:deepslate_coal_ore"
     },
     {
@@ -2515,13 +2683,19 @@ const data: Enum = {
       "value": "minecraft:element_9"
     },
     {
+      "value": "minecraft:waxed_oxidized_cut_copper"
+    },
+    {
       "value": "minecraft:polished_tuff_slab"
     },
     {
       "value": "minecraft:light_blue_wool"
     },
     {
-      "value": "minecraft:waxed_oxidized_cut_copper"
+      "value": "minecraft:oxidized_chiseled_copper"
+    },
+    {
+      "value": "minecraft:birch_planks"
     },
     {
       "value": "minecraft:tuff_brick_slab"
@@ -2557,19 +2731,16 @@ const data: Enum = {
       "value": "minecraft:acacia_log"
     },
     {
-      "value": "minecraft:white_wool"
+      "value": "minecraft:nether_brick_stairs"
     },
     {
-      "value": "minecraft:nether_brick_stairs"
+      "value": "minecraft:white_wool"
     },
     {
       "value": "minecraft:magenta_wool"
     },
     {
       "value": "minecraft:yellow_wool"
-    },
-    {
-      "value": "minecraft:chiseled_bookshelf"
     },
     {
       "value": "minecraft:lime_wool"
@@ -2579,12 +2750,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:cyan_wool"
-    },
-    {
-      "value": "minecraft:boat"
-    },
-    {
-      "value": "minecraft:purple_wool"
     },
     {
       "value": "minecraft:blue_wool"
@@ -2635,6 +2800,9 @@ const data: Enum = {
       "value": "minecraft:light_blue_carpet"
     },
     {
+      "value": "minecraft:hard_black_stained_glass"
+    },
+    {
       "value": "minecraft:gray_carpet"
     },
     {
@@ -2665,6 +2833,9 @@ const data: Enum = {
       "value": "minecraft:birch_fence"
     },
     {
+      "value": "minecraft:hard_orange_stained_glass_pane"
+    },
+    {
       "value": "minecraft:structure_block"
     },
     {
@@ -2689,22 +2860,43 @@ const data: Enum = {
       "value": "minecraft:stonebrick"
     },
     {
-      "value": "minecraft:lit_blast_furnace"
+      "value": "minecraft:tall_grass"
     },
     {
-      "value": "minecraft:coral_block"
+      "value": "minecraft:brain_coral_block"
+    },
+    {
+      "value": "minecraft:bubble_coral_block"
+    },
+    {
+      "value": "minecraft:horn_coral_block"
+    },
+    {
+      "value": "minecraft:dead_tube_coral_block"
+    },
+    {
+      "value": "minecraft:green_candle"
+    },
+    {
+      "value": "minecraft:dead_bubble_coral_block"
+    },
+    {
+      "value": "minecraft:dead_fire_coral_block"
+    },
+    {
+      "value": "minecraft:suspicious_sand"
+    },
+    {
+      "value": "minecraft:dead_horn_coral_block"
+    },
+    {
+      "value": "minecraft:lit_blast_furnace"
     },
     {
       "value": "minecraft:bamboo_stairs"
     },
     {
-      "value": "minecraft:stone_block_slab"
-    },
-    {
-      "value": "minecraft:leaves"
-    },
-    {
-      "value": "minecraft:glowingobsidian"
+      "value": "minecraft:coral_block"
     },
     {
       "value": "minecraft:stone_block_slab2"
@@ -2713,19 +2905,16 @@ const data: Enum = {
       "value": "minecraft:leaves2"
     },
     {
-      "value": "minecraft:birch_standing_sign"
-    },
-    {
       "value": "minecraft:chiseled_polished_blackstone"
     },
     {
       "value": "minecraft:stone_block_slab3"
     },
     {
-      "value": "minecraft:double_stone_block_slab2"
+      "value": "minecraft:normal_stone_stairs"
     },
     {
-      "value": "minecraft:normal_stone_stairs"
+      "value": "minecraft:double_stone_block_slab2"
     },
     {
       "value": "minecraft:waxed_oxidized_copper_grate"
@@ -2737,6 +2926,18 @@ const data: Enum = {
       "value": "minecraft:double_stone_block_slab4"
     },
     {
+      "value": "minecraft:sweet_berry_bush"
+    },
+    {
+      "value": "minecraft:tube_coral_fan"
+    },
+    {
+      "value": "minecraft:bubble_coral_fan"
+    },
+    {
+      "value": "minecraft:horn_coral_fan"
+    },
+    {
       "value": "minecraft:tinted_glass"
     },
     {
@@ -2746,40 +2947,97 @@ const data: Enum = {
       "value": "minecraft:coral_fan"
     },
     {
+      "value": "minecraft:dead_brain_coral_fan"
+    },
+    {
+      "value": "minecraft:dead_bubble_coral_fan"
+    },
+    {
+      "value": "minecraft:dead_horn_coral_fan"
+    },
+    {
+      "value": "minecraft:brick_slab"
+    },
+    {
+      "value": "minecraft:lily_of_the_valley"
+    },
+    {
       "value": "minecraft:polished_blackstone_button"
     },
     {
       "value": "minecraft:sea_pickle"
     },
     {
-      "value": "minecraft:polished_blackstone_double_slab"
+      "value": "minecraft:oak_sapling"
+    },
+    {
+      "value": "minecraft:acacia_sapling"
+    },
+    {
+      "value": "minecraft:dark_oak_sapling"
     },
     {
       "value": "minecraft:sapling"
     },
     {
-      "value": "minecraft:target"
+      "value": "minecraft:oak_leaves"
     },
     {
-      "value": "minecraft:blackstone_double_slab"
+      "value": "minecraft:spruce_leaves"
+    },
+    {
+      "value": "minecraft:jungle_leaves"
+    },
+    {
+      "value": "minecraft:leaves"
+    },
+    {
+      "value": "minecraft:stone_block_slab"
+    },
+    {
+      "value": "minecraft:dark_oak_leaves"
     },
     {
       "value": "minecraft:azalea_leaves"
     },
     {
-      "value": "minecraft:azalea_leaves_flowered"
-    },
-    {
       "value": "minecraft:soul_fire"
     },
     {
+      "value": "minecraft:azalea_leaves_flowered"
+    },
+    {
       "value": "minecraft:sandstone"
+    },
+    {
+      "value": "minecraft:hard_light_gray_stained_glass_pane"
     },
     {
       "value": "minecraft:spruce_button"
     },
     {
       "value": "minecraft:red_sandstone"
+    },
+    {
+      "value": "minecraft:jungle_slab"
+    },
+    {
+      "value": "minecraft:acacia_slab"
+    },
+    {
+      "value": "minecraft:redstone_lamp"
+    },
+    {
+      "value": "minecraft:dark_oak_slab"
+    },
+    {
+      "value": "minecraft:sandstone_slab"
+    },
+    {
+      "value": "minecraft:cobblestone_slab"
+    },
+    {
+      "value": "minecraft:nether_brick_slab"
     },
     {
       "value": "minecraft:nether_wart_block"
@@ -2794,7 +3052,37 @@ const data: Enum = {
       "value": "minecraft:warped_roots"
     },
     {
+      "value": "minecraft:poppy"
+    },
+    {
+      "value": "minecraft:allium"
+    },
+    {
+      "value": "minecraft:cornflower"
+    },
+    {
+      "value": "minecraft:lime_concrete"
+    },
+    {
+      "value": "minecraft:large_fern"
+    },
+    {
       "value": "minecraft:red_flower"
+    },
+    {
+      "value": "minecraft:hard_pink_stained_glass_pane"
+    },
+    {
+      "value": "minecraft:sunflower"
+    },
+    {
+      "value": "minecraft:exposed_cut_copper"
+    },
+    {
+      "value": "minecraft:lilac"
+    },
+    {
+      "value": "minecraft:peony"
     },
     {
       "value": "minecraft:daylight_detector"
@@ -2803,19 +3091,34 @@ const data: Enum = {
       "value": "minecraft:snow_layer"
     },
     {
-      "value": "minecraft:blue_candle_cake"
+      "value": "minecraft:red_nether_brick_stairs"
     },
     {
-      "value": "minecraft:magma"
+      "value": "minecraft:jungle_planks"
     },
     {
-      "value": "minecraft:element_22"
+      "value": "minecraft:gray_stained_glass"
+    },
+    {
+      "value": "minecraft:light_gray_shulker_box"
+    },
+    {
+      "value": "minecraft:light_blue_concrete_powder"
+    },
+    {
+      "value": "minecraft:acacia_planks"
+    },
+    {
+      "value": "minecraft:dark_oak_planks"
     },
     {
       "value": "minecraft:quartz_block"
     },
     {
       "value": "minecraft:tube_coral"
+    },
+    {
+      "value": "minecraft:hard_black_stained_glass_pane"
     },
     {
       "value": "minecraft:bubble_coral"
@@ -2836,16 +3139,25 @@ const data: Enum = {
       "value": "minecraft:dead_brain_coral"
     },
     {
-      "value": "minecraft:dead_bubble_coral"
+      "value": "minecraft:small_amethyst_bud"
     },
     {
-      "value": "minecraft:small_amethyst_bud"
+      "value": "minecraft:dead_bubble_coral"
     },
     {
       "value": "minecraft:dead_fire_coral"
     },
     {
       "value": "minecraft:purple_stained_glass_pane"
+    },
+    {
+      "value": "minecraft:element_6"
+    },
+    {
+      "value": "minecraft:waxed_cut_copper_stairs"
+    },
+    {
+      "value": "minecraft:fern"
     },
     {
       "value": "minecraft:soul_soil"
@@ -2855,9 +3167,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:tallgrass"
-    },
-    {
-      "value": "minecraft:waxed_weathered_copper"
     },
     {
       "value": "minecraft:brown_mushroom_block"
@@ -2872,13 +3181,13 @@ const data: Enum = {
       "value": "minecraft:log2"
     },
     {
-      "value": "minecraft:end_portal_frame"
+      "value": "minecraft:element_92"
     },
     {
       "value": "minecraft:warped_fungus"
     },
     {
-      "value": "minecraft:element_92"
+      "value": "minecraft:end_portal_frame"
     },
     {
       "value": "minecraft:anvil"
@@ -2888,9 +3197,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:prismarine"
-    },
-    {
-      "value": "minecraft:lime_concrete"
     },
     {
       "value": "minecraft:gray_concrete"
@@ -2920,25 +3226,10 @@ const data: Enum = {
       "value": "minecraft:red_concrete"
     },
     {
+      "value": "minecraft:jungle_wood"
+    },
+    {
       "value": "minecraft:black_concrete"
-    },
-    {
-      "value": "minecraft:jungle_planks"
-    },
-    {
-      "value": "minecraft:red_nether_brick_stairs"
-    },
-    {
-      "value": "minecraft:gray_stained_glass"
-    },
-    {
-      "value": "minecraft:light_gray_shulker_box"
-    },
-    {
-      "value": "minecraft:light_blue_concrete_powder"
-    },
-    {
-      "value": "minecraft:grass"
     },
     {
       "value": "minecraft:yellow_concrete_powder"
@@ -2983,16 +3274,13 @@ const data: Enum = {
       "value": "minecraft:magenta_stained_glass"
     },
     {
+      "value": "minecraft:stripped_jungle_wood"
+    },
+    {
       "value": "minecraft:element_64"
     },
     {
       "value": "minecraft:yellow_stained_glass"
-    },
-    {
-      "value": "minecraft:lime_stained_glass"
-    },
-    {
-      "value": "minecraft:mud_brick_double_slab"
     },
     {
       "value": "minecraft:item.hopper"
@@ -3001,7 +3289,19 @@ const data: Enum = {
       "value": "minecraft:wood"
     },
     {
+      "value": "minecraft:hard_magenta_stained_glass"
+    },
+    {
+      "value": "minecraft:mud_brick_double_slab"
+    },
+    {
+      "value": "minecraft:lime_stained_glass"
+    },
+    {
       "value": "minecraft:crimson_double_slab"
+    },
+    {
+      "value": "minecraft:hard_purple_stained_glass"
     },
     {
       "value": "minecraft:pink_stained_glass"
@@ -3037,10 +3337,13 @@ const data: Enum = {
       "value": "minecraft:light_block"
     },
     {
+      "value": "minecraft:end_crystal"
+    },
+    {
       "value": "minecraft:light_blue_stained_glass_pane"
     },
     {
-      "value": "minecraft:end_crystal"
+      "value": "minecraft:hard_purple_stained_glass_pane"
     },
     {
       "value": "minecraft:pink_stained_glass_pane"
@@ -3059,6 +3362,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:light_blue_shulker_box"
+    },
+    {
+      "value": "minecraft:hard_green_stained_glass_pane"
     },
     {
       "value": "minecraft:yellow_shulker_box"
@@ -3103,13 +3409,10 @@ const data: Enum = {
       "value": "minecraft:bamboo"
     },
     {
-      "value": "minecraft:scaffolding"
-    },
-    {
       "value": "minecraft:observer"
     },
     {
-      "value": "minecraft:cyan_candle_cake"
+      "value": "minecraft:scaffolding"
     },
     {
       "value": "minecraft:grindstone"
@@ -3118,10 +3421,73 @@ const data: Enum = {
       "value": "minecraft:bell"
     },
     {
+      "value": "minecraft:oak_wood"
+    },
+    {
+      "value": "minecraft:stripped_oak_wood"
+    },
+    {
+      "value": "minecraft:birch_wood"
+    },
+    {
+      "value": "minecraft:stripped_birch_wood"
+    },
+    {
+      "value": "minecraft:dark_oak_wood"
+    },
+    {
+      "value": "minecraft:stripped_dark_oak_wood"
+    },
+    {
+      "value": "minecraft:music_disc_creator"
+    },
+    {
+      "value": "minecraft:music_disc_precipice"
+    },
+    {
+      "value": "minecraft:hard_white_stained_glass"
+    },
+    {
+      "value": "minecraft:packed_ice"
+    },
+    {
+      "value": "minecraft:hard_orange_stained_glass"
+    },
+    {
+      "value": "minecraft:cobbled_deepslate"
+    },
+    {
+      "value": "minecraft:hard_light_blue_stained_glass"
+    },
+    {
+      "value": "minecraft:hard_yellow_stained_glass"
+    },
+    {
+      "value": "minecraft:hard_lime_stained_glass"
+    },
+    {
+      "value": "minecraft:hard_gray_stained_glass"
+    },
+    {
+      "value": "minecraft:hard_light_gray_stained_glass"
+    },
+    {
+      "value": "minecraft:red_candle"
+    },
+    {
+      "value": "minecraft:hard_green_stained_glass"
+    },
+    {
       "value": "minecraft:hard_stained_glass"
     },
     {
       "value": "minecraft:element_84"
+    },
+    {
+      "value": "minecraft:hard_yellow_stained_glass_pane"
+    },
+    {
+      "value": "minecraft:hard_blue_stained_glass_pane"
     },
     {
       "value": "minecraft:hard_stained_glass_pane"
@@ -3151,28 +3517,13 @@ const data: Enum = {
       "value": "minecraft:purple_candle"
     },
     {
-      "value": "minecraft:green_candle"
-    },
-    {
-      "value": "minecraft:red_candle"
-    },
-    {
       "value": "minecraft:polished_deepslate_wall"
     },
     {
       "value": "minecraft:black_candle"
     },
     {
-      "value": "minecraft:element_4"
-    },
-    {
       "value": "minecraft:element_5"
-    },
-    {
-      "value": "minecraft:waxed_cut_copper_stairs"
-    },
-    {
-      "value": "minecraft:element_6"
     },
     {
       "value": "minecraft:element_8"
@@ -3271,9 +3622,6 @@ const data: Enum = {
       "value": "minecraft:element_67"
     },
     {
-      "value": "minecraft:element_68"
-    },
-    {
       "value": "minecraft:element_70"
     },
     {
@@ -3283,19 +3631,16 @@ const data: Enum = {
       "value": "minecraft:element_72"
     },
     {
-      "value": "minecraft:dark_oak_button"
-    },
-    {
       "value": "minecraft:element_77"
     },
     {
       "value": "minecraft:crafter"
     },
     {
-      "value": "minecraft:element_79"
+      "value": "minecraft:redstone_torch"
     },
     {
-      "value": "minecraft:redstone_torch"
+      "value": "minecraft:element_79"
     },
     {
       "value": "minecraft:element_81"
@@ -3379,22 +3724,28 @@ const data: Enum = {
       "value": "minecraft:crying_obsidian"
     },
     {
+      "value": "minecraft:dye"
+    },
+    {
       "value": "minecraft:banner_pattern"
     },
     {
-      "value": "minecraft:smooth_basalt"
+      "value": "minecraft:spawn_egg"
     },
     {
       "value": "minecraft:glow_berries"
     },
     {
-      "value": "minecraft:item.glow_frame"
+      "value": "minecraft:birch_standing_sign"
     },
     {
       "value": "minecraft:polished_basalt"
     },
     {
       "value": "minecraft:nether_gold_ore"
+    },
+    {
+      "value": "minecraft:item.warped_door"
     },
     {
       "value": "minecraft:mangrove_trapdoor"
@@ -3406,13 +3757,22 @@ const data: Enum = {
       "value": "minecraft:waxed_oxidized_chiseled_copper"
     },
     {
+      "value": "minecraft:dark_oak_button"
+    },
+    {
       "value": "minecraft:deepslate_copper_ore"
     },
     {
-      "value": "minecraft:tuff_brick_wall"
+      "value": "minecraft:target"
+    },
+    {
+      "value": "minecraft:blackstone_double_slab"
     },
     {
       "value": "minecraft:jungle_button"
+    },
+    {
+      "value": "minecraft:gray_candle_cake"
     },
     {
       "value": "minecraft:cherry_pressure_plate"
@@ -3424,6 +3784,9 @@ const data: Enum = {
       "value": "minecraft:cobbled_deepslate_stairs"
     },
     {
+      "value": "minecraft:item.glow_frame"
+    },
+    {
       "value": "minecraft:hanging_roots"
     },
     {
@@ -3433,7 +3796,10 @@ const data: Enum = {
       "value": "minecraft:stripped_dark_oak_log"
     },
     {
-      "value": "minecraft:redstone_lamp"
+      "value": "minecraft:lime_glazed_terracotta"
+    },
+    {
+      "value": "minecraft:trapdoor"
     },
     {
       "value": "minecraft:bamboo_planks"
@@ -3448,22 +3814,19 @@ const data: Enum = {
       "value": "minecraft:warped_standing_sign"
     },
     {
-      "value": "minecraft:pitcher_crop"
+      "value": "minecraft:polished_blackstone_brick_wall"
     },
     {
-      "value": "minecraft:polished_blackstone_brick_wall"
+      "value": "minecraft:pitcher_crop"
     },
     {
       "value": "minecraft:warped_pressure_plate"
     },
     {
-      "value": "minecraft:warped_wall_sign"
-    },
-    {
       "value": "minecraft:oak_stairs"
     },
     {
-      "value": "minecraft:packed_ice"
+      "value": "minecraft:end_bricks"
     },
     {
       "value": "minecraft:smooth_sandstone_stairs"
@@ -3475,13 +3838,22 @@ const data: Enum = {
       "value": "minecraft:light_blue_candle_cake"
     },
     {
+      "value": "minecraft:moss_carpet"
+    },
+    {
       "value": "minecraft:amethyst_block"
     },
     {
       "value": "minecraft:gold_block"
     },
     {
+      "value": "minecraft:chiseled_bookshelf"
+    },
+    {
       "value": "minecraft:weathered_chiseled_copper"
+    },
+    {
+      "value": "minecraft:iron_trapdoor"
     },
     {
       "value": "minecraft:waxed_weathered_chiseled_copper"
@@ -3500,6 +3872,21 @@ const data: Enum = {
     },
     {
       "value": "minecraft:deepslate_tile_double_slab"
+    },
+    {
+      "value": "minecraft:torchflower"
+    },
+    {
+      "value": "minecraft:copper_grate"
+    },
+    {
+      "value": "minecraft:powered_comparator"
+    },
+    {
+      "value": "minecraft:warped_wall_sign"
+    },
+    {
+      "value": "minecraft:mangrove_double_slab"
     },
     {
       "value": "minecraft:waxed_exposed_copper_grate"
@@ -3523,10 +3910,28 @@ const data: Enum = {
       "value": "minecraft:hardened_clay"
     },
     {
+      "value": "minecraft:stripped_jungle_log"
+    },
+    {
+      "value": "minecraft:polished_blackstone_double_slab"
+    },
+    {
       "value": "minecraft:hard_glass_pane"
     },
     {
+      "value": "minecraft:tuff_brick_wall"
+    },
+    {
+      "value": "minecraft:polished_blackstone_brick_double_slab"
+    },
+    {
       "value": "minecraft:waxed_exposed_copper"
+    },
+    {
+      "value": "minecraft:waxed_weathered_copper"
+    },
+    {
+      "value": "minecraft:cyan_candle_cake"
     },
     {
       "value": "minecraft:polished_tuff_wall"
@@ -3539,6 +3944,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:mud_brick_wall"
+    },
+    {
+      "value": "minecraft:honey_block"
     },
     {
       "value": "minecraft:dripstone_block"
@@ -3556,6 +3964,9 @@ const data: Enum = {
       "value": "minecraft:warped_planks"
     },
     {
+      "value": "minecraft:cherry_fence"
+    },
+    {
       "value": "minecraft:golden_rail"
     },
     {
@@ -3568,10 +3979,10 @@ const data: Enum = {
       "value": "minecraft:orange_glazed_terracotta"
     },
     {
-      "value": "minecraft:emerald_block"
+      "value": "minecraft:smooth_basalt"
     },
     {
-      "value": "minecraft:suspicious_sand"
+      "value": "minecraft:emerald_block"
     },
     {
       "value": "minecraft:heavy_weighted_pressure_plate"
@@ -3586,6 +3997,12 @@ const data: Enum = {
       "value": "minecraft:underwater_torch"
     },
     {
+      "value": "minecraft:wall_banner"
+    },
+    {
+      "value": "minecraft:spruce_double_slab"
+    },
+    {
       "value": "minecraft:ochre_froglight"
     },
     {
@@ -3595,7 +4012,16 @@ const data: Enum = {
       "value": "minecraft:tuff_wall"
     },
     {
+      "value": "minecraft:glowingobsidian"
+    },
+    {
+      "value": "minecraft:brown_mushroom"
+    },
+    {
       "value": "minecraft:brown_glazed_terracotta"
+    },
+    {
+      "value": "minecraft:waxed_copper_trapdoor"
     },
     {
       "value": "minecraft:moving_block"
@@ -3605,9 +4031,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:copper_ore"
-    },
-    {
-      "value": "minecraft:dark_oak_planks"
     },
     {
       "value": "minecraft:birch_pressure_plate"
@@ -3632,6 +4055,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:sculk_catalyst"
+    },
+    {
+      "value": "minecraft:oak_double_slab"
     },
     {
       "value": "minecraft:brown_candle_cake"
@@ -3793,9 +4219,6 @@ const data: Enum = {
       "value": "minecraft:crimson_button"
     },
     {
-      "value": "minecraft:acacia_planks"
-    },
-    {
       "value": "minecraft:honeycomb_block"
     },
     {
@@ -3916,6 +4339,9 @@ const data: Enum = {
       "value": "minecraft:dark_oak_stairs"
     },
     {
+      "value": "minecraft:birch_double_slab"
+    },
+    {
       "value": "minecraft:glass_pane"
     },
     {
@@ -3923,12 +4349,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:bamboo_trapdoor"
-    },
-    {
-      "value": "minecraft:birch_planks"
-    },
-    {
-      "value": "minecraft:oxidized_chiseled_copper"
     },
     {
       "value": "minecraft:mangrove_wall_sign"
@@ -3997,7 +4417,7 @@ const data: Enum = {
       "value": "minecraft:glow_lichen"
     },
     {
-      "value": "minecraft:wall_banner"
+      "value": "minecraft:acacia_double_slab"
     },
     {
       "value": "minecraft:soul_lantern"
@@ -4027,9 +4447,6 @@ const data: Enum = {
       "value": "minecraft:cherry_standing_sign"
     },
     {
-      "value": "minecraft:double_wooden_slab"
-    },
-    {
       "value": "minecraft:item.chain"
     },
     {
@@ -4054,22 +4471,25 @@ const data: Enum = {
       "value": "minecraft:warped_hyphae"
     },
     {
-      "value": "minecraft:carrots"
-    },
-    {
       "value": "minecraft:tuff_stairs"
     },
     {
-      "value": "minecraft:big_dripleaf"
+      "value": "minecraft:grass_block"
     },
     {
-      "value": "minecraft:sweet_berry_bush"
+      "value": "minecraft:big_dripleaf"
     },
     {
       "value": "minecraft:item.reeds"
     },
     {
       "value": "minecraft:deepslate_gold_ore"
+    },
+    {
+      "value": "minecraft:item.camera"
+    },
+    {
+      "value": "minecraft:vault"
     },
     {
       "value": "minecraft:beehive"
@@ -4082,9 +4502,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:wither_rose"
-    },
-    {
-      "value": "minecraft:exposed_cut_copper"
     },
     {
       "value": "minecraft:waxed_weathered_cut_copper_stairs"
@@ -4159,9 +4576,6 @@ const data: Enum = {
       "value": "minecraft:oxidized_copper_grate"
     },
     {
-      "value": "minecraft:cobbled_deepslate"
-    },
-    {
       "value": "minecraft:ice"
     },
     {
@@ -4202,6 +4616,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:sniffer_egg"
+    },
+    {
+      "value": "minecraft:jungle_double_slab"
     },
     {
       "value": "minecraft:purple_glazed_terracotta"
@@ -4262,9 +4679,6 @@ const data: Enum = {
     },
     {
       "value": "minecraft:deepslate_iron_ore"
-    },
-    {
-      "value": "minecraft:item.camera"
     },
     {
       "value": "minecraft:waxed_cut_copper"
@@ -4339,9 +4753,6 @@ const data: Enum = {
       "value": "minecraft:tuff_double_slab"
     },
     {
-      "value": "minecraft:spruce_planks"
-    },
-    {
       "value": "minecraft:furnace"
     },
     {
@@ -4369,6 +4780,9 @@ const data: Enum = {
       "value": "minecraft:lime_candle_cake"
     },
     {
+      "value": "minecraft:trial_spawner"
+    },
+    {
       "value": "minecraft:grass_path"
     },
     {
@@ -4394,6 +4808,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:gravel"
+    },
+    {
+      "value": "editor:map_marker_spawn_egg"
     }
   ]
 };

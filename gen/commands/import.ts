@@ -149,12 +149,16 @@ function generateEnum(
     name: enumName,
     documentation: "Command enum: " + enumName,
     values: enumValues,
+  };
+
+  switch (enumName) {
+    case "DELETE":
+    case "delete":
+      enumName = "deleteOperation";
+      break;
   }
-  
-  if (enumName === "delete") {
-    enumName = "deleteOperation";
-    p.name = enumName;
-  }
+
+  p.name = enumName;
 
   builder.enums[enumName.toLowerCase()] = p;
 }
@@ -188,6 +192,7 @@ function discoverType(type: string, builder: Builder): ParameterType {
       return "block_states";
     case "COMPAREOPERATOR":
       return "operator:comparison";
+    case "CODEBUILDERARGS":
     case "EXECUTECHAINEDOPTION_0":
       return "command";
     case "GAMETESTNAME":

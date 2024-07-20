@@ -25,6 +25,9 @@ const data: Enum = {
       "value": "attacked"
     },
     {
+      "value": "be_sheared"
+    },
+    {
       "value": "become_angry"
     },
     {
@@ -199,6 +202,9 @@ const data: Enum = {
       "value": "minecraft:become_angry"
     },
     {
+      "value": "minecraft:become_armorable"
+    },
+    {
       "value": "minecraft:become_armorer"
     },
     {
@@ -355,7 +361,7 @@ const data: Enum = {
       "value": "minecraft:cat_gifted_owner"
     },
     {
-      "value": "minecraft:clear_add_bad_omen"
+      "value": "minecraft:clear_add_raid_omen"
     },
     {
       "value": "minecraft:command_block_activate"
@@ -454,7 +460,7 @@ const data: Enum = {
       "value": "minecraft:from_wandering_trader"
     },
     {
-      "value": "minecraft:gain_bad_omen"
+      "value": "minecraft:gain_raid_omen"
     },
     {
       "value": "minecraft:go_lay_egg"
@@ -476,6 +482,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:horse_unsaddled"
+    },
+    {
+      "value": "minecraft:increase_max_health"
     },
     {
       "value": "minecraft:join_caravan"
@@ -521,6 +530,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:mule_unsaddled"
+    },
+    {
+      "value": "minecraft:no_threat_detected"
     },
     {
       "value": "minecraft:on_anger"
@@ -625,6 +637,9 @@ const data: Enum = {
       "value": "minecraft:resupply_trades"
     },
     {
+      "value": "minecraft:roll_up"
+    },
+    {
       "value": "minecraft:schedule_bed_villager"
     },
     {
@@ -715,6 +730,48 @@ const data: Enum = {
       "value": "minecraft:spawn_skilled_adult"
     },
     {
+      "value": "minecraft:spawn_tame_adult"
+    },
+    {
+      "value": "minecraft:spawn_tame_baby"
+    },
+    {
+      "value": "minecraft:spawn_wild_adult"
+    },
+    {
+      "value": "minecraft:spawn_wild_ashen"
+    },
+    {
+      "value": "minecraft:spawn_wild_baby"
+    },
+    {
+      "value": "minecraft:spawn_wild_baby_or_adult"
+    },
+    {
+      "value": "minecraft:spawn_wild_black"
+    },
+    {
+      "value": "minecraft:spawn_wild_chestnut"
+    },
+    {
+      "value": "minecraft:spawn_wild_pale"
+    },
+    {
+      "value": "minecraft:spawn_wild_rusty"
+    },
+    {
+      "value": "minecraft:spawn_wild_snowy"
+    },
+    {
+      "value": "minecraft:spawn_wild_spotted"
+    },
+    {
+      "value": "minecraft:spawn_wild_striped"
+    },
+    {
+      "value": "minecraft:spawn_wild_woods"
+    },
+    {
       "value": "minecraft:spawn_with_pillager_captain_rider"
     },
     {
@@ -760,6 +817,12 @@ const data: Enum = {
       "value": "minecraft:start_land"
     },
     {
+      "value": "minecraft:start_peeking"
+    },
+    {
+      "value": "minecraft:start_playing_idle_ground_sound"
+    },
+    {
       "value": "minecraft:start_roar"
     },
     {
@@ -767,6 +830,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:start_transforming"
+    },
+    {
+      "value": "minecraft:start_unrolling"
     },
     {
       "value": "minecraft:stop_aggro"
@@ -779,6 +845,12 @@ const data: Enum = {
     },
     {
       "value": "minecraft:stop_johnny"
+    },
+    {
+      "value": "minecraft:stop_peeking"
+    },
+    {
+      "value": "minecraft:stop_playing_idle_ground_sound"
     },
     {
       "value": "minecraft:stop_sitting"
@@ -797,6 +869,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:target_too_close"
+    },
+    {
+      "value": "minecraft:threat_detected"
     },
     {
       "value": "minecraft:to_full_puff"
@@ -851,6 +926,9 @@ const data: Enum = {
     },
     {
       "value": "minecraft:turn_yellow"
+    },
+    {
+      "value": "minecraft:unroll"
     },
     {
       "value": "navigation_off_land"

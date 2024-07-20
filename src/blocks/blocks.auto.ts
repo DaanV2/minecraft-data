@@ -19,6 +19,12 @@ export const blockData: Record<string, Block> = {
     "upper_block_bit"
   ]
 },
+  "minecraft:acacia_double_slab": {
+  "name": "minecraft:acacia_double_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:acacia_fence": {
   "name": "minecraft:acacia_fence",
   "properties": []
@@ -40,6 +46,13 @@ export const blockData: Record<string, Block> = {
     "hanging"
   ]
 },
+  "minecraft:acacia_leaves": {
+  "name": "minecraft:acacia_leaves",
+  "properties": [
+    "persistent_bit",
+    "update_bit"
+  ]
+},
   "minecraft:acacia_log": {
   "name": "minecraft:acacia_log",
   "properties": [
@@ -54,6 +67,18 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:acacia_pressure_plate",
   "properties": [
     "redstone_signal"
+  ]
+},
+  "minecraft:acacia_sapling": {
+  "name": "minecraft:acacia_sapling",
+  "properties": [
+    "age_bit"
+  ]
+},
+  "minecraft:acacia_slab": {
+  "name": "minecraft:acacia_slab",
+  "properties": [
+    "minecraft:vertical_half"
   ]
 },
   "minecraft:acacia_stairs": {
@@ -83,6 +108,12 @@ export const blockData: Record<string, Block> = {
     "facing_direction"
   ]
 },
+  "minecraft:acacia_wood": {
+  "name": "minecraft:acacia_wood",
+  "properties": [
+    "pillar_axis"
+  ]
+},
   "minecraft:activator_rail": {
   "name": "minecraft:activator_rail",
   "properties": [
@@ -92,6 +123,10 @@ export const blockData: Record<string, Block> = {
 },
   "minecraft:air": {
   "name": "minecraft:air",
+  "properties": []
+},
+  "minecraft:allium": {
+  "name": "minecraft:allium",
   "properties": []
 },
   "minecraft:allow": {
@@ -147,6 +182,10 @@ export const blockData: Record<string, Block> = {
     "persistent_bit",
     "update_bit"
   ]
+},
+  "minecraft:azure_bluet": {
+  "name": "minecraft:azure_bluet",
+  "properties": []
 },
   "minecraft:bamboo": {
   "name": "minecraft:bamboo",
@@ -241,8 +280,7 @@ export const blockData: Record<string, Block> = {
   "minecraft:bamboo_sapling": {
   "name": "minecraft:bamboo_sapling",
   "properties": [
-    "age_bit",
-    "sapling_type"
+    "age_bit"
   ]
 },
   "minecraft:bamboo_slab": {
@@ -365,6 +403,12 @@ export const blockData: Record<string, Block> = {
     "upper_block_bit"
   ]
 },
+  "minecraft:birch_double_slab": {
+  "name": "minecraft:birch_double_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:birch_fence": {
   "name": "minecraft:birch_fence",
   "properties": []
@@ -386,6 +430,13 @@ export const blockData: Record<string, Block> = {
     "hanging"
   ]
 },
+  "minecraft:birch_leaves": {
+  "name": "minecraft:birch_leaves",
+  "properties": [
+    "persistent_bit",
+    "update_bit"
+  ]
+},
   "minecraft:birch_log": {
   "name": "minecraft:birch_log",
   "properties": [
@@ -400,6 +451,18 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:birch_pressure_plate",
   "properties": [
     "redstone_signal"
+  ]
+},
+  "minecraft:birch_sapling": {
+  "name": "minecraft:birch_sapling",
+  "properties": [
+    "age_bit"
+  ]
+},
+  "minecraft:birch_slab": {
+  "name": "minecraft:birch_slab",
+  "properties": [
+    "minecraft:vertical_half"
   ]
 },
   "minecraft:birch_stairs": {
@@ -427,6 +490,12 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:birch_wall_sign",
   "properties": [
     "facing_direction"
+  ]
+},
+  "minecraft:birch_wood": {
+  "name": "minecraft:birch_wood",
+  "properties": [
+    "pillar_axis"
   ]
 },
   "minecraft:black_candle": {
@@ -554,6 +623,10 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:blue_ice",
   "properties": []
 },
+  "minecraft:blue_orchid": {
+  "name": "minecraft:blue_orchid",
+  "properties": []
+},
   "minecraft:blue_shulker_box": {
   "name": "minecraft:blue_shulker_box",
   "properties": []
@@ -599,6 +672,16 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:brain_coral",
   "properties": []
 },
+  "minecraft:brain_coral_block": {
+  "name": "minecraft:brain_coral_block",
+  "properties": []
+},
+  "minecraft:brain_coral_fan": {
+  "name": "minecraft:brain_coral_fan",
+  "properties": [
+    "coral_fan_direction"
+  ]
+},
   "minecraft:brewing_stand": {
   "name": "minecraft:brewing_stand",
   "properties": [
@@ -610,6 +693,12 @@ export const blockData: Record<string, Block> = {
   "minecraft:brick_block": {
   "name": "minecraft:brick_block",
   "properties": []
+},
+  "minecraft:brick_slab": {
+  "name": "minecraft:brick_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
 },
   "minecraft:brick_stairs": {
   "name": "minecraft:brick_stairs",
@@ -688,6 +777,16 @@ export const blockData: Record<string, Block> = {
   "minecraft:bubble_coral": {
   "name": "minecraft:bubble_coral",
   "properties": []
+},
+  "minecraft:bubble_coral_block": {
+  "name": "minecraft:bubble_coral_block",
+  "properties": []
+},
+  "minecraft:bubble_coral_fan": {
+  "name": "minecraft:bubble_coral_fan",
+  "properties": [
+    "coral_fan_direction"
+  ]
 },
   "minecraft:budding_amethyst": {
   "name": "minecraft:budding_amethyst",
@@ -1017,6 +1116,12 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:cobblestone",
   "properties": []
 },
+  "minecraft:cobblestone_slab": {
+  "name": "minecraft:cobblestone_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:cobblestone_wall": {
   "name": "minecraft:cobblestone_wall",
   "properties": [
@@ -1102,27 +1207,6 @@ export const blockData: Record<string, Block> = {
     "upside_down_bit"
   ]
 },
-  "minecraft:coral_block": {
-  "name": "minecraft:coral_block",
-  "properties": [
-    "coral_color",
-    "dead_bit"
-  ]
-},
-  "minecraft:coral_fan": {
-  "name": "minecraft:coral_fan",
-  "properties": [
-    "coral_color",
-    "coral_fan_direction"
-  ]
-},
-  "minecraft:coral_fan_dead": {
-  "name": "minecraft:coral_fan_dead",
-  "properties": [
-    "coral_color",
-    "coral_fan_direction"
-  ]
-},
   "minecraft:coral_fan_hang": {
   "name": "minecraft:coral_fan_hang",
   "properties": [
@@ -1146,6 +1230,10 @@ export const blockData: Record<string, Block> = {
     "coral_hang_type_bit",
     "dead_bit"
   ]
+},
+  "minecraft:cornflower": {
+  "name": "minecraft:cornflower",
+  "properties": []
 },
   "minecraft:cracked_deepslate_bricks": {
   "name": "minecraft:cracked_deepslate_bricks",
@@ -1373,6 +1461,12 @@ export const blockData: Record<string, Block> = {
     "upper_block_bit"
   ]
 },
+  "minecraft:dark_oak_double_slab": {
+  "name": "minecraft:dark_oak_double_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:dark_oak_fence": {
   "name": "minecraft:dark_oak_fence",
   "properties": []
@@ -1394,6 +1488,13 @@ export const blockData: Record<string, Block> = {
     "hanging"
   ]
 },
+  "minecraft:dark_oak_leaves": {
+  "name": "minecraft:dark_oak_leaves",
+  "properties": [
+    "persistent_bit",
+    "update_bit"
+  ]
+},
   "minecraft:dark_oak_log": {
   "name": "minecraft:dark_oak_log",
   "properties": [
@@ -1410,6 +1511,18 @@ export const blockData: Record<string, Block> = {
     "redstone_signal"
   ]
 },
+  "minecraft:dark_oak_sapling": {
+  "name": "minecraft:dark_oak_sapling",
+  "properties": [
+    "age_bit"
+  ]
+},
+  "minecraft:dark_oak_slab": {
+  "name": "minecraft:dark_oak_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:dark_oak_stairs": {
   "name": "minecraft:dark_oak_stairs",
   "properties": [
@@ -1423,6 +1536,12 @@ export const blockData: Record<string, Block> = {
     "direction",
     "open_bit",
     "upside_down_bit"
+  ]
+},
+  "minecraft:dark_oak_wood": {
+  "name": "minecraft:dark_oak_wood",
+  "properties": [
+    "pillar_axis"
   ]
 },
   "minecraft:dark_prismarine_stairs": {
@@ -1460,21 +1579,71 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:dead_brain_coral",
   "properties": []
 },
+  "minecraft:dead_brain_coral_block": {
+  "name": "minecraft:dead_brain_coral_block",
+  "properties": []
+},
+  "minecraft:dead_brain_coral_fan": {
+  "name": "minecraft:dead_brain_coral_fan",
+  "properties": [
+    "coral_fan_direction"
+  ]
+},
   "minecraft:dead_bubble_coral": {
   "name": "minecraft:dead_bubble_coral",
   "properties": []
+},
+  "minecraft:dead_bubble_coral_block": {
+  "name": "minecraft:dead_bubble_coral_block",
+  "properties": []
+},
+  "minecraft:dead_bubble_coral_fan": {
+  "name": "minecraft:dead_bubble_coral_fan",
+  "properties": [
+    "coral_fan_direction"
+  ]
 },
   "minecraft:dead_fire_coral": {
   "name": "minecraft:dead_fire_coral",
   "properties": []
 },
+  "minecraft:dead_fire_coral_block": {
+  "name": "minecraft:dead_fire_coral_block",
+  "properties": []
+},
+  "minecraft:dead_fire_coral_fan": {
+  "name": "minecraft:dead_fire_coral_fan",
+  "properties": [
+    "coral_fan_direction"
+  ]
+},
   "minecraft:dead_horn_coral": {
   "name": "minecraft:dead_horn_coral",
   "properties": []
 },
+  "minecraft:dead_horn_coral_block": {
+  "name": "minecraft:dead_horn_coral_block",
+  "properties": []
+},
+  "minecraft:dead_horn_coral_fan": {
+  "name": "minecraft:dead_horn_coral_fan",
+  "properties": [
+    "coral_fan_direction"
+  ]
+},
   "minecraft:dead_tube_coral": {
   "name": "minecraft:dead_tube_coral",
   "properties": []
+},
+  "minecraft:dead_tube_coral_block": {
+  "name": "minecraft:dead_tube_coral_block",
+  "properties": []
+},
+  "minecraft:dead_tube_coral_fan": {
+  "name": "minecraft:dead_tube_coral_fan",
+  "properties": [
+    "coral_fan_direction"
+  ]
 },
   "minecraft:deadbush": {
   "name": "minecraft:deadbush",
@@ -1643,13 +1812,6 @@ export const blockData: Record<string, Block> = {
     "minecraft:vertical_half"
   ]
 },
-  "minecraft:double_plant": {
-  "name": "minecraft:double_plant",
-  "properties": [
-    "double_plant_type",
-    "upper_block_bit"
-  ]
-},
   "minecraft:double_stone_block_slab": {
   "name": "minecraft:double_stone_block_slab",
   "properties": [
@@ -1676,13 +1838,6 @@ export const blockData: Record<string, Block> = {
   "properties": [
     "minecraft:vertical_half",
     "stone_slab_type_4"
-  ]
-},
-  "minecraft:double_wooden_slab": {
-  "name": "minecraft:double_wooden_slab",
-  "properties": [
-    "minecraft:vertical_half",
-    "wood_type"
   ]
 },
   "minecraft:dragon_egg": {
@@ -2307,6 +2462,10 @@ export const blockData: Record<string, Block> = {
     "open_bit"
   ]
 },
+  "minecraft:fern": {
+  "name": "minecraft:fern",
+  "properties": []
+},
   "minecraft:fire": {
   "name": "minecraft:fire",
   "properties": [
@@ -2316,6 +2475,16 @@ export const blockData: Record<string, Block> = {
   "minecraft:fire_coral": {
   "name": "minecraft:fire_coral",
   "properties": []
+},
+  "minecraft:fire_coral_block": {
+  "name": "minecraft:fire_coral_block",
+  "properties": []
+},
+  "minecraft:fire_coral_fan": {
+  "name": "minecraft:fire_coral_fan",
+  "properties": [
+    "coral_fan_direction"
+  ]
 },
   "minecraft:fletching_table": {
   "name": "minecraft:fletching_table",
@@ -2427,8 +2596,8 @@ export const blockData: Record<string, Block> = {
     "weirdo_direction"
   ]
 },
-  "minecraft:grass": {
-  "name": "minecraft:grass",
+  "minecraft:grass_block": {
+  "name": "minecraft:grass_block",
   "properties": []
 },
   "minecraft:grass_path": {
@@ -2552,6 +2721,38 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:hanging_roots",
   "properties": []
 },
+  "minecraft:hard_black_stained_glass": {
+  "name": "minecraft:hard_black_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_black_stained_glass_pane": {
+  "name": "minecraft:hard_black_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_blue_stained_glass": {
+  "name": "minecraft:hard_blue_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_blue_stained_glass_pane": {
+  "name": "minecraft:hard_blue_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_brown_stained_glass": {
+  "name": "minecraft:hard_brown_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_brown_stained_glass_pane": {
+  "name": "minecraft:hard_brown_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_cyan_stained_glass": {
+  "name": "minecraft:hard_cyan_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_cyan_stained_glass_pane": {
+  "name": "minecraft:hard_cyan_stained_glass_pane",
+  "properties": []
+},
   "minecraft:hard_glass": {
   "name": "minecraft:hard_glass",
   "properties": []
@@ -2560,17 +2761,101 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:hard_glass_pane",
   "properties": []
 },
-  "minecraft:hard_stained_glass": {
-  "name": "minecraft:hard_stained_glass",
-  "properties": [
-    "color"
-  ]
+  "minecraft:hard_gray_stained_glass": {
+  "name": "minecraft:hard_gray_stained_glass",
+  "properties": []
 },
-  "minecraft:hard_stained_glass_pane": {
-  "name": "minecraft:hard_stained_glass_pane",
-  "properties": [
-    "color"
-  ]
+  "minecraft:hard_gray_stained_glass_pane": {
+  "name": "minecraft:hard_gray_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_green_stained_glass": {
+  "name": "minecraft:hard_green_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_green_stained_glass_pane": {
+  "name": "minecraft:hard_green_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_light_blue_stained_glass": {
+  "name": "minecraft:hard_light_blue_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_light_blue_stained_glass_pane": {
+  "name": "minecraft:hard_light_blue_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_light_gray_stained_glass": {
+  "name": "minecraft:hard_light_gray_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_light_gray_stained_glass_pane": {
+  "name": "minecraft:hard_light_gray_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_lime_stained_glass": {
+  "name": "minecraft:hard_lime_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_lime_stained_glass_pane": {
+  "name": "minecraft:hard_lime_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_magenta_stained_glass": {
+  "name": "minecraft:hard_magenta_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_magenta_stained_glass_pane": {
+  "name": "minecraft:hard_magenta_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_orange_stained_glass": {
+  "name": "minecraft:hard_orange_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_orange_stained_glass_pane": {
+  "name": "minecraft:hard_orange_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_pink_stained_glass": {
+  "name": "minecraft:hard_pink_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_pink_stained_glass_pane": {
+  "name": "minecraft:hard_pink_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_purple_stained_glass": {
+  "name": "minecraft:hard_purple_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_purple_stained_glass_pane": {
+  "name": "minecraft:hard_purple_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_red_stained_glass": {
+  "name": "minecraft:hard_red_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_red_stained_glass_pane": {
+  "name": "minecraft:hard_red_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_white_stained_glass": {
+  "name": "minecraft:hard_white_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_white_stained_glass_pane": {
+  "name": "minecraft:hard_white_stained_glass_pane",
+  "properties": []
+},
+  "minecraft:hard_yellow_stained_glass": {
+  "name": "minecraft:hard_yellow_stained_glass",
+  "properties": []
+},
+  "minecraft:hard_yellow_stained_glass_pane": {
+  "name": "minecraft:hard_yellow_stained_glass_pane",
+  "properties": []
 },
   "minecraft:hardened_clay": {
   "name": "minecraft:hardened_clay",
@@ -2582,6 +2867,10 @@ export const blockData: Record<string, Block> = {
     "deprecated",
     "pillar_axis"
   ]
+},
+  "minecraft:heavy_core": {
+  "name": "minecraft:heavy_core",
+  "properties": []
 },
   "minecraft:heavy_weighted_pressure_plate": {
   "name": "minecraft:heavy_weighted_pressure_plate",
@@ -2607,6 +2896,16 @@ export const blockData: Record<string, Block> = {
   "minecraft:horn_coral": {
   "name": "minecraft:horn_coral",
   "properties": []
+},
+  "minecraft:horn_coral_block": {
+  "name": "minecraft:horn_coral_block",
+  "properties": []
+},
+  "minecraft:horn_coral_fan": {
+  "name": "minecraft:horn_coral_fan",
+  "properties": [
+    "coral_fan_direction"
+  ]
 },
   "minecraft:ice": {
   "name": "minecraft:ice",
@@ -2686,6 +2985,12 @@ export const blockData: Record<string, Block> = {
     "upper_block_bit"
   ]
 },
+  "minecraft:jungle_double_slab": {
+  "name": "minecraft:jungle_double_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:jungle_fence": {
   "name": "minecraft:jungle_fence",
   "properties": []
@@ -2707,6 +3012,13 @@ export const blockData: Record<string, Block> = {
     "hanging"
   ]
 },
+  "minecraft:jungle_leaves": {
+  "name": "minecraft:jungle_leaves",
+  "properties": [
+    "persistent_bit",
+    "update_bit"
+  ]
+},
   "minecraft:jungle_log": {
   "name": "minecraft:jungle_log",
   "properties": [
@@ -2721,6 +3033,18 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:jungle_pressure_plate",
   "properties": [
     "redstone_signal"
+  ]
+},
+  "minecraft:jungle_sapling": {
+  "name": "minecraft:jungle_sapling",
+  "properties": [
+    "age_bit"
+  ]
+},
+  "minecraft:jungle_slab": {
+  "name": "minecraft:jungle_slab",
+  "properties": [
+    "minecraft:vertical_half"
   ]
 },
   "minecraft:jungle_stairs": {
@@ -2748,6 +3072,12 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:jungle_wall_sign",
   "properties": [
     "facing_direction"
+  ]
+},
+  "minecraft:jungle_wood": {
+  "name": "minecraft:jungle_wood",
+  "properties": [
+    "pillar_axis"
   ]
 },
   "minecraft:kelp": {
@@ -2782,26 +3112,16 @@ export const blockData: Record<string, Block> = {
     "minecraft:block_face"
   ]
 },
+  "minecraft:large_fern": {
+  "name": "minecraft:large_fern",
+  "properties": [
+    "upper_block_bit"
+  ]
+},
   "minecraft:lava": {
   "name": "minecraft:lava",
   "properties": [
     "liquid_depth"
-  ]
-},
-  "minecraft:leaves": {
-  "name": "minecraft:leaves",
-  "properties": [
-    "old_leaf_type",
-    "persistent_bit",
-    "update_bit"
-  ]
-},
-  "minecraft:leaves2": {
-  "name": "minecraft:leaves2",
-  "properties": [
-    "new_leaf_type",
-    "persistent_bit",
-    "update_bit"
   ]
 },
   "minecraft:lectern": {
@@ -2931,6 +3251,16 @@ export const blockData: Record<string, Block> = {
   "properties": [
     "facing_direction"
   ]
+},
+  "minecraft:lilac": {
+  "name": "minecraft:lilac",
+  "properties": [
+    "upper_block_bit"
+  ]
+},
+  "minecraft:lily_of_the_valley": {
+  "name": "minecraft:lily_of_the_valley",
+  "properties": []
 },
   "minecraft:lime_candle": {
   "name": "minecraft:lime_candle",
@@ -3313,6 +3643,12 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:nether_brick_fence",
   "properties": []
 },
+  "minecraft:nether_brick_slab": {
+  "name": "minecraft:nether_brick_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:nether_brick_stairs": {
   "name": "minecraft:nether_brick_stairs",
   "properties": [
@@ -3361,6 +3697,12 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:noteblock",
   "properties": []
 },
+  "minecraft:oak_double_slab": {
+  "name": "minecraft:oak_double_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:oak_fence": {
   "name": "minecraft:oak_fence",
   "properties": []
@@ -3374,6 +3716,13 @@ export const blockData: Record<string, Block> = {
     "hanging"
   ]
 },
+  "minecraft:oak_leaves": {
+  "name": "minecraft:oak_leaves",
+  "properties": [
+    "persistent_bit",
+    "update_bit"
+  ]
+},
   "minecraft:oak_log": {
   "name": "minecraft:oak_log",
   "properties": [
@@ -3384,11 +3733,29 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:oak_planks",
   "properties": []
 },
+  "minecraft:oak_sapling": {
+  "name": "minecraft:oak_sapling",
+  "properties": [
+    "age_bit"
+  ]
+},
+  "minecraft:oak_slab": {
+  "name": "minecraft:oak_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:oak_stairs": {
   "name": "minecraft:oak_stairs",
   "properties": [
     "upside_down_bit",
     "weirdo_direction"
+  ]
+},
+  "minecraft:oak_wood": {
+  "name": "minecraft:oak_wood",
+  "properties": [
+    "pillar_axis"
   ]
 },
   "minecraft:observer": {
@@ -3455,8 +3822,16 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:orange_terracotta",
   "properties": []
 },
+  "minecraft:orange_tulip": {
+  "name": "minecraft:orange_tulip",
+  "properties": []
+},
   "minecraft:orange_wool": {
   "name": "minecraft:orange_wool",
+  "properties": []
+},
+  "minecraft:oxeye_daisy": {
+  "name": "minecraft:oxeye_daisy",
   "properties": []
 },
   "minecraft:oxidized_chiseled_copper": {
@@ -3532,6 +3907,18 @@ export const blockData: Record<string, Block> = {
     "pillar_axis"
   ]
 },
+  "minecraft:peony": {
+  "name": "minecraft:peony",
+  "properties": [
+    "upper_block_bit"
+  ]
+},
+  "minecraft:petrified_oak_slab": {
+  "name": "minecraft:petrified_oak_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:pink_candle": {
   "name": "minecraft:pink_candle",
   "properties": [
@@ -3584,6 +3971,10 @@ export const blockData: Record<string, Block> = {
 },
   "minecraft:pink_terracotta": {
   "name": "minecraft:pink_terracotta",
+  "properties": []
+},
+  "minecraft:pink_tulip": {
+  "name": "minecraft:pink_tulip",
   "properties": []
 },
   "minecraft:pink_wool": {
@@ -3810,6 +4201,10 @@ export const blockData: Record<string, Block> = {
     "wall_post_bit"
   ]
 },
+  "minecraft:poppy": {
+  "name": "minecraft:poppy",
+  "properties": []
+},
   "minecraft:portal": {
   "name": "minecraft:portal",
   "properties": [
@@ -3954,6 +4349,12 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:quartz_ore",
   "properties": []
 },
+  "minecraft:quartz_slab": {
+  "name": "minecraft:quartz_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:quartz_stairs": {
   "name": "minecraft:quartz_stairs",
   "properties": [
@@ -4003,12 +4404,6 @@ export const blockData: Record<string, Block> = {
   "minecraft:red_concrete_powder": {
   "name": "minecraft:red_concrete_powder",
   "properties": []
-},
-  "minecraft:red_flower": {
-  "name": "minecraft:red_flower",
-  "properties": [
-    "flower_type"
-  ]
 },
   "minecraft:red_glazed_terracotta": {
   "name": "minecraft:red_glazed_terracotta",
@@ -4066,6 +4461,10 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:red_terracotta",
   "properties": []
 },
+  "minecraft:red_tulip": {
+  "name": "minecraft:red_tulip",
+  "properties": []
+},
   "minecraft:red_wool": {
   "name": "minecraft:red_wool",
   "properties": []
@@ -4121,6 +4520,12 @@ export const blockData: Record<string, Block> = {
     "respawn_anchor_charge"
   ]
 },
+  "minecraft:rose_bush": {
+  "name": "minecraft:rose_bush",
+  "properties": [
+    "upper_block_bit"
+  ]
+},
   "minecraft:sand": {
   "name": "minecraft:sand",
   "properties": [
@@ -4133,18 +4538,17 @@ export const blockData: Record<string, Block> = {
     "sand_stone_type"
   ]
 },
+  "minecraft:sandstone_slab": {
+  "name": "minecraft:sandstone_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:sandstone_stairs": {
   "name": "minecraft:sandstone_stairs",
   "properties": [
     "upside_down_bit",
     "weirdo_direction"
-  ]
-},
-  "minecraft:sapling": {
-  "name": "minecraft:sapling",
-  "properties": [
-    "age_bit",
-    "sapling_type"
   ]
 },
   "minecraft:scaffolding": {
@@ -4199,6 +4603,10 @@ export const blockData: Record<string, Block> = {
   "properties": [
     "sea_grass_type"
   ]
+},
+  "minecraft:short_grass": {
+  "name": "minecraft:short_grass",
+  "properties": []
 },
   "minecraft:shroomlight": {
   "name": "minecraft:shroomlight",
@@ -4271,6 +4679,12 @@ export const blockData: Record<string, Block> = {
   "minecraft:smooth_stone": {
   "name": "minecraft:smooth_stone",
   "properties": []
+},
+  "minecraft:smooth_stone_slab": {
+  "name": "minecraft:smooth_stone_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
 },
   "minecraft:sniffer_egg": {
   "name": "minecraft:sniffer_egg",
@@ -4348,6 +4762,12 @@ export const blockData: Record<string, Block> = {
     "upper_block_bit"
   ]
 },
+  "minecraft:spruce_double_slab": {
+  "name": "minecraft:spruce_double_slab",
+  "properties": [
+    "minecraft:vertical_half"
+  ]
+},
   "minecraft:spruce_fence": {
   "name": "minecraft:spruce_fence",
   "properties": []
@@ -4369,6 +4789,13 @@ export const blockData: Record<string, Block> = {
     "hanging"
   ]
 },
+  "minecraft:spruce_leaves": {
+  "name": "minecraft:spruce_leaves",
+  "properties": [
+    "persistent_bit",
+    "update_bit"
+  ]
+},
   "minecraft:spruce_log": {
   "name": "minecraft:spruce_log",
   "properties": [
@@ -4383,6 +4810,18 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:spruce_pressure_plate",
   "properties": [
     "redstone_signal"
+  ]
+},
+  "minecraft:spruce_sapling": {
+  "name": "minecraft:spruce_sapling",
+  "properties": [
+    "age_bit"
+  ]
+},
+  "minecraft:spruce_slab": {
+  "name": "minecraft:spruce_slab",
+  "properties": [
+    "minecraft:vertical_half"
   ]
 },
   "minecraft:spruce_stairs": {
@@ -4410,6 +4849,12 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:spruce_wall_sign",
   "properties": [
     "facing_direction"
+  ]
+},
+  "minecraft:spruce_wood": {
+  "name": "minecraft:spruce_wood",
+  "properties": [
+    "pillar_axis"
   ]
 },
   "minecraft:standing_banner": {
@@ -4440,13 +4885,6 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:stone",
   "properties": []
 },
-  "minecraft:stone_block_slab": {
-  "name": "minecraft:stone_block_slab",
-  "properties": [
-    "minecraft:vertical_half",
-    "stone_slab_type"
-  ]
-},
   "minecraft:stone_block_slab2": {
   "name": "minecraft:stone_block_slab2",
   "properties": [
@@ -4466,6 +4904,12 @@ export const blockData: Record<string, Block> = {
   "properties": [
     "minecraft:vertical_half",
     "stone_slab_type_4"
+  ]
+},
+  "minecraft:stone_brick_slab": {
+  "name": "minecraft:stone_brick_slab",
+  "properties": [
+    "minecraft:vertical_half"
   ]
 },
   "minecraft:stone_brick_stairs": {
@@ -4517,6 +4961,12 @@ export const blockData: Record<string, Block> = {
     "pillar_axis"
   ]
 },
+  "minecraft:stripped_acacia_wood": {
+  "name": "minecraft:stripped_acacia_wood",
+  "properties": [
+    "pillar_axis"
+  ]
+},
   "minecraft:stripped_bamboo_block": {
   "name": "minecraft:stripped_bamboo_block",
   "properties": [
@@ -4525,6 +4975,12 @@ export const blockData: Record<string, Block> = {
 },
   "minecraft:stripped_birch_log": {
   "name": "minecraft:stripped_birch_log",
+  "properties": [
+    "pillar_axis"
+  ]
+},
+  "minecraft:stripped_birch_wood": {
+  "name": "minecraft:stripped_birch_wood",
   "properties": [
     "pillar_axis"
   ]
@@ -4559,8 +5015,20 @@ export const blockData: Record<string, Block> = {
     "pillar_axis"
   ]
 },
+  "minecraft:stripped_dark_oak_wood": {
+  "name": "minecraft:stripped_dark_oak_wood",
+  "properties": [
+    "pillar_axis"
+  ]
+},
   "minecraft:stripped_jungle_log": {
   "name": "minecraft:stripped_jungle_log",
+  "properties": [
+    "pillar_axis"
+  ]
+},
+  "minecraft:stripped_jungle_wood": {
+  "name": "minecraft:stripped_jungle_wood",
   "properties": [
     "pillar_axis"
   ]
@@ -4583,8 +5051,20 @@ export const blockData: Record<string, Block> = {
     "pillar_axis"
   ]
 },
+  "minecraft:stripped_oak_wood": {
+  "name": "minecraft:stripped_oak_wood",
+  "properties": [
+    "pillar_axis"
+  ]
+},
   "minecraft:stripped_spruce_log": {
   "name": "minecraft:stripped_spruce_log",
+  "properties": [
+    "pillar_axis"
+  ]
+},
+  "minecraft:stripped_spruce_wood": {
+  "name": "minecraft:stripped_spruce_wood",
   "properties": [
     "pillar_axis"
   ]
@@ -4613,6 +5093,12 @@ export const blockData: Record<string, Block> = {
     "structure_void_type"
   ]
 },
+  "minecraft:sunflower": {
+  "name": "minecraft:sunflower",
+  "properties": [
+    "upper_block_bit"
+  ]
+},
   "minecraft:suspicious_gravel": {
   "name": "minecraft:suspicious_gravel",
   "properties": [
@@ -4633,10 +5119,10 @@ export const blockData: Record<string, Block> = {
     "growth"
   ]
 },
-  "minecraft:tallgrass": {
-  "name": "minecraft:tallgrass",
+  "minecraft:tall_grass": {
+  "name": "minecraft:tall_grass",
   "properties": [
-    "tall_grass_type"
+    "upper_block_bit"
   ]
 },
   "minecraft:target": {
@@ -4684,6 +5170,13 @@ export const blockData: Record<string, Block> = {
     "minecraft:cardinal_direction"
   ]
 },
+  "minecraft:trial_spawner": {
+  "name": "minecraft:trial_spawner",
+  "properties": [
+    "ominous",
+    "trial_spawner_state"
+  ]
+},
   "minecraft:trip_wire": {
   "name": "minecraft:trip_wire",
   "properties": [
@@ -4704,6 +5197,16 @@ export const blockData: Record<string, Block> = {
   "minecraft:tube_coral": {
   "name": "minecraft:tube_coral",
   "properties": []
+},
+  "minecraft:tube_coral_block": {
+  "name": "minecraft:tube_coral_block",
+  "properties": []
+},
+  "minecraft:tube_coral_fan": {
+  "name": "minecraft:tube_coral_fan",
+  "properties": [
+    "coral_fan_direction"
+  ]
 },
   "minecraft:tuff": {
   "name": "minecraft:tuff",
@@ -4817,6 +5320,14 @@ export const blockData: Record<string, Block> = {
   "properties": [
     "minecraft:cardinal_direction",
     "repeater_delay"
+  ]
+},
+  "minecraft:vault": {
+  "name": "minecraft:vault",
+  "properties": [
+    "minecraft:cardinal_direction",
+    "ominous",
+    "vault_state"
   ]
 },
   "minecraft:verdant_froglight": {
@@ -5325,6 +5836,10 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:white_terracotta",
   "properties": []
 },
+  "minecraft:white_tulip": {
+  "name": "minecraft:white_tulip",
+  "properties": []
+},
   "minecraft:white_wool": {
   "name": "minecraft:white_wool",
   "properties": []
@@ -5332,14 +5847,6 @@ export const blockData: Record<string, Block> = {
   "minecraft:wither_rose": {
   "name": "minecraft:wither_rose",
   "properties": []
-},
-  "minecraft:wood": {
-  "name": "minecraft:wood",
-  "properties": [
-    "pillar_axis",
-    "stripped_bit",
-    "wood_type"
-  ]
 },
   "minecraft:wooden_button": {
   "name": "minecraft:wooden_button",
@@ -5361,13 +5868,6 @@ export const blockData: Record<string, Block> = {
   "name": "minecraft:wooden_pressure_plate",
   "properties": [
     "redstone_signal"
-  ]
-},
-  "minecraft:wooden_slab": {
-  "name": "minecraft:wooden_slab",
-  "properties": [
-    "minecraft:vertical_half",
-    "wood_type"
   ]
 },
   "minecraft:yellow_candle": {

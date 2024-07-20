@@ -88,7 +88,7 @@ const data: Enum = {
       "value": "void"
     },
     {
-      "value": "suicide"
+      "value": "self_destruct"
     },
     {
       "value": "magic"

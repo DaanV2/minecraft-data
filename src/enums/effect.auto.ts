@@ -95,6 +95,24 @@ const data: Enum = {
     },
     {
       "value": "darkness"
+    },
+    {
+      "value": "trial_omen"
+    },
+    {
+      "value": "wind_charged"
+    },
+    {
+      "value": "weaving"
+    },
+    {
+      "value": "oozing"
+    },
+    {
+      "value": "infested"
+    },
+    {
+      "value": "raid_omen"
     }
   ]
 };

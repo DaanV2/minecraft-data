@@ -91,6 +91,9 @@ const data: Enum = {
       "value": "?"
     },
     {
+      "value": "hud"
+    },
+    {
       "value": "inputpermission"
     },
     {
@@ -250,9 +253,6 @@ const data: Enum = {
       "value": "project"
     },
     {
-      "value": "simulationtype"
-    },
-    {
       "value": "agent"
     },
     {
@@ -262,6 +262,9 @@ const data: Enum = {
       "value": "enchant"
     },
     {
+      "value": "clearrealmevents"
+    },
+    {
       "value": "allowlist"
     },
     {
@@ -269,6 +272,9 @@ const data: Enum = {
     },
     {
       "value": "changesetting"
+    },
+    {
+      "value": "sendshowstoreoffer"
     },
     {
       "value": "reloadconfig"
