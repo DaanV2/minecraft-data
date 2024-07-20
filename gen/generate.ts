@@ -8,6 +8,12 @@ import { generateFromBlocks } from "./blocks/import";
 import { generateFromBiomes } from './biomes/import';
 import { generateFromCameraPresets } from './camera-presets/import';
 import { generateFromCooldownCategory } from './cooldown_category/import';
+import { generateFromDimenions } from './dimensions/import';
+import { generateFromEffects } from './effects/import';
+import { generateFromEnchantments } from './enchantments/import';
+import { generateFromEntities } from './entities/import';
+import { generateFromFeatures } from './features/import';
+import { generateFromItems } from './items/import';
 
 const builder: Builder = {
   commands: {},
@@ -24,6 +30,12 @@ generateFromBlocks(builder);
 generateFromBiomes(builder);
 generateFromCameraPresets(builder);
 generateFromCooldownCategory(builder);
+generateFromDimenions(builder);
+generateFromEffects(builder);
+generateFromEnchantments(builder);
+generateFromEntities(builder);
+generateFromFeatures(builder);
+generateFromItems(builder);
 
 //Commands export
 Builder.appendToIndex(builder, "src/commands/index.ts", "interface");
