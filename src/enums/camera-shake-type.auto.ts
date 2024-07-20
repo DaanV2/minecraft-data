@@ -4,13 +4,15 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "camerashaketype",
-  documentation: "Command enum: CameraShakeType",
+  documentation: "enum.camerashaketype.description",
   values: [
     {
       value: "positional",
+      documentation: "enum.camerashaketype.positional.description",
     },
     {
       value: "rotational",
+      documentation: "enum.camerashaketype.rotational.description",
     },
   ],
 };

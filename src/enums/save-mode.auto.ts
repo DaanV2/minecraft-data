@@ -4,16 +4,19 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "savemode",
-  documentation: "Command enum: SaveMode",
+  documentation: "enum.savemode.description",
   values: [
     {
       value: "query",
+      documentation: "enum.savemode.query.description",
     },
     {
       value: "hold",
+      documentation: "enum.savemode.hold.description",
     },
     {
       value: "resume",
+      documentation: "enum.savemode.resume.description",
     },
   ],
 };

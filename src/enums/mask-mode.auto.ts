@@ -4,13 +4,15 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "maskmode",
-  documentation: "Command enum: MaskMode",
+  documentation: "enum.maskmode.description",
   values: [
     {
       value: "replace",
+      documentation: "enum.maskmode.replace.description",
     },
     {
       value: "masked",
+      documentation: "enum.maskmode.masked.description",
     },
   ],
 };

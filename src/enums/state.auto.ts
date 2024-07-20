@@ -4,13 +4,15 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "state",
-  documentation: "Command enum: state",
+  documentation: "enum.state.description",
   values: [
     {
       value: "enabled",
+      documentation: "enum.state.enabled.description",
     },
     {
       value: "disabled",
+      documentation: "enum.state.disabled.description",
     },
   ],
 };

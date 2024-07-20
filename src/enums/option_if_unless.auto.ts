@@ -4,13 +4,15 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "option_if_unless",
-  documentation: "Command enum: Option_If_Unless",
+  documentation: "enum.option_if_unless.description",
   values: [
     {
       value: "if",
+      documentation: "enum.option_if_unless.if.description",
     },
     {
       value: "unless",
+      documentation: "enum.option_if_unless.unless.description",
     },
   ],
 };

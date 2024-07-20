@@ -4,16 +4,19 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "weathertype",
-  documentation: "Command enum: WeatherType",
+  documentation: "enum.weathertype.description",
   values: [
     {
       value: "clear",
+      documentation: "enum.weathertype.clear.description",
     },
     {
       value: "rain",
+      documentation: "enum.weathertype.rain.description",
     },
     {
       value: "thunder",
+      documentation: "enum.weathertype.thunder.description",
     },
   ],
 };

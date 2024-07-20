@@ -4,13 +4,15 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "tagchangeaction",
-  documentation: "Command enum: TagChangeAction",
+  documentation: "enum.tagchangeaction.description",
   values: [
     {
       value: "add",
+      documentation: "enum.tagchangeaction.add.description",
     },
     {
       value: "remove",
+      documentation: "enum.tagchangeaction.remove.description",
     },
   ],
 };

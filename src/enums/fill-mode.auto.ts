@@ -4,19 +4,23 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "fillmode",
-  documentation: "Command enum: FillMode",
+  documentation: "enum.fillmode.description",
   values: [
     {
       value: "outline",
+      documentation: "enum.fillmode.outline.description",
     },
     {
       value: "hollow",
+      documentation: "enum.fillmode.hollow.description",
     },
     {
       value: "destroy",
+      documentation: "enum.fillmode.destroy.description",
     },
     {
       value: "keep",
+      documentation: "enum.fillmode.keep.description",
     },
   ],
 };

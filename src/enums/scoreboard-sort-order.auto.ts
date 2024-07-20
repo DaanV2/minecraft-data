@@ -4,13 +4,15 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "scoreboardsortorder",
-  documentation: "Command enum: ScoreboardSortOrder",
+  documentation: "enum.scoreboardsortorder.description",
   values: [
     {
       value: "ascending",
+      documentation: "enum.scoreboardsortorder.ascending.description",
     },
     {
       value: "descending",
+      documentation: "enum.scoreboardsortorder.descending.description",
     },
   ],
 };

@@ -4,13 +4,15 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "teleportrules",
-  documentation: "Command enum: TeleportRules",
+  documentation: "enum.teleportrules.description",
   values: [
     {
       value: "teleport_rider",
+      documentation: "enum.teleportrules.teleport_rider.description",
     },
     {
       value: "teleport_ride",
+      documentation: "enum.teleportrules.teleport_ride.description",
     },
   ],
 };

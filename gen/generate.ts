@@ -5,6 +5,8 @@ import { saveEnums } from "./generate-enums";
 import { saveCommands } from "./generate-commands";
 import { saveBlocks } from "./generate-blocks";
 import { generateFromBlocks } from "./blocks/import";
+import { generateFromBiomes } from './biomes/import';
+import { generateFromCameraPresets } from './camera-presets/import';
 
 const builder: Builder = {
   commands: {},
@@ -18,6 +20,8 @@ const builder: Builder = {
 //Commands
 generateFromCommands(builder);
 generateFromBlocks(builder);
+generateFromBiomes(builder);
+generateFromCameraPresets(builder);
 
 //Commands export
 Builder.appendToIndex(builder, "src/commands/index.ts", "interface");

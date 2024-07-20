@@ -4,13 +4,15 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "deleteoperation",
-  documentation: "Command enum: delete",
+  documentation: "enum.delete.description",
   values: [
     {
       value: "pop",
+      documentation: "enum.delete.pop.description",
     },
     {
       value: "remove",
+      documentation: "enum.delete.remove.description",
     },
   ],
 };

@@ -4,13 +4,15 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "actorlocation",
-  documentation: "Command enum: ActorLocation",
+  documentation: "enum.actorlocation.description",
   values: [
     {
       value: "eyes",
+      documentation: "enum.actorlocation.eyes.description",
     },
     {
       value: "feet",
+      documentation: "enum.actorlocation.feet.description",
     },
   ],
 };

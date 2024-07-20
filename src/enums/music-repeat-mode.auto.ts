@@ -4,13 +4,15 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "musicrepeatmode",
-  documentation: "Command enum: MusicRepeatMode",
+  documentation: "enum.musicrepeatmode.description",
   values: [
     {
       value: "play_once",
+      documentation: "enum.musicrepeatmode.play_once.description",
     },
     {
       value: "loop",
+      documentation: "enum.musicrepeatmode.loop.description",
     },
   ],
 };

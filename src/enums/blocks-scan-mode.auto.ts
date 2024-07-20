@@ -4,13 +4,15 @@ import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
   name: "blocksscanmode",
-  documentation: "Command enum: BlocksScanMode",
+  documentation: "enum.blocksscanmode.description",
   values: [
     {
       value: "masked",
+      documentation: "enum.blocksscanmode.masked.description",
     },
     {
       value: "all",
+      documentation: "enum.blocksscanmode.all.description",
     },
   ],
 };

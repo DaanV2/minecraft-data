@@ -139,15 +139,16 @@ function generateEnum(
   commandEnum: (typeof data.command_enums)[0]
 ) {
   let enumName = commandEnum.name;
-  const enumValues = commandEnum.values.map((value) => {
+  const enumValues = commandEnum.values.map((item) => {
     return {
-      value: value.value,
+      value: item.value,
+      documentation: `enum.${enumName.toLowerCase()}.${item.value.toLowerCase()}.description`
     };
   });
 
   const p = {
     name: enumName,
-    documentation: "Command enum: " + enumName,
+    documentation: `enum.${enumName.toLowerCase()}.description`,
     values: enumValues,
   };
 
@@ -226,7 +227,7 @@ function discoverType(type: string, builder: Builder): ParameterType {
     case "TAGVALUES":
       return "tag";
     default:
-      console.log(`Unknown type: ${type}`);
+      console.log(`Unknown type: '${type}'`);
       return "unknown";
   }
 }
