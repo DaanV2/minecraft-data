@@ -14,7 +14,7 @@ export function generateFromCameraPresets(builder: Builder) {
     .map((item) => {
       return { 
         value: item.name,
-        documentation: `enum.${cameraPresetsEnum.name}.${item.name.toLowerCase()}`
+        documentation: `enum.${cameraPresetsEnum.name.toLowerCase()}.${item.name.toLowerCase()}`
       } as EnumValue;
     });
   console.log(`adding ${nvalues.length} more camerapresets`);

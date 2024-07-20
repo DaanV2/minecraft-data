@@ -14,7 +14,7 @@ export function generateFromDimenions(builder: Builder) {
     .map((item) => {
       return { 
         value: item.name,
-        documentation: `enum.${dimenionsEnum.name}.${item.name.toLowerCase()}`
+        documentation: `enum.${dimenionsEnum.name.toLowerCase()}.${item.name.toLowerCase()}`
       } as EnumValue;
     });
   console.log(`adding ${nvalues.length} more dimenions`);

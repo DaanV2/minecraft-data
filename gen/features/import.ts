@@ -16,7 +16,7 @@ export function generateFromFeatures(builder: Builder) {
     .map((item) => {
       return {
         value: item.name,
-        documentation: `enum.${featuresEnum.name}.${item.name.toLowerCase()}`,
+        documentation: `enum.${featuresEnum.name.toLowerCase()}.${item.name.toLowerCase()}`,
       } as EnumValue;
     });
   console.log(`adding ${nvalues.length} more features`);

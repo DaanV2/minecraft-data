@@ -14,7 +14,7 @@ export function generateFromEnchantments(builder: Builder) {
     .map((item) => {
       return { 
         value: item.name,
-        documentation: `enum.${enchantmentsEnum.name}.${item.name.toLowerCase()}`
+        documentation: `enum.${enchantmentsEnum.name.toLowerCase()}.${item.name.toLowerCase()}`
       } as EnumValue;
     });
   console.log(`adding ${nvalues.length} more enchantments`);

@@ -14,7 +14,7 @@ export function generateFromEntities(builder: Builder) {
     .map((item) => {
       return { 
         value: item.name,
-        documentation: `enum.${entitiesEnum.name}.${item.name.toLowerCase()}`
+        documentation: `enum.${entitiesEnum.name.toLowerCase()}.${item.name.toLowerCase()}`
       } as EnumValue;
     });
   console.log(`adding ${nvalues.length} more entities`);

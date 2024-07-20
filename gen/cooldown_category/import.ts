@@ -13,7 +13,7 @@ export function generateFromCooldownCategory(builder: Builder) {
   cooldownCategory.values = data.data_items.map((item) => {
     return {
       value: item.name,
-      documentation: `enum.${cooldownCategory.name}.${item.name.toLowerCase()}`,
+      documentation: `enum.${cooldownCategory.name.toLowerCase()}.${item.name.toLowerCase()}`,
     } as EnumValue;
   });
   console.log(`adding ${cooldownCategory.values.length} more cooldowncategory`);

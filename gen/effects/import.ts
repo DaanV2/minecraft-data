@@ -14,7 +14,7 @@ export function generateFromEffects(builder: Builder) {
     .map((item) => {
       return { 
         value: item.name,
-        documentation: `enum.${effectsEnum.name}.${item.name.toLowerCase()}`
+        documentation: `enum.${effectsEnum.name.toLowerCase()}.${item.name.toLowerCase()}`
       } as EnumValue;
     });
   console.log(`adding ${nvalues.length} more effects`);
