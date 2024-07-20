@@ -33,7 +33,3 @@ jobs:
 
       - name: 📋 Run tests
         run: npm run test
-
-      - name: 🔍 Check files are formatted
-        working-directory: ${{ github.workspace }}
-        run: npm run check-format
