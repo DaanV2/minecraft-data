@@ -30,3 +30,6 @@ jobs:
 
       - name: 📋 Run tests
         run: npm run test
+
+      - name: 🔍 Check files are formatted
+        run: npm run check-format

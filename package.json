@@ -15,12 +15,14 @@
   "scripts": {
     "compile": "tsc -b",
     "generate": "ts-node ./gen/generate.ts",
-    "postgenerate": "npm run compile",
+    "postgenerate": "npm run compile && npm run format",
     "version": "git add -A src",
     "postversion": "git push && git push --tags",
     "watch": "tsc -w -p ./src",
     "test": "node --test",
-    "watch-test": "node --test --watch"
+    "watch-test": "node --test --watch",
+    "format": "npx prettier ./src/**/*.ts --write",
+    "check-format": "npx prettier ./src/**/*.ts --check"
   },
   "repository": {
     "type": "git",
@@ -34,9 +36,9 @@
   "homepage": "https://github.com/DaanV2/minecraft-types#readme",
   "devDependencies": {
     "@types/node": "^20.10.5",
+    "prettier": "3.3.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
-  "dependencies": {},
   "publishConfig": {}
 }
