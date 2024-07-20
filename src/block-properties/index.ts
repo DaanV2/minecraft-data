@@ -1,2 +1,2 @@
-export * from './block-properties.auto'
-export * from './interface'
+export * from "./block-properties.auto";
+export * from "./interface";

@@ -3,16 +3,16 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "tagchangeaction",
-  "documentation": "Command enum: TagChangeAction",
-  "values": [
+  name: "tagchangeaction",
+  documentation: "Command enum: TagChangeAction",
+  values: [
     {
-      "value": "add"
+      value: "add",
     },
     {
-      "value": "remove"
-    }
-  ]
+      value: "remove",
+    },
+  ],
 };
 
 export const tagChangeActionEnum = new EnumHandler(data);

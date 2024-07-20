@@ -3,19 +3,19 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "setblockmode",
-  "documentation": "Command enum: SetBlockMode",
-  "values": [
+  name: "setblockmode",
+  documentation: "Command enum: SetBlockMode",
+  values: [
     {
-      "value": "replace"
+      value: "replace",
     },
     {
-      "value": "destroy"
+      value: "destroy",
     },
     {
-      "value": "keep"
-    }
-  ]
+      value: "keep",
+    },
+  ],
 };
 
 export const setBlockModeEnum = new EnumHandler(data);

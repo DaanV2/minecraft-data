@@ -3,26 +3,26 @@
 import { Command } from "./interface";
 
 export const meCommand: Command = {
-  "name": "me",
-  "documentation": "Displays a message about yourself.",
-  "permissionLevel": 0,
-  "requiresCheatsEnabled": false,
-  "syntaxes": [
+  name: "me",
+  documentation: "Displays a message about yourself.",
+  permissionLevel: 0,
+  requiresCheatsEnabled: false,
+  syntaxes: [
     {
-      "name": "me",
-      "documentation": "Displays a message about yourself.",
-      "parameters": [
+      name: "me",
+      documentation: "Displays a message about yourself.",
+      parameters: [
         {
-          "text": "me",
-          "type": "keyword",
-          "required": true
+          text: "me",
+          type: "keyword",
+          required: true,
         },
         {
-          "text": "message",
-          "type": "message",
-          "required": true
-        }
-      ]
-    }
-  ]
+          text: "message",
+          type: "message",
+          required: true,
+        },
+      ],
+    },
+  ],
 };

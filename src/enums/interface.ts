@@ -18,7 +18,7 @@ export interface EnumValue {
 
 /** A class that acts and handles as a enum */
 export class EnumHandler implements Enum {
-  private _data: Enum
+  private _data: Enum;
 
   constructor(data: Enum) {
     this._data = data;
@@ -60,7 +60,7 @@ export class EnumHandler implements Enum {
    * @returns If the enum has the value
    */
   hasValue(value: string): boolean {
-    return this.values.some(v => v.value === value);
+    return this.values.some((v) => v.value === value);
   }
 
   /**
@@ -69,6 +69,6 @@ export class EnumHandler implements Enum {
    * @returns The value or undefined
    */
   getValue(value: string): EnumValue | undefined {
-    return this.values.find(v => v.value === value);
+    return this.values.find((v) => v.value === value);
   }
 }

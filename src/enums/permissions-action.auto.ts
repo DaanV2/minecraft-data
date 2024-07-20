@@ -3,16 +3,16 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "permissionsaction",
-  "documentation": "Command enum: PermissionsAction",
-  "values": [
+  name: "permissionsaction",
+  documentation: "Command enum: PermissionsAction",
+  values: [
     {
-      "value": "list"
+      value: "list",
     },
     {
-      "value": "reload"
-    }
-  ]
+      value: "reload",
+    },
+  ],
 };
 
 export const permissionsActionEnum = new EnumHandler(data);

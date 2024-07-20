@@ -1,2 +1,2 @@
-export * from './blocks.auto'
-export * from './interface'
+export * from "./blocks.auto";
+export * from "./interface";

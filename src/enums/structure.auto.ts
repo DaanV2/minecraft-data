@@ -3,79 +3,79 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "structure",
-  "documentation": "Command enum: Structure",
-  "values": [
+  name: "structure",
+  documentation: "Command enum: Structure",
+  values: [
     {
-      "value": "end_city"
+      value: "end_city",
     },
     {
-      "value": "fortress"
+      value: "fortress",
     },
     {
-      "value": "mineshaft"
+      value: "mineshaft",
     },
     {
-      "value": "monument"
+      value: "monument",
     },
     {
-      "value": "stronghold"
+      value: "stronghold",
     },
     {
-      "value": "temple"
+      value: "temple",
     },
     {
-      "value": "village"
+      value: "village",
     },
     {
-      "value": "mansion"
+      value: "mansion",
     },
     {
-      "value": "shipwreck"
+      value: "shipwreck",
     },
     {
-      "value": "buried_treasure"
+      value: "buried_treasure",
     },
     {
-      "value": "ruins"
+      value: "ruins",
     },
     {
-      "value": "pillager_outpost"
+      value: "pillager_outpost",
     },
     {
-      "value": "ruined_portal"
+      value: "ruined_portal",
     },
     {
-      "value": "bastion_remnant"
+      value: "bastion_remnant",
     },
     {
-      "value": "ancient_city"
+      value: "ancient_city",
     },
     {
-      "value": "trail_ruins"
+      value: "trail_ruins",
     },
     {
-      "value": "trial_chambers"
+      value: "trial_chambers",
     },
     {
-      "value": "ancientcity"
+      value: "ancientcity",
     },
     {
-      "value": "bastionremnant"
+      value: "bastionremnant",
     },
     {
-      "value": "buriedtreasure"
+      value: "buriedtreasure",
     },
     {
-      "value": "endcity"
+      value: "endcity",
     },
     {
-      "value": "pillageroutpost"
+      value: "pillageroutpost",
     },
     {
-      "value": "ruinedportal"
-    }
-  ]
+      value: "ruinedportal",
+    },
+  ],
 };
 
 export const structureEnum = new EnumHandler(data);

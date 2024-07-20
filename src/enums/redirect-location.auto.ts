@@ -3,16 +3,16 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "redirectlocation",
-  "documentation": "Command enum: RedirectLocation",
-  "values": [
+  name: "redirectlocation",
+  documentation: "Command enum: RedirectLocation",
+  values: [
     {
-      "value": "marketplace"
+      value: "marketplace",
     },
     {
-      "value": "character"
-    }
-  ]
+      value: "character",
+    },
+  ],
 };
 
 export const redirectLocationEnum = new EnumHandler(data);

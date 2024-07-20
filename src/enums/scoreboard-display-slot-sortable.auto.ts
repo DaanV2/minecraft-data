@@ -3,16 +3,16 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "scoreboarddisplayslotsortable",
-  "documentation": "Command enum: ScoreboardDisplaySlotSortable",
-  "values": [
+  name: "scoreboarddisplayslotsortable",
+  documentation: "Command enum: ScoreboardDisplaySlotSortable",
+  values: [
     {
-      "value": "list"
+      value: "list",
     },
     {
-      "value": "sidebar"
-    }
-  ]
+      value: "sidebar",
+    },
+  ],
 };
 
 export const scoreboardDisplaySlotSortableEnum = new EnumHandler(data);

@@ -3,19 +3,19 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "exporttypes",
-  "documentation": "Command enum: ExportTypes",
-  "values": [
+  name: "exporttypes",
+  documentation: "Command enum: ExportTypes",
+  values: [
     {
-      "value": "project"
+      value: "project",
     },
     {
-      "value": "template"
+      value: "template",
     },
     {
-      "value": "world"
-    }
-  ]
+      value: "world",
+    },
+  ],
 };
 
 export const exportTypesEnum = new EnumHandler(data);

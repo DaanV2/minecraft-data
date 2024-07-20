@@ -31,8 +31,7 @@ function saveAllBlocksProperties(builder: Builder) {
   const propertiesFile = new FileBuilder(
     "src/block-properties/block-properties.auto.ts"
   );
-  propertiesFile
-      .appendLine("export const blockPropertyData = {");
+  propertiesFile.appendLine("export const blockPropertyData = {");
 
   for (const propertyName in builder.block_properties) {
     const data = builder.block_properties[propertyName];

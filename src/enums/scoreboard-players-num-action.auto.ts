@@ -3,19 +3,19 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "scoreboardplayersnumaction",
-  "documentation": "Command enum: ScoreboardPlayersNumAction",
-  "values": [
+  name: "scoreboardplayersnumaction",
+  documentation: "Command enum: ScoreboardPlayersNumAction",
+  values: [
     {
-      "value": "set"
+      value: "set",
     },
     {
-      "value": "add"
+      value: "add",
     },
     {
-      "value": "remove"
-    }
-  ]
+      value: "remove",
+    },
+  ],
 };
 
 export const scoreboardPlayersNumActionEnum = new EnumHandler(data);

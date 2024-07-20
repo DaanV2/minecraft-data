@@ -3,133 +3,133 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "enchant",
-  "documentation": "Command enum: Enchant",
-  "values": [
+  name: "enchant",
+  documentation: "Command enum: Enchant",
+  values: [
     {
-      "value": "protection"
+      value: "protection",
     },
     {
-      "value": "fire_protection"
+      value: "fire_protection",
     },
     {
-      "value": "feather_falling"
+      value: "feather_falling",
     },
     {
-      "value": "blast_protection"
+      value: "blast_protection",
     },
     {
-      "value": "projectile_protection"
+      value: "projectile_protection",
     },
     {
-      "value": "thorns"
+      value: "thorns",
     },
     {
-      "value": "respiration"
+      value: "respiration",
     },
     {
-      "value": "depth_strider"
+      value: "depth_strider",
     },
     {
-      "value": "aqua_affinity"
+      value: "aqua_affinity",
     },
     {
-      "value": "sharpness"
+      value: "sharpness",
     },
     {
-      "value": "smite"
+      value: "smite",
     },
     {
-      "value": "bane_of_arthropods"
+      value: "bane_of_arthropods",
     },
     {
-      "value": "knockback"
+      value: "knockback",
     },
     {
-      "value": "fire_aspect"
+      value: "fire_aspect",
     },
     {
-      "value": "looting"
+      value: "looting",
     },
     {
-      "value": "efficiency"
+      value: "efficiency",
     },
     {
-      "value": "silk_touch"
+      value: "silk_touch",
     },
     {
-      "value": "unbreaking"
+      value: "unbreaking",
     },
     {
-      "value": "fortune"
+      value: "fortune",
     },
     {
-      "value": "power"
+      value: "power",
     },
     {
-      "value": "punch"
+      value: "punch",
     },
     {
-      "value": "flame"
+      value: "flame",
     },
     {
-      "value": "infinity"
+      value: "infinity",
     },
     {
-      "value": "luck_of_the_sea"
+      value: "luck_of_the_sea",
     },
     {
-      "value": "lure"
+      value: "lure",
     },
     {
-      "value": "frost_walker"
+      value: "frost_walker",
     },
     {
-      "value": "mending"
+      value: "mending",
     },
     {
-      "value": "binding"
+      value: "binding",
     },
     {
-      "value": "vanishing"
+      value: "vanishing",
     },
     {
-      "value": "impaling"
+      value: "impaling",
     },
     {
-      "value": "riptide"
+      value: "riptide",
     },
     {
-      "value": "loyalty"
+      value: "loyalty",
     },
     {
-      "value": "channeling"
+      value: "channeling",
     },
     {
-      "value": "multishot"
+      value: "multishot",
     },
     {
-      "value": "piercing"
+      value: "piercing",
     },
     {
-      "value": "quick_charge"
+      value: "quick_charge",
     },
     {
-      "value": "soul_speed"
+      value: "soul_speed",
     },
     {
-      "value": "swift_sneak"
+      value: "swift_sneak",
     },
     {
-      "value": "wind_burst"
+      value: "wind_burst",
     },
     {
-      "value": "density"
+      value: "density",
     },
     {
-      "value": "breach"
-    }
-  ]
+      value: "breach",
+    },
+  ],
 };
 
 export const enchantEnum = new EnumHandler(data);

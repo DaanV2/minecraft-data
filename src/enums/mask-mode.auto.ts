@@ -3,16 +3,16 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "maskmode",
-  "documentation": "Command enum: MaskMode",
-  "values": [
+  name: "maskmode",
+  documentation: "Command enum: MaskMode",
+  values: [
     {
-      "value": "replace"
+      value: "replace",
     },
     {
-      "value": "masked"
-    }
-  ]
+      value: "masked",
+    },
+  ],
 };
 
 export const maskModeEnum = new EnumHandler(data);

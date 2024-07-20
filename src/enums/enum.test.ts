@@ -5,7 +5,7 @@ import assert from "node:assert";
 
 describe("Enums", () => {
   const enums = Object.entries(Enums).filter(
-    (data) => data[1] instanceof EnumHandler
+    (data) => data[1] instanceof EnumHandler,
   ) as [keyof typeof Enums, EnumHandler][];
 
   enums.forEach(([key, entry]) => {

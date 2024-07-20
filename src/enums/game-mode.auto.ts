@@ -3,37 +3,37 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "gamemode",
-  "documentation": "Command enum: GameMode",
-  "values": [
+  name: "gamemode",
+  documentation: "Command enum: GameMode",
+  values: [
     {
-      "value": "default"
+      value: "default",
     },
     {
-      "value": "creative"
+      value: "creative",
     },
     {
-      "value": "spectator"
+      value: "spectator",
     },
     {
-      "value": "survival"
+      value: "survival",
     },
     {
-      "value": "adventure"
+      value: "adventure",
     },
     {
-      "value": "d"
+      value: "d",
     },
     {
-      "value": "c"
+      value: "c",
     },
     {
-      "value": "s"
+      value: "s",
     },
     {
-      "value": "a"
-    }
-  ]
+      value: "a",
+    },
+  ],
 };
 
 export const gameModeEnum = new EnumHandler(data);

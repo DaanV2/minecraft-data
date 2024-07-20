@@ -1,5 +1,5 @@
 import { BlockPropertyNames } from "../block-properties/interface";
-import { blockData } from './blocks.auto'
+import { blockData } from "./blocks.auto";
 
 export interface Block {
   name: string;

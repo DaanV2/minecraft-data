@@ -3,22 +3,22 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "mirror",
-  "documentation": "Command enum: Mirror",
-  "values": [
+  name: "mirror",
+  documentation: "Command enum: Mirror",
+  values: [
     {
-      "value": "x"
+      value: "x",
     },
     {
-      "value": "z"
+      value: "z",
     },
     {
-      "value": "none"
+      value: "none",
     },
     {
-      "value": "xz"
-    }
-  ]
+      value: "xz",
+    },
+  ],
 };
 
 export const mirrorEnum = new EnumHandler(data);

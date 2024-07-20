@@ -3,16 +3,16 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "replacemode",
-  "documentation": "Command enum: ReplaceMode",
-  "values": [
+  name: "replacemode",
+  documentation: "Command enum: ReplaceMode",
+  values: [
     {
-      "value": "destroy"
+      value: "destroy",
     },
     {
-      "value": "keep"
-    }
-  ]
+      value: "keep",
+    },
+  ],
 };
 
 export const replaceModeEnum = new EnumHandler(data);

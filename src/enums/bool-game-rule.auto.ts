@@ -3,106 +3,106 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "boolgamerule",
-  "documentation": "Command enum: BoolGameRule",
-  "values": [
+  name: "boolgamerule",
+  documentation: "Command enum: BoolGameRule",
+  values: [
     {
-      "value": "commandblockoutput"
+      value: "commandblockoutput",
     },
     {
-      "value": "dodaylightcycle"
+      value: "dodaylightcycle",
     },
     {
-      "value": "doentitydrops"
+      value: "doentitydrops",
     },
     {
-      "value": "dofiretick"
+      value: "dofiretick",
     },
     {
-      "value": "recipesunlock"
+      value: "recipesunlock",
     },
     {
-      "value": "dolimitedcrafting"
+      value: "dolimitedcrafting",
     },
     {
-      "value": "domobloot"
+      value: "domobloot",
     },
     {
-      "value": "domobspawning"
+      value: "domobspawning",
     },
     {
-      "value": "dotiledrops"
+      value: "dotiledrops",
     },
     {
-      "value": "doweathercycle"
+      value: "doweathercycle",
     },
     {
-      "value": "drowningdamage"
+      value: "drowningdamage",
     },
     {
-      "value": "falldamage"
+      value: "falldamage",
     },
     {
-      "value": "firedamage"
+      value: "firedamage",
     },
     {
-      "value": "keepinventory"
+      value: "keepinventory",
     },
     {
-      "value": "mobgriefing"
+      value: "mobgriefing",
     },
     {
-      "value": "pvp"
+      value: "pvp",
     },
     {
-      "value": "showcoordinates"
+      value: "showcoordinates",
     },
     {
-      "value": "showdaysplayed"
+      value: "showdaysplayed",
     },
     {
-      "value": "naturalregeneration"
+      value: "naturalregeneration",
     },
     {
-      "value": "tntexplodes"
+      value: "tntexplodes",
     },
     {
-      "value": "sendcommandfeedback"
+      value: "sendcommandfeedback",
     },
     {
-      "value": "doinsomnia"
+      value: "doinsomnia",
     },
     {
-      "value": "commandblocksenabled"
+      value: "commandblocksenabled",
     },
     {
-      "value": "doimmediaterespawn"
+      value: "doimmediaterespawn",
     },
     {
-      "value": "showdeathmessages"
+      value: "showdeathmessages",
     },
     {
-      "value": "showtags"
+      value: "showtags",
     },
     {
-      "value": "freezedamage"
+      value: "freezedamage",
     },
     {
-      "value": "respawnblocksexplode"
+      value: "respawnblocksexplode",
     },
     {
-      "value": "showbordereffect"
+      value: "showbordereffect",
     },
     {
-      "value": "showrecipemessages"
+      value: "showrecipemessages",
     },
     {
-      "value": "projectilescanbreakblocks"
+      value: "projectilescanbreakblocks",
     },
     {
-      "value": "tntexplosiondropdecay"
-    }
-  ]
+      value: "tntexplosiondropdecay",
+    },
+  ],
 };
 
 export const boolGameRuleEnum = new EnumHandler(data);

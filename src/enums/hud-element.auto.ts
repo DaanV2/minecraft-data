@@ -3,52 +3,52 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "hudelement",
-  "documentation": "Command enum: HudElement",
-  "values": [
+  name: "hudelement",
+  documentation: "Command enum: HudElement",
+  values: [
     {
-      "value": "hunger"
+      value: "hunger",
     },
     {
-      "value": "all"
+      value: "all",
     },
     {
-      "value": "paperdoll"
+      value: "paperdoll",
     },
     {
-      "value": "armor"
+      value: "armor",
     },
     {
-      "value": "tooltips"
+      value: "tooltips",
     },
     {
-      "value": "touch_controls"
+      value: "touch_controls",
     },
     {
-      "value": "crosshair"
+      value: "crosshair",
     },
     {
-      "value": "hotbar"
+      value: "hotbar",
     },
     {
-      "value": "health"
+      value: "health",
     },
     {
-      "value": "progress_bar"
+      value: "progress_bar",
     },
     {
-      "value": "air_bubbles"
+      value: "air_bubbles",
     },
     {
-      "value": "horse_health"
+      value: "horse_health",
     },
     {
-      "value": "status_effects"
+      value: "status_effects",
     },
     {
-      "value": "item_text"
-    }
-  ]
+      value: "item_text",
+    },
+  ],
 };
 
 export const hudElementEnum = new EnumHandler(data);

@@ -110,7 +110,8 @@ export namespace Enums {
   export const entitytype = entityTypeEnum;
   export const riderules = rideRulesEnum;
   export const savemode = saveModeEnum;
-  export const scoreboarddisplayslotsortable = scoreboardDisplaySlotSortableEnum;
+  export const scoreboarddisplayslotsortable =
+    scoreboardDisplaySlotSortableEnum;
   export const scoreboardsortorder = scoreboardSortOrderEnum;
   export const scoreboardplayersnumaction = scoreboardPlayersNumActionEnum;
   export const redirectlocation = redirectLocationEnum;

@@ -3,16 +3,16 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "testforblocksmode",
-  "documentation": "Command enum: TestForBlocksMode",
-  "values": [
+  name: "testforblocksmode",
+  documentation: "Command enum: TestForBlocksMode",
+  values: [
     {
-      "value": "masked"
+      value: "masked",
     },
     {
-      "value": "all"
-    }
-  ]
+      value: "all",
+    },
+  ],
 };
 
 export const testForBlocksModeEnum = new EnumHandler(data);

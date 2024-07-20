@@ -42,7 +42,9 @@ describe("block-properties", () => {
     });
 
     test(`${name} is retrievable`, () => {
-      const propertyByName = BlockProperties.get(name as keyof typeof properties);
+      const propertyByName = BlockProperties.get(
+        name as keyof typeof properties,
+      );
       assert.equal(propertyByName, property);
     });
   }

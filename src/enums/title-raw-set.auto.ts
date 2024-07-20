@@ -3,19 +3,19 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "titlerawset",
-  "documentation": "Command enum: TitleRawSet",
-  "values": [
+  name: "titlerawset",
+  documentation: "Command enum: TitleRawSet",
+  values: [
     {
-      "value": "title"
+      value: "title",
     },
     {
-      "value": "subtitle"
+      value: "subtitle",
     },
     {
-      "value": "actionbar"
-    }
-  ]
+      value: "actionbar",
+    },
+  ],
 };
 
 export const titleRawSetEnum = new EnumHandler(data);

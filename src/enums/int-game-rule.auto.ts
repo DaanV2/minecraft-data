@@ -3,25 +3,25 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "intgamerule",
-  "documentation": "Command enum: IntGameRule",
-  "values": [
+  name: "intgamerule",
+  documentation: "Command enum: IntGameRule",
+  values: [
     {
-      "value": "maxcommandchainlength"
+      value: "maxcommandchainlength",
     },
     {
-      "value": "randomtickspeed"
+      value: "randomtickspeed",
     },
     {
-      "value": "functioncommandlimit"
+      value: "functioncommandlimit",
     },
     {
-      "value": "spawnradius"
+      value: "spawnradius",
     },
     {
-      "value": "playerssleepingpercentage"
-    }
-  ]
+      value: "playerssleepingpercentage",
+    },
+  ],
 };
 
 export const intGameRuleEnum = new EnumHandler(data);

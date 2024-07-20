@@ -3,16 +3,16 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "hudvisibility",
-  "documentation": "Command enum: HudVisibility",
-  "values": [
+  name: "hudvisibility",
+  documentation: "Command enum: HudVisibility",
+  values: [
     {
-      "value": "hide"
+      value: "hide",
     },
     {
-      "value": "reset"
-    }
-  ]
+      value: "reset",
+    },
+  ],
 };
 
 export const hudVisibilityEnum = new EnumHandler(data);

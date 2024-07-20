@@ -3,286 +3,286 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "commandname",
-  "documentation": "Command enum: CommandName",
-  "values": [
+  name: "commandname",
+  documentation: "Command enum: CommandName",
+  values: [
     {
-      "value": "tag"
+      value: "tag",
     },
     {
-      "value": "camera"
+      value: "camera",
     },
     {
-      "value": "transfer"
+      value: "transfer",
     },
     {
-      "value": "clear"
+      value: "clear",
     },
     {
-      "value": "time"
+      value: "time",
     },
     {
-      "value": "stop"
+      value: "stop",
     },
     {
-      "value": "camerashake"
+      value: "camerashake",
     },
     {
-      "value": "clearspawnpoint"
+      value: "clearspawnpoint",
     },
     {
-      "value": "clone"
+      value: "clone",
     },
     {
-      "value": "damage"
+      value: "damage",
     },
     {
-      "value": "daylock"
+      value: "daylock",
     },
     {
-      "value": "alwaysday"
+      value: "alwaysday",
     },
     {
-      "value": "deop"
+      value: "deop",
     },
     {
-      "value": "dialogue"
+      value: "dialogue",
     },
     {
-      "value": "difficulty"
+      value: "difficulty",
     },
     {
-      "value": "effect"
+      value: "effect",
     },
     {
-      "value": "event"
+      value: "event",
     },
     {
-      "value": "execute"
+      value: "execute",
     },
     {
-      "value": "fill"
+      value: "fill",
     },
     {
-      "value": "fog"
+      value: "fog",
     },
     {
-      "value": "function"
+      value: "function",
     },
     {
-      "value": "gamemode"
+      value: "gamemode",
     },
     {
-      "value": "gamerule"
+      value: "gamerule",
     },
     {
-      "value": "gametest"
+      value: "gametest",
     },
     {
-      "value": "gettopsolidblock"
+      value: "gettopsolidblock",
     },
     {
-      "value": "give"
+      value: "give",
     },
     {
-      "value": "help"
+      value: "help",
     },
     {
-      "value": "?"
+      value: "?",
     },
     {
-      "value": "hud"
+      value: "hud",
     },
     {
-      "value": "inputpermission"
+      value: "inputpermission",
     },
     {
-      "value": "kick"
+      value: "kick",
     },
     {
-      "value": "kill"
+      value: "kill",
     },
     {
-      "value": "list"
+      value: "list",
     },
     {
-      "value": "listd"
+      value: "listd",
     },
     {
-      "value": "structure"
+      value: "structure",
     },
     {
-      "value": "locate"
+      value: "locate",
     },
     {
-      "value": "loot"
+      value: "loot",
     },
     {
-      "value": "me"
+      value: "me",
     },
     {
-      "value": "mobevent"
+      value: "mobevent",
     },
     {
-      "value": "music"
+      value: "music",
     },
     {
-      "value": "op"
+      value: "op",
     },
     {
-      "value": "particle"
+      value: "particle",
     },
     {
-      "value": "reload"
+      value: "reload",
     },
     {
-      "value": "permission"
+      value: "permission",
     },
     {
-      "value": "ops"
+      value: "ops",
     },
     {
-      "value": "playanimation"
+      value: "playanimation",
     },
     {
-      "value": "playsound"
+      value: "playsound",
     },
     {
-      "value": "querytarget"
+      value: "querytarget",
     },
     {
-      "value": "replaceitem"
+      value: "replaceitem",
     },
     {
-      "value": "ride"
+      value: "ride",
     },
     {
-      "value": "say"
+      value: "say",
     },
     {
-      "value": "tickingarea"
+      value: "tickingarea",
     },
     {
-      "value": "schedule"
+      value: "schedule",
     },
     {
-      "value": "scoreboard"
+      value: "scoreboard",
     },
     {
-      "value": "scriptevent"
+      value: "scriptevent",
     },
     {
-      "value": "setblock"
+      value: "setblock",
     },
     {
-      "value": "setmaxplayers"
+      value: "setmaxplayers",
     },
     {
-      "value": "setworldspawn"
+      value: "setworldspawn",
     },
     {
-      "value": "spawnpoint"
+      value: "spawnpoint",
     },
     {
-      "value": "spreadplayers"
+      value: "spreadplayers",
     },
     {
-      "value": "stopsound"
+      value: "stopsound",
     },
     {
-      "value": "save"
+      value: "save",
     },
     {
-      "value": "summon"
+      value: "summon",
     },
     {
-      "value": "teleport"
+      value: "teleport",
     },
     {
-      "value": "tp"
+      value: "tp",
     },
     {
-      "value": "tell"
+      value: "tell",
     },
     {
-      "value": "w"
+      value: "w",
     },
     {
-      "value": "msg"
+      value: "msg",
     },
     {
-      "value": "tellraw"
+      value: "tellraw",
     },
     {
-      "value": "testforblock"
+      value: "testforblock",
     },
     {
-      "value": "testforblocks"
+      value: "testforblocks",
     },
     {
-      "value": "testfor"
+      value: "testfor",
     },
     {
-      "value": "title"
+      value: "title",
     },
     {
-      "value": "titleraw"
+      value: "titleraw",
     },
     {
-      "value": "toggledownfall"
+      value: "toggledownfall",
     },
     {
-      "value": "weather"
+      value: "weather",
     },
     {
-      "value": "wsserver"
+      value: "wsserver",
     },
     {
-      "value": "connect"
+      value: "connect",
     },
     {
-      "value": "xp"
+      value: "xp",
     },
     {
-      "value": "recipe"
+      value: "recipe",
     },
     {
-      "value": "volumearea"
+      value: "volumearea",
     },
     {
-      "value": "project"
+      value: "project",
     },
     {
-      "value": "agent"
+      value: "agent",
     },
     {
-      "value": "codebuilder_actorinfo"
+      value: "codebuilder_actorinfo",
     },
     {
-      "value": "enchant"
+      value: "enchant",
     },
     {
-      "value": "clearrealmevents"
+      value: "clearrealmevents",
     },
     {
-      "value": "allowlist"
+      value: "allowlist",
     },
     {
-      "value": "whitelist"
+      value: "whitelist",
     },
     {
-      "value": "changesetting"
+      value: "changesetting",
     },
     {
-      "value": "sendshowstoreoffer"
+      value: "sendshowstoreoffer",
     },
     {
-      "value": "reloadconfig"
+      value: "reloadconfig",
     },
     {
-      "value": "script"
-    }
-  ]
+      value: "script",
+    },
+  ],
 };
 
 export const commandNameEnum = new EnumHandler(data);

@@ -3,16 +3,16 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "state",
-  "documentation": "Command enum: state",
-  "values": [
+  name: "state",
+  documentation: "Command enum: state",
+  values: [
     {
-      "value": "enabled"
+      value: "enabled",
     },
     {
-      "value": "disabled"
-    }
-  ]
+      value: "disabled",
+    },
+  ],
 };
 
 export const stateEnum = new EnumHandler(data);

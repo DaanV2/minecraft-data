@@ -3,19 +3,19 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "timequery",
-  "documentation": "Command enum: TimeQuery",
-  "values": [
+  name: "timequery",
+  documentation: "Command enum: TimeQuery",
+  values: [
     {
-      "value": "daytime"
+      value: "daytime",
     },
     {
-      "value": "gametime"
+      value: "gametime",
     },
     {
-      "value": "day"
-    }
-  ]
+      value: "day",
+    },
+  ],
 };
 
 export const timeQueryEnum = new EnumHandler(data);

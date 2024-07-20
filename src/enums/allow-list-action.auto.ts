@@ -3,28 +3,28 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "allowlistaction",
-  "documentation": "Command enum: AllowListAction",
-  "values": [
+  name: "allowlistaction",
+  documentation: "Command enum: AllowListAction",
+  values: [
     {
-      "value": "add"
+      value: "add",
     },
     {
-      "value": "remove"
+      value: "remove",
     },
     {
-      "value": "list"
+      value: "list",
     },
     {
-      "value": "reload"
+      value: "reload",
     },
     {
-      "value": "on"
+      value: "on",
     },
     {
-      "value": "off"
-    }
-  ]
+      value: "off",
+    },
+  ],
 };
 
 export const allowListActionEnum = new EnumHandler(data);

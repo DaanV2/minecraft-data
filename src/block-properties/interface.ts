@@ -1,6 +1,9 @@
 import { blockPropertyData } from "./block-properties.auto";
 
-export type BlockProperty = BlockPropertyBool | BlockPropertyInt | BlockPropertyString;
+export type BlockProperty =
+  | BlockPropertyBool
+  | BlockPropertyInt
+  | BlockPropertyString;
 
 export interface BlockPropertyBool {
   /** The name of this property */
@@ -28,7 +31,6 @@ export interface BlockPropertyString {
   /** The string values of this property */
   values: string[];
 }
-
 
 export type BlockPropertyNames = keyof typeof blockPropertyData;
 

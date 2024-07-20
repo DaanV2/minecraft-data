@@ -3,16 +3,16 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "actorlocation",
-  "documentation": "Command enum: ActorLocation",
-  "values": [
+  name: "actorlocation",
+  documentation: "Command enum: ActorLocation",
+  values: [
     {
-      "value": "eyes"
+      value: "eyes",
     },
     {
-      "value": "feet"
-    }
-  ]
+      value: "feet",
+    },
+  ],
 };
 
 export const actorLocationEnum = new EnumHandler(data);

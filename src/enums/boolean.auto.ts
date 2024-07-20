@@ -3,16 +3,16 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "boolean",
-  "documentation": "Command enum: Boolean",
-  "values": [
+  name: "boolean",
+  documentation: "Command enum: Boolean",
+  values: [
     {
-      "value": "true"
+      value: "true",
     },
     {
-      "value": "false"
-    }
-  ]
+      value: "false",
+    },
+  ],
 };
 
 export const booleanEnum = new EnumHandler(data);

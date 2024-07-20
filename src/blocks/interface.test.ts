@@ -4,7 +4,6 @@ import test, { describe } from "node:test";
 import { BlockProperties } from "../block-properties";
 
 describe("Blocks", () => {
-
   for (const blockId of Blocks.getBlockIds()) {
     const block = Blocks.get(blockId);
 
@@ -23,7 +22,10 @@ describe("Blocks", () => {
 
     test(`${blockId} properties should exist`, () => {
       for (const property of block.properties) {
-        assert(BlockProperties.has(property), `Property ${property} does not exist`);
+        assert(
+          BlockProperties.has(property),
+          `Property ${property} does not exist`,
+        );
       }
     });
   }

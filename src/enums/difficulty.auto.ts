@@ -3,34 +3,34 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "difficulty",
-  "documentation": "Command enum: Difficulty",
-  "values": [
+  name: "difficulty",
+  documentation: "Command enum: Difficulty",
+  values: [
     {
-      "value": "normal"
+      value: "normal",
     },
     {
-      "value": "peaceful"
+      value: "peaceful",
     },
     {
-      "value": "easy"
+      value: "easy",
     },
     {
-      "value": "hard"
+      value: "hard",
     },
     {
-      "value": "p"
+      value: "p",
     },
     {
-      "value": "e"
+      value: "e",
     },
     {
-      "value": "n"
+      value: "n",
     },
     {
-      "value": "h"
-    }
-  ]
+      value: "h",
+    },
+  ],
 };
 
 export const difficultyEnum = new EnumHandler(data);

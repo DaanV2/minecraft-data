@@ -3,28 +3,28 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "timespec",
-  "documentation": "Command enum: TimeSpec",
-  "values": [
+  name: "timespec",
+  documentation: "Command enum: TimeSpec",
+  values: [
     {
-      "value": "day"
+      value: "day",
     },
     {
-      "value": "sunrise"
+      value: "sunrise",
     },
     {
-      "value": "noon"
+      value: "noon",
     },
     {
-      "value": "sunset"
+      value: "sunset",
     },
     {
-      "value": "night"
+      value: "night",
     },
     {
-      "value": "midnight"
-    }
-  ]
+      value: "midnight",
+    },
+  ],
 };
 
 export const timeSpecEnum = new EnumHandler(data);

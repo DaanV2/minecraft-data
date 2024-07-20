@@ -3,22 +3,22 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "fillmode",
-  "documentation": "Command enum: FillMode",
-  "values": [
+  name: "fillmode",
+  documentation: "Command enum: FillMode",
+  values: [
     {
-      "value": "outline"
+      value: "outline",
     },
     {
-      "value": "hollow"
+      value: "hollow",
     },
     {
-      "value": "destroy"
+      value: "destroy",
     },
     {
-      "value": "keep"
-    }
-  ]
+      value: "keep",
+    },
+  ],
 };
 
 export const fillModeEnum = new EnumHandler(data);

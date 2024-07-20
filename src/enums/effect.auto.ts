@@ -3,118 +3,118 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "effect",
-  "documentation": "Command enum: Effect",
-  "values": [
+  name: "effect",
+  documentation: "Command enum: Effect",
+  values: [
     {
-      "value": "wither"
+      value: "wither",
     },
     {
-      "value": "speed"
+      value: "speed",
     },
     {
-      "value": "slowness"
+      value: "slowness",
     },
     {
-      "value": "haste"
+      value: "haste",
     },
     {
-      "value": "mining_fatigue"
+      value: "mining_fatigue",
     },
     {
-      "value": "strength"
+      value: "strength",
     },
     {
-      "value": "instant_health"
+      value: "instant_health",
     },
     {
-      "value": "instant_damage"
+      value: "instant_damage",
     },
     {
-      "value": "jump_boost"
+      value: "jump_boost",
     },
     {
-      "value": "nausea"
+      value: "nausea",
     },
     {
-      "value": "regeneration"
+      value: "regeneration",
     },
     {
-      "value": "resistance"
+      value: "resistance",
     },
     {
-      "value": "fire_resistance"
+      value: "fire_resistance",
     },
     {
-      "value": "water_breathing"
+      value: "water_breathing",
     },
     {
-      "value": "invisibility"
+      value: "invisibility",
     },
     {
-      "value": "blindness"
+      value: "blindness",
     },
     {
-      "value": "night_vision"
+      value: "night_vision",
     },
     {
-      "value": "hunger"
+      value: "hunger",
     },
     {
-      "value": "weakness"
+      value: "weakness",
     },
     {
-      "value": "poison"
+      value: "poison",
     },
     {
-      "value": "health_boost"
+      value: "health_boost",
     },
     {
-      "value": "absorption"
+      value: "absorption",
     },
     {
-      "value": "saturation"
+      value: "saturation",
     },
     {
-      "value": "levitation"
+      value: "levitation",
     },
     {
-      "value": "fatal_poison"
+      value: "fatal_poison",
     },
     {
-      "value": "conduit_power"
+      value: "conduit_power",
     },
     {
-      "value": "slow_falling"
+      value: "slow_falling",
     },
     {
-      "value": "bad_omen"
+      value: "bad_omen",
     },
     {
-      "value": "village_hero"
+      value: "village_hero",
     },
     {
-      "value": "darkness"
+      value: "darkness",
     },
     {
-      "value": "trial_omen"
+      value: "trial_omen",
     },
     {
-      "value": "wind_charged"
+      value: "wind_charged",
     },
     {
-      "value": "weaving"
+      value: "weaving",
     },
     {
-      "value": "oozing"
+      value: "oozing",
     },
     {
-      "value": "infested"
+      value: "infested",
     },
     {
-      "value": "raid_omen"
-    }
-  ]
+      value: "raid_omen",
+    },
+  ],
 };
 
 export const effectEnum = new EnumHandler(data);

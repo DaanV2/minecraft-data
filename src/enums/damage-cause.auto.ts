@@ -3,115 +3,115 @@
 import { EnumHandler, Enum } from "./interface";
 
 const data: Enum = {
-  "name": "damagecause",
-  "documentation": "Command enum: DamageCause",
-  "values": [
+  name: "damagecause",
+  documentation: "Command enum: DamageCause",
+  values: [
     {
-      "value": "piston"
+      value: "piston",
     },
     {
-      "value": "lava"
+      value: "lava",
     },
     {
-      "value": "campfire"
+      value: "campfire",
     },
     {
-      "value": "fire"
+      value: "fire",
     },
     {
-      "value": "anvil"
+      value: "anvil",
     },
     {
-      "value": "magma"
+      value: "magma",
     },
     {
-      "value": "soul_campfire"
+      value: "soul_campfire",
     },
     {
-      "value": "wither"
+      value: "wither",
     },
     {
-      "value": "falling_block"
+      value: "falling_block",
     },
     {
-      "value": "fireworks"
+      value: "fireworks",
     },
     {
-      "value": "thorns"
+      value: "thorns",
     },
     {
-      "value": "none"
+      value: "none",
     },
     {
-      "value": "sonic_boom"
+      value: "sonic_boom",
     },
     {
-      "value": "contact"
+      value: "contact",
     },
     {
-      "value": "override"
+      value: "override",
     },
     {
-      "value": "entity_attack"
+      value: "entity_attack",
     },
     {
-      "value": "projectile"
+      value: "projectile",
     },
     {
-      "value": "suffocation"
+      value: "suffocation",
     },
     {
-      "value": "fall"
+      value: "fall",
     },
     {
-      "value": "starve"
+      value: "starve",
     },
     {
-      "value": "ram_attack"
+      value: "ram_attack",
     },
     {
-      "value": "fire_tick"
+      value: "fire_tick",
     },
     {
-      "value": "stalactite"
+      value: "stalactite",
     },
     {
-      "value": "drowning"
+      value: "drowning",
     },
     {
-      "value": "block_explosion"
+      value: "block_explosion",
     },
     {
-      "value": "entity_explosion"
+      value: "entity_explosion",
     },
     {
-      "value": "void"
+      value: "void",
     },
     {
-      "value": "self_destruct"
+      value: "self_destruct",
     },
     {
-      "value": "magic"
+      value: "magic",
     },
     {
-      "value": "charging"
+      value: "charging",
     },
     {
-      "value": "stalagmite"
+      value: "stalagmite",
     },
     {
-      "value": "fly_into_wall"
+      value: "fly_into_wall",
     },
     {
-      "value": "lightning"
+      value: "lightning",
     },
     {
-      "value": "freezing"
+      value: "freezing",
     },
     {
-      "value": "temperature"
-    }
-  ]
+      value: "temperature",
+    },
+  ],
 };
 
 export const damageCauseEnum = new EnumHandler(data);
