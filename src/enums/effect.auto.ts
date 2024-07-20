@@ -150,6 +150,10 @@ const data: Enum = {
       value: "raid_omen",
       documentation: "enum.effect.raid_omen.description",
     },
+    {
+      value: "empty",
+      documentation: "enum.effect.empty",
+    },
   ],
 };
 

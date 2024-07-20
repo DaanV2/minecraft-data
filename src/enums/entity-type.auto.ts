@@ -828,6 +828,90 @@ const data: Enum = {
       value: "editor:map_marker",
       documentation: "enum.entitytype.editor:map_marker.description",
     },
+    {
+      value: "agent",
+      documentation: "enum.entitytype.agent",
+    },
+    {
+      value: "area_effect_cloud",
+      documentation: "enum.entitytype.area_effect_cloud",
+    },
+    {
+      value: "breeze_wind_charge_projectile",
+      documentation: "enum.entitytype.breeze_wind_charge_projectile",
+    },
+    {
+      value: "dragon_fireball",
+      documentation: "enum.entitytype.dragon_fireball",
+    },
+    {
+      value: "ender_pearl",
+      documentation: "enum.entitytype.ender_pearl",
+    },
+    {
+      value: "eye_of_ender_signal",
+      documentation: "enum.entitytype.eye_of_ender_signal",
+    },
+    {
+      value: "fireball",
+      documentation: "enum.entitytype.fireball",
+    },
+    {
+      value: "fishing_hook",
+      documentation: "enum.entitytype.fishing_hook",
+    },
+    {
+      value: "lingering_potion",
+      documentation: "enum.entitytype.lingering_potion",
+    },
+    {
+      value: "llama_spit",
+      documentation: "enum.entitytype.llama_spit",
+    },
+    {
+      value: "ominous_item_spawner",
+      documentation: "enum.entitytype.ominous_item_spawner",
+    },
+    {
+      value: "player",
+      documentation: "enum.entitytype.player",
+    },
+    {
+      value: "shulker_bullet",
+      documentation: "enum.entitytype.shulker_bullet",
+    },
+    {
+      value: "small_fireball",
+      documentation: "enum.entitytype.small_fireball",
+    },
+    {
+      value: "thrown_trident",
+      documentation: "enum.entitytype.thrown_trident",
+    },
+    {
+      value: "tripod_camera",
+      documentation: "enum.entitytype.tripod_camera",
+    },
+    {
+      value: "villager_v2",
+      documentation: "enum.entitytype.villager_v2",
+    },
+    {
+      value: "wind_charge_projectile",
+      documentation: "enum.entitytype.wind_charge_projectile",
+    },
+    {
+      value: "wither_skull",
+      documentation: "enum.entitytype.wither_skull",
+    },
+    {
+      value: "wither_skull_dangerous",
+      documentation: "enum.entitytype.wither_skull_dangerous",
+    },
+    {
+      value: "zombie_villager_v2",
+      documentation: "enum.entitytype.zombie_villager_v2",
+    },
   ],
 };
 

@@ -62,6 +62,7 @@ import { titleSetEnum } from "./title-set.auto";
 import { titleRawSetEnum } from "./title-raw-set.auto";
 import { weatherTypeEnum } from "./weather-type.auto";
 import { cooldowncategoryEnum } from "./cooldowncategory.auto";
+import { featureEnum } from "./feature.auto";
 
 /** The types of enum available */
 export type EnumType = NonFunctionPropertyNames<typeof Enums>;
@@ -129,6 +130,7 @@ export namespace Enums {
   export const titlerawset = titleRawSetEnum;
   export const weathertype = weatherTypeEnum;
   export const cooldowncategory = cooldowncategoryEnum;
+  export const feature = featureEnum;
 
   /**
    * Get an enum handler by type

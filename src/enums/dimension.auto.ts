@@ -18,6 +18,18 @@ const data: Enum = {
       value: "the_end",
       documentation: "enum.dimension.the_end.description",
     },
+    {
+      value: "minecraft:nether",
+      documentation: "enum.dimension.minecraft:nether",
+    },
+    {
+      value: "minecraft:overworld",
+      documentation: "enum.dimension.minecraft:overworld",
+    },
+    {
+      value: "minecraft:the_end",
+      documentation: "enum.dimension.minecraft:the_end",
+    },
   ],
 };
 
