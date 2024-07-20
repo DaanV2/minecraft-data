@@ -14,12 +14,13 @@
   ],
   "scripts": {
     "compile": "tsc -b",
-    "test": "node --test",
     "generate": "ts-node ./gen/generate.ts",
     "postgenerate": "npm run compile",
     "version": "git add -A src",
     "postversion": "git push && git push --tags",
-    "watch": "tsc -w -p ./src"
+    "watch": "tsc -w -p ./src",
+    "test": "node --test",
+    "watch-test": "node --test --watch"
   },
   "repository": {
     "type": "git",
@@ -36,9 +37,6 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
-  "dependencies": {
-  },
-  "publishConfig": {
-    
-  }
+  "dependencies": {},
+  "publishConfig": {}
 }

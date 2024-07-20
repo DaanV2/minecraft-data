@@ -5,9 +5,6 @@ on:
   pull_request:
     branches: [main]
 
-env:
-  FORCE_COLOR: "true"
-
 jobs:
   test:
     timeout-minutes: 5

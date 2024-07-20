@@ -15,6 +15,18 @@
     },
     {
       "type": "npm",
+      "script": "watch-test",
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "label": "npm watch test",
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "problemMatcher": ["$tsc-watch"]
+    },
+    {
+      "type": "npm",
       "script": "compile",
       "isBackground": false,
       "group": "build",
