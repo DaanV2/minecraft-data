@@ -19,8 +19,8 @@
     "version": "git add -A src",
     "postversion": "git push && git push --tags",
     "watch": "tsc -w -p ./src",
-    "test": "node --test",
-    "watch-test": "node --test --watch",
+    "test": "node --test --test-reporter=spec",
+    "watch-test": "node --test --watch --test-reporter=spec",
     "format": "npx prettier ./src/**/*.ts --write",
     "check-format": "npx prettier ./src/**/*.ts --check"
   },
