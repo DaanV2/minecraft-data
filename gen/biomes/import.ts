@@ -8,9 +8,13 @@ export function generateFromBiomes(builder: Builder) {
   assert(biomeEnum !== undefined, "no biome enum");
 
   const nvalues = data.data_items
-    .filter((item) => biomeEnum.values.some((e) => e.value === item.name))
+    .filter((item) => !biomeEnum.values.some((e) => e.value === item.name))
     .map((item) => {
-      return { value: item.name } as EnumValue;
+      return {
+        value: item.name,
+        documentation: `enum.${biomeEnum.name.toLowerCase()}.${item.name.toLowerCase()}`,
+      } as EnumValue;
     });
   console.log(`adding ${nvalues.length} more biomes`);
+  biomeEnum.values.push(...nvalues);
 }

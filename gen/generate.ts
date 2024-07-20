@@ -7,6 +7,7 @@ import { saveBlocks } from "./generate-blocks";
 import { generateFromBlocks } from "./blocks/import";
 import { generateFromBiomes } from './biomes/import';
 import { generateFromCameraPresets } from './camera-presets/import';
+import { generateFromCooldownCategory } from './cooldown_category/import';
 
 const builder: Builder = {
   commands: {},
@@ -17,11 +18,12 @@ const builder: Builder = {
   blocks: {},
 };
 
-//Commands
+// Data
 generateFromCommands(builder);
 generateFromBlocks(builder);
 generateFromBiomes(builder);
 generateFromCameraPresets(builder);
+generateFromCooldownCategory(builder);
 
 //Commands export
 Builder.appendToIndex(builder, "src/commands/index.ts", "interface");

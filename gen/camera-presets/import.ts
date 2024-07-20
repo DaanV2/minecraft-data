@@ -8,9 +8,15 @@ export function generateFromCameraPresets(builder: Builder) {
   assert(cameraPresetsEnum !== undefined, "no camerapresets enum");
 
   const nvalues = data.data_items
-    .filter((item) => cameraPresetsEnum.values.some((e) => e.value === item.name))
+    .filter((item) =>
+      !cameraPresetsEnum.values.some((e) => e.value === item.name),
+    )
     .map((item) => {
-      return { value: item.name } as EnumValue;
+      return { 
+        value: item.name,
+        documentation: `enum.${cameraPresetsEnum.name}.${item.name.toLowerCase()}`
+      } as EnumValue;
     });
   console.log(`adding ${nvalues.length} more camerapresets`);
+  cameraPresetsEnum.values.push(...nvalues);
 }

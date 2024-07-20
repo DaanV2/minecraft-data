@@ -346,6 +346,350 @@ const data: Enum = {
       value: "cherry_grove",
       documentation: "enum.biome.cherry_grove.description",
     },
+    {
+      value: "minecraft:bamboo_jungle",
+      documentation: "enum.biome.minecraft:bamboo_jungle",
+    },
+    {
+      value: "minecraft:bamboo_jungle_hills",
+      documentation: "enum.biome.minecraft:bamboo_jungle_hills",
+    },
+    {
+      value: "minecraft:basalt_deltas",
+      documentation: "enum.biome.minecraft:basalt_deltas",
+    },
+    {
+      value: "minecraft:beach",
+      documentation: "enum.biome.minecraft:beach",
+    },
+    {
+      value: "minecraft:birch_forest",
+      documentation: "enum.biome.minecraft:birch_forest",
+    },
+    {
+      value: "minecraft:birch_forest_hills",
+      documentation: "enum.biome.minecraft:birch_forest_hills",
+    },
+    {
+      value: "minecraft:birch_forest_hills_mutated",
+      documentation: "enum.biome.minecraft:birch_forest_hills_mutated",
+    },
+    {
+      value: "minecraft:birch_forest_mutated",
+      documentation: "enum.biome.minecraft:birch_forest_mutated",
+    },
+    {
+      value: "minecraft:cherry_grove",
+      documentation: "enum.biome.minecraft:cherry_grove",
+    },
+    {
+      value: "minecraft:cold_beach",
+      documentation: "enum.biome.minecraft:cold_beach",
+    },
+    {
+      value: "minecraft:cold_ocean",
+      documentation: "enum.biome.minecraft:cold_ocean",
+    },
+    {
+      value: "minecraft:cold_taiga",
+      documentation: "enum.biome.minecraft:cold_taiga",
+    },
+    {
+      value: "minecraft:cold_taiga_hills",
+      documentation: "enum.biome.minecraft:cold_taiga_hills",
+    },
+    {
+      value: "minecraft:cold_taiga_mutated",
+      documentation: "enum.biome.minecraft:cold_taiga_mutated",
+    },
+    {
+      value: "minecraft:crimson_forest",
+      documentation: "enum.biome.minecraft:crimson_forest",
+    },
+    {
+      value: "minecraft:deep_cold_ocean",
+      documentation: "enum.biome.minecraft:deep_cold_ocean",
+    },
+    {
+      value: "minecraft:deep_dark",
+      documentation: "enum.biome.minecraft:deep_dark",
+    },
+    {
+      value: "minecraft:deep_frozen_ocean",
+      documentation: "enum.biome.minecraft:deep_frozen_ocean",
+    },
+    {
+      value: "minecraft:deep_lukewarm_ocean",
+      documentation: "enum.biome.minecraft:deep_lukewarm_ocean",
+    },
+    {
+      value: "minecraft:deep_ocean",
+      documentation: "enum.biome.minecraft:deep_ocean",
+    },
+    {
+      value: "minecraft:deep_warm_ocean",
+      documentation: "enum.biome.minecraft:deep_warm_ocean",
+    },
+    {
+      value: "minecraft:desert",
+      documentation: "enum.biome.minecraft:desert",
+    },
+    {
+      value: "minecraft:desert_hills",
+      documentation: "enum.biome.minecraft:desert_hills",
+    },
+    {
+      value: "minecraft:desert_mutated",
+      documentation: "enum.biome.minecraft:desert_mutated",
+    },
+    {
+      value: "minecraft:dripstone_caves",
+      documentation: "enum.biome.minecraft:dripstone_caves",
+    },
+    {
+      value: "minecraft:extreme_hills",
+      documentation: "enum.biome.minecraft:extreme_hills",
+    },
+    {
+      value: "minecraft:extreme_hills_edge",
+      documentation: "enum.biome.minecraft:extreme_hills_edge",
+    },
+    {
+      value: "minecraft:extreme_hills_mutated",
+      documentation: "enum.biome.minecraft:extreme_hills_mutated",
+    },
+    {
+      value: "minecraft:extreme_hills_plus_trees",
+      documentation: "enum.biome.minecraft:extreme_hills_plus_trees",
+    },
+    {
+      value: "minecraft:extreme_hills_plus_trees_mutated",
+      documentation: "enum.biome.minecraft:extreme_hills_plus_trees_mutated",
+    },
+    {
+      value: "minecraft:flower_forest",
+      documentation: "enum.biome.minecraft:flower_forest",
+    },
+    {
+      value: "minecraft:forest",
+      documentation: "enum.biome.minecraft:forest",
+    },
+    {
+      value: "minecraft:forest_hills",
+      documentation: "enum.biome.minecraft:forest_hills",
+    },
+    {
+      value: "minecraft:frozen_ocean",
+      documentation: "enum.biome.minecraft:frozen_ocean",
+    },
+    {
+      value: "minecraft:frozen_peaks",
+      documentation: "enum.biome.minecraft:frozen_peaks",
+    },
+    {
+      value: "minecraft:frozen_river",
+      documentation: "enum.biome.minecraft:frozen_river",
+    },
+    {
+      value: "minecraft:grove",
+      documentation: "enum.biome.minecraft:grove",
+    },
+    {
+      value: "minecraft:hell",
+      documentation: "enum.biome.minecraft:hell",
+    },
+    {
+      value: "minecraft:ice_mountains",
+      documentation: "enum.biome.minecraft:ice_mountains",
+    },
+    {
+      value: "minecraft:ice_plains",
+      documentation: "enum.biome.minecraft:ice_plains",
+    },
+    {
+      value: "minecraft:ice_plains_spikes",
+      documentation: "enum.biome.minecraft:ice_plains_spikes",
+    },
+    {
+      value: "minecraft:jagged_peaks",
+      documentation: "enum.biome.minecraft:jagged_peaks",
+    },
+    {
+      value: "minecraft:jungle",
+      documentation: "enum.biome.minecraft:jungle",
+    },
+    {
+      value: "minecraft:jungle_edge",
+      documentation: "enum.biome.minecraft:jungle_edge",
+    },
+    {
+      value: "minecraft:jungle_edge_mutated",
+      documentation: "enum.biome.minecraft:jungle_edge_mutated",
+    },
+    {
+      value: "minecraft:jungle_hills",
+      documentation: "enum.biome.minecraft:jungle_hills",
+    },
+    {
+      value: "minecraft:jungle_mutated",
+      documentation: "enum.biome.minecraft:jungle_mutated",
+    },
+    {
+      value: "minecraft:legacy_frozen_ocean",
+      documentation: "enum.biome.minecraft:legacy_frozen_ocean",
+    },
+    {
+      value: "minecraft:lukewarm_ocean",
+      documentation: "enum.biome.minecraft:lukewarm_ocean",
+    },
+    {
+      value: "minecraft:lush_caves",
+      documentation: "enum.biome.minecraft:lush_caves",
+    },
+    {
+      value: "minecraft:mangrove_swamp",
+      documentation: "enum.biome.minecraft:mangrove_swamp",
+    },
+    {
+      value: "minecraft:meadow",
+      documentation: "enum.biome.minecraft:meadow",
+    },
+    {
+      value: "minecraft:mega_taiga",
+      documentation: "enum.biome.minecraft:mega_taiga",
+    },
+    {
+      value: "minecraft:mega_taiga_hills",
+      documentation: "enum.biome.minecraft:mega_taiga_hills",
+    },
+    {
+      value: "minecraft:mesa",
+      documentation: "enum.biome.minecraft:mesa",
+    },
+    {
+      value: "minecraft:mesa_bryce",
+      documentation: "enum.biome.minecraft:mesa_bryce",
+    },
+    {
+      value: "minecraft:mesa_plateau",
+      documentation: "enum.biome.minecraft:mesa_plateau",
+    },
+    {
+      value: "minecraft:mesa_plateau_mutated",
+      documentation: "enum.biome.minecraft:mesa_plateau_mutated",
+    },
+    {
+      value: "minecraft:mesa_plateau_stone",
+      documentation: "enum.biome.minecraft:mesa_plateau_stone",
+    },
+    {
+      value: "minecraft:mesa_plateau_stone_mutated",
+      documentation: "enum.biome.minecraft:mesa_plateau_stone_mutated",
+    },
+    {
+      value: "minecraft:mushroom_island",
+      documentation: "enum.biome.minecraft:mushroom_island",
+    },
+    {
+      value: "minecraft:mushroom_island_shore",
+      documentation: "enum.biome.minecraft:mushroom_island_shore",
+    },
+    {
+      value: "minecraft:ocean",
+      documentation: "enum.biome.minecraft:ocean",
+    },
+    {
+      value: "minecraft:plains",
+      documentation: "enum.biome.minecraft:plains",
+    },
+    {
+      value: "minecraft:redwood_taiga_hills_mutated",
+      documentation: "enum.biome.minecraft:redwood_taiga_hills_mutated",
+    },
+    {
+      value: "minecraft:redwood_taiga_mutated",
+      documentation: "enum.biome.minecraft:redwood_taiga_mutated",
+    },
+    {
+      value: "minecraft:river",
+      documentation: "enum.biome.minecraft:river",
+    },
+    {
+      value: "minecraft:roofed_forest",
+      documentation: "enum.biome.minecraft:roofed_forest",
+    },
+    {
+      value: "minecraft:roofed_forest_mutated",
+      documentation: "enum.biome.minecraft:roofed_forest_mutated",
+    },
+    {
+      value: "minecraft:savanna",
+      documentation: "enum.biome.minecraft:savanna",
+    },
+    {
+      value: "minecraft:savanna_mutated",
+      documentation: "enum.biome.minecraft:savanna_mutated",
+    },
+    {
+      value: "minecraft:savanna_plateau",
+      documentation: "enum.biome.minecraft:savanna_plateau",
+    },
+    {
+      value: "minecraft:savanna_plateau_mutated",
+      documentation: "enum.biome.minecraft:savanna_plateau_mutated",
+    },
+    {
+      value: "minecraft:snowy_slopes",
+      documentation: "enum.biome.minecraft:snowy_slopes",
+    },
+    {
+      value: "minecraft:soulsand_valley",
+      documentation: "enum.biome.minecraft:soulsand_valley",
+    },
+    {
+      value: "minecraft:stone_beach",
+      documentation: "enum.biome.minecraft:stone_beach",
+    },
+    {
+      value: "minecraft:stony_peaks",
+      documentation: "enum.biome.minecraft:stony_peaks",
+    },
+    {
+      value: "minecraft:sunflower_plains",
+      documentation: "enum.biome.minecraft:sunflower_plains",
+    },
+    {
+      value: "minecraft:swampland",
+      documentation: "enum.biome.minecraft:swampland",
+    },
+    {
+      value: "minecraft:swampland_mutated",
+      documentation: "enum.biome.minecraft:swampland_mutated",
+    },
+    {
+      value: "minecraft:taiga",
+      documentation: "enum.biome.minecraft:taiga",
+    },
+    {
+      value: "minecraft:taiga_hills",
+      documentation: "enum.biome.minecraft:taiga_hills",
+    },
+    {
+      value: "minecraft:taiga_mutated",
+      documentation: "enum.biome.minecraft:taiga_mutated",
+    },
+    {
+      value: "minecraft:the_end",
+      documentation: "enum.biome.minecraft:the_end",
+    },
+    {
+      value: "minecraft:warm_ocean",
+      documentation: "enum.biome.minecraft:warm_ocean",
+    },
+    {
+      value: "minecraft:warped_forest",
+      documentation: "enum.biome.minecraft:warped_forest",
+    },
   ],
 };
 

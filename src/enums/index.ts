@@ -60,4 +60,5 @@ export * from "./time-query.auto";
 export * from "./title-set.auto";
 export * from "./title-raw-set.auto";
 export * from "./weather-type.auto";
+export * from "./cooldowncategory.auto";
 export * from "./enums";
